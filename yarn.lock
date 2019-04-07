@@ -3571,10 +3571,10 @@ pinkie@^2.0.0:
   resolved "https://registry.yarnpkg.com/pinkie/-/pinkie-2.0.4.tgz#72556b80cfa0d48a974e80e77248e80ed4f7f870"
   integrity sha1-clVrgM+g1IqXToDnckjoDtT3+HA=
 
-pnpm@3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-3.0.1.tgz#fce61a51e17bac97f10631ad8e0027ad347d12c5"
-  integrity sha512-hYWjRN7U96zHDvgQxGyYaMF469Uzx0iZo2ej1VMUSaOULUFI9ue7dDku29AOf/E0+5Zd9zFs0qE0Tuq5Zsrk0A==
+pnpm@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-3.1.0.tgz#cfbb0fa156ac472a7e6fb41672043fdc721e7b30"
+  integrity sha512-+Ywkb2rg5uX6/CppRBFmefrQn8EiXK8H0ntRoWHuQAzLErrVXtbyuRKhWMUG5ewr9raQUOACou/uaThE9jzhwA==
 
 precond@0.2:
   version "0.2.3"
@@ -4001,10 +4001,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@^15.5.0:
-  version "15.5.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-15.5.0.tgz#9a3605f63e00f1ce8cf5d40ab89d5ebf9e6f78da"
-  integrity sha512-ZGeV5G0YgDVv7P2eZoOfTeKyciglyqPkCYrPNlREtCxtXp2XNlmKduakKJZ64+3SgEH52/77+lptBY8eKdTtug==
+renovate@^15.5.2:
+  version "15.5.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-15.5.2.tgz#a72399bc19c667212fa0d9a377aa29a512e4a3f1"
+  integrity sha512-a5uJGJ3mFaoBJaqx8Jcp9Lkfcp3cxWihiiMDBq/UXMsyuqd/LRwVGEAWDP6R78euujZDXLpTbKxDZ6sVFsdkuQ==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@renovatebot/docker-registry-client" "3.3.0"
@@ -4051,7 +4051,7 @@ renovate@^15.5.0:
     p-all "2.1.0"
     parse-diff "0.5.1"
     parse-link-header "1.0.1"
-    pnpm "3.0.1"
+    pnpm "3.1.0"
     proxy-agent "3.0.3"
     registry-auth-token "3.3.2"
     root-require "0.3.1"
@@ -4059,7 +4059,7 @@ renovate@^15.5.0:
     semver "5.6.0"
     semver-stable "2.0.4"
     semver-utils "1.1.4"
-    simple-git "1.107.0"
+    simple-git "1.110.0"
     slugify "1.3.4"
     toml "3.0.0"
     tomlify-j0.4 "3.0.0"
@@ -4315,10 +4315,10 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
   integrity sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
 
-simple-git@1.107.0:
-  version "1.107.0"
-  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-1.107.0.tgz#12cffaf261c14d6f450f7fdb86c21ccee968b383"
-  integrity sha512-t4OK1JRlp4ayKRfcW6owrWcRVLyHRUlhGd0uN6ZZTqfDq8a5XpcUdOKiGRNobHEuMtNqzp0vcJNvhYWwh5PsQA==
+simple-git@1.110.0:
+  version "1.110.0"
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-1.110.0.tgz#54eb179089d055a7783d32399246cebc9d9933e9"
+  integrity sha512-UYY0rQkknk0P5eb+KW+03F4TevZ9ou0H+LoGaj7iiVgpnZH4wdj/HTViy/1tNNkmIPcmtxuBqXWiYt2YwlRKOQ==
   dependencies:
     debug "^4.0.1"
 

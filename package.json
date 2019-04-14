@@ -17,6 +17,9 @@
       "extends": [
         "config:base"
       ],
+      "lockFileMaintenance": {
+        "enabled": true
+      },
       "rangeStrategy": "bump"
     }
   },

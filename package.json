@@ -30,5 +30,6 @@
   "scripts": {
     "release": "standard-version",
     "test": "renovate-config-validator"
-  }
+  },
+  "version": "1.0.0"
 }

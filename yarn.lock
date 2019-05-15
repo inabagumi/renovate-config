@@ -3679,10 +3679,10 @@ pinkie@^2.0.0:
   resolved "https://registry.yarnpkg.com/pinkie/-/pinkie-2.0.4.tgz#72556b80cfa0d48a974e80e77248e80ed4f7f870"
   integrity sha1-clVrgM+g1IqXToDnckjoDtT3+HA=
 
-pnpm@3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-3.3.1.tgz#983e234ca3c0641c5016b9a37494ca84f997e38f"
-  integrity sha512-OnRUhabeIUevLGFhNsTeodzu6Du9SkFTlOiIekWfqvYcHBHorxO56o7Sq5y/IXkoF9aMRauEp8rwzHR1P0up6g==
+pnpm@3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-3.3.2.tgz#3780f1b3fe00cb7892df6b5ad86d1a3dc912a05d"
+  integrity sha512-amQ2kGiZYsuSOMKPCdUc1CiCAi9tn1SS5I5XydJqB/1N+3eg1jVknrg7A80iO6l3E6G8BQX6bMdeZ3w+gLHvFQ==
 
 precond@0.2:
   version "0.2.3"
@@ -4109,10 +4109,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@^17.3.5:
-  version "17.3.5"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-17.3.5.tgz#a104fe537c025258ddc25632e1ef248fae095fe9"
-  integrity sha512-SR0Mn9LLHE5jEuKdVHaEUt/e7zlIyPOJzelQFQAOlZi5ybRG8xmx2nH6wH8TPkEhvPD2+8BnLz0YniM2oz0MOQ==
+renovate@^17.3.9:
+  version "17.3.9"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-17.3.9.tgz#9413ca01b23ac0cd480b816bdfdf3dcbcad017f9"
+  integrity sha512-2/HnU/epSDvo+6H8vkCcz7UxuO/EguekLSXwtedQjyAhVje5V7Hbi2PAbQ4YhTpX0XibN5A9xoQ7H2Y607ZjDQ==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@renovatebot/docker-registry-client" "3.3.0"
@@ -4160,7 +4160,7 @@ renovate@^17.3.5:
     p-all "2.1.0"
     parse-diff "0.5.1"
     parse-link-header "1.0.1"
-    pnpm "3.3.1"
+    pnpm "3.3.2"
     proxy-agent "3.0.3"
     registry-auth-token "3.3.2"
     root-require "0.3.1"

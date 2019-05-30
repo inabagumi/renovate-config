@@ -27,10 +27,10 @@
     verror "1.x >=1.6.0"
     www-authenticate "0.6.x >=0.6.2"
 
-"@sindresorhus/is@0.17.0":
-  version "0.17.0"
-  resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.17.0.tgz#37d16c3df3a8b4dcc930210ff68ff3ace35f5ab4"
-  integrity sha512-hGqdhem3E9L+BBPpkRZQ9RtSg+MpbGfoDXNxuPFgJtM7/CiZHU+Jit0DywctJOsWV0jAPp9RpO8QB7GSaVZq8A==
+"@sindresorhus/is@0.17.1":
+  version "0.17.1"
+  resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.17.1.tgz#453b27750f358689c4aa3c9f32d9ace1f0929a79"
+  integrity sha512-kg/maAZD2Z2AHDFp7cY/ACokjUL0e7MaupTtGXkSW2SV4DJQEHdslFUioP0SMccotjwqTdI0b4XH/qZh6CN+kQ==
 
 "@sindresorhus/is@^0.14.0":
   version "0.14.0"
@@ -1036,6 +1036,11 @@ deep-is@~0.1.3:
   resolved "https://registry.yarnpkg.com/deep-is/-/deep-is-0.1.3.tgz#b369d6fb5dbc13eecf524f91b070feedc357cf34"
   integrity sha1-s2nW+128E+7PUk+RsHD+7cNXzzQ=
 
+deepmerge@3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-3.2.0.tgz#58ef463a57c08d376547f8869fdc5bcee957f44e"
+  integrity sha512-6+LuZGU7QCNUnAJyX8cIrlzoEgggTM6B7mm+znKOX4t5ltluT9KLjN6g61ECMS0LTsLW7yDpNoxhix5FZcrIow==
+
 defaults@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/defaults/-/defaults-1.0.3.tgz#c656051e9817d9ff08ed881477f3fe4019f3ef7d"
@@ -1603,13 +1608,6 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
-gh-got@8.1.0:
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/gh-got/-/gh-got-8.1.0.tgz#2378d07ac293f524549c75f8dc6f3604a885ab01"
-  integrity sha512-Jy7+73XqsAVeAtM5zA0dd+A7mmzkQVIzFuw3xRjFbPsQVqS+aeci8v8H1heOCAPlBYWED5ZYPhlYqZVXdD3Fmg==
-  dependencies:
-    got "^9.5.0"
-
 git-raw-commits@2.0.0, git-raw-commits@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/git-raw-commits/-/git-raw-commits-2.0.0.tgz#d92addf74440c14bcc5c83ecce3fb7f8a79118b5"
@@ -1648,13 +1646,6 @@ github-url-from-git@1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/github-url-from-git/-/github-url-from-git-1.5.0.tgz#f985fedcc0a9aa579dc88d7aff068d55cc6251a0"
   integrity sha1-+YX+3MCpqledyI16/waNVcxiUaA=
-
-gl-got@9.0.3:
-  version "9.0.3"
-  resolved "https://registry.yarnpkg.com/gl-got/-/gl-got-9.0.3.tgz#ceddbbf71f09d9369d9179a35ca919ffb289259b"
-  integrity sha512-qT1Jx80DvD99G/gjG5ZHOEv9RS55mwyRakMhe4U4+BSvoTn0Mjjs01t7mRUHoB6TxaoublB2Bv0IYcXzOgKGrQ==
-  dependencies:
-    got "^9.2.0"
 
 glob@^6.0.1:
   version "6.0.4"
@@ -1706,7 +1697,7 @@ global-prefix@^1.0.1:
     is-windows "^1.0.1"
     which "^1.2.14"
 
-got@9.6.0, got@^9.2.0, got@^9.5.0:
+got@9.6.0:
   version "9.6.0"
   resolved "https://registry.yarnpkg.com/got/-/got-9.6.0.tgz#edf45e7d67f99545705de1f7bbeeeb121765ed85"
   integrity sha512-R7eWptXuGYxwijs0eV+v3o6+XH1IqVK8dJOEecQfTmkncw9AV4dcw/Dhxi8MdlqPthxxpZyizMzyg8RTmEsG+Q==
@@ -2624,10 +2615,10 @@ lru-cache@^5.1.1:
   dependencies:
     yallist "^3.0.2"
 
-luxon@1.13.2:
-  version "1.13.2"
-  resolved "https://registry.yarnpkg.com/luxon/-/luxon-1.13.2.tgz#2866c7a7591441aea0004e8cf80d5ca6d917017a"
-  integrity sha512-U7i2AE+/VWeB8PZZkIeEcxJCZvBA8LegCHufaIFYx3qRQdw2UJw3fuaL/Fqi9Q+2MeFYu+gYqIzr5hWOvAMHBQ==
+luxon@1.15.0:
+  version "1.15.0"
+  resolved "https://registry.yarnpkg.com/luxon/-/luxon-1.15.0.tgz#d06643c437982332a3feff4ee7c718bdbbae09fd"
+  integrity sha512-HIpK4zIonObWHj9UC80ElykmM/0jTuuXcbPYBYbDGZ3Cq2bL9rACcmppoc6zm5JnmHpnK5bRMIp8/+ei4O0y2Q==
 
 make-dir@^1.0.0:
   version "1.3.0"
@@ -3673,10 +3664,10 @@ pinkie@^2.0.0:
   resolved "https://registry.yarnpkg.com/pinkie/-/pinkie-2.0.4.tgz#72556b80cfa0d48a974e80e77248e80ed4f7f870"
   integrity sha1-clVrgM+g1IqXToDnckjoDtT3+HA=
 
-pnpm@3.3.3:
-  version "3.3.3"
-  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-3.3.3.tgz#619b411207211e22b7aa1468a12ac2c88d3eeb31"
-  integrity sha512-PEm3o5t68O9CqbW3myikRyrRTy+6AMEPnHaIUfeka5QoFbC7i3ran+iSlUT6CU3/3y8Z0mJHdpZulWByUsToLA==
+pnpm@3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-3.4.1.tgz#8dd072d025eabeaa51c67cba76e7373e8b0941b2"
+  integrity sha512-XjKIe2sh817ssTHDGaobbi9YGoiUp+rYfJ3zeuptv2GQNnJ+1e+SHx4uPe2OkXzw9qcnK3VHPjS8+1lSSW7BKQ==
 
 precond@0.2:
   version "0.2.3"
@@ -4095,14 +4086,14 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@^17.16.5:
-  version "17.16.5"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-17.16.5.tgz#c4aac97dea05603cb62c9bca7feea3d6076101ec"
-  integrity sha512-S8zcR67Vi1C8lcOUf15G3SJaBcbmyOp3L7bIkm0oNmneS6aB06dIUTd3TUJPuHVVW7yF3Xz6g6Lm0OYY6SAEFA==
+renovate@^18.5.5:
+  version "18.5.5"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-18.5.5.tgz#ac4cb550323de0844180f4612f4d18582201f67b"
+  integrity sha512-yEw4VRly3Kzk1AGY1WrGscLSrhztk77wwrVkl4dGDnpu3rUft7hIh+4russlOiWMvT+NJNqNrBHIU23FIy9KTQ==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@renovatebot/docker-registry-client" "3.3.0"
-    "@sindresorhus/is" "0.17.0"
+    "@sindresorhus/is" "0.17.1"
     "@snyk/ruby-semver" "2.0.2"
     "@yarnpkg/lockfile" "1.1.0"
     azure-devops-node-api "8.0.0"
@@ -4116,15 +4107,14 @@ renovate@^17.16.5:
     compare-versions "3.4.0"
     conventional-commits-detector "1.0.2"
     convert-hrtime "2.0.0"
+    deepmerge "3.2.0"
     delay "4.2.0"
     detect-indent "5.0.0"
     email-addresses "3.0.3"
     form-data "2.3.3"
     fs-extra "7.0.1"
     get-installed-path "4.0.8"
-    gh-got "8.1.0"
     github-url-from-git "1.5.0"
-    gl-got "9.0.3"
     got "9.6.0"
     handlebars "4.1.2"
     ini "1.3.5"
@@ -4135,7 +4125,7 @@ renovate@^17.16.5:
     later "1.2.0"
     linkify-markdown "1.0.0"
     lodash "4.17.11"
-    luxon "1.13.2"
+    luxon "1.15.0"
     markdown-it "8.4.2"
     minimatch "3.0.4"
     moment "2.24.0"
@@ -4146,12 +4136,12 @@ renovate@^17.16.5:
     p-all "2.1.0"
     parse-diff "0.5.1"
     parse-link-header "1.0.1"
-    pnpm "3.3.3"
+    pnpm "3.4.1"
     proxy-agent "3.0.3"
     registry-auth-token "3.4.0"
     root-require "0.3.1"
     safe-regex "2.0.2"
-    semver "6.0.0"
+    semver "6.1.1"
     semver-stable "2.0.4"
     semver-utils "1.1.4"
     simple-git "1.113.0"
@@ -4374,6 +4364,11 @@ semver@6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.0.0.tgz#05e359ee571e5ad7ed641a6eec1e547ba52dea65"
   integrity sha512-0UewU+9rFapKFnlbirLi3byoOuhrSsli/z/ihNnvM24vgF+8sNBiI1LZPBSH9wJKUwaUbw+s3hToDLCXkrghrQ==
+
+semver@6.1.1:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-6.1.1.tgz#53f53da9b30b2103cd4f15eab3a18ecbcb210c9b"
+  integrity sha512-rWYq2e5iYW+fFe/oPPtYJxYgjBm8sC4rmoGdUOgBB7VnwKt6HrL793l2voH1UlsyYZpJ4g0wfjnTEO1s1NP2eQ==
 
 semver@^6.0.0:
   version "6.1.0"

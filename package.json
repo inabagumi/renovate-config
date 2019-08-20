@@ -23,6 +23,7 @@
       "packageRules": [
         {
           "depTypeList": [
+            "engines",
             "peerDependencies"
           ],
           "rangeStrategy": "auto"

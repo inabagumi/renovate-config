@@ -20,6 +20,12 @@
       "lockFileMaintenance": {
         "enabled": true
       },
+      "packageRules": [
+        {
+          "depTypeList": ["peerDependencies"],
+          "rangeStrategy": "auto"
+        }
+      ],
       "rangeStrategy": "bump"
     }
   },

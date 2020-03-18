@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/inabagumi/renovate-config/compare/v1.3.0...v1.4.0) (2020-03-18)
+
+
+### Features
+
+* add `:semanticCommitTypeAll(chore)` ([#758](https://github.com/inabagumi/renovate-config/issues/758)) ([3645fbf](https://github.com/inabagumi/renovate-config/commit/3645fbf41a1404ad4e67bde76d7a6c19f019660a))
+* improve monorepo for nextjs ([#760](https://github.com/inabagumi/renovate-config/issues/760)) ([dd3d596](https://github.com/inabagumi/renovate-config/commit/dd3d596a03428af95263f7d4b7b815c17f784873))
+
 ## [1.3.0](https://github.com/inabagumi/renovate-config/compare/v1.2.0...v1.3.0) (2019-08-20)
 
 

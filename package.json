@@ -40,6 +40,9 @@
           ]
         }
       ],
+      "postUpdateOptions": [
+        "gomodTidy"
+      ],
       "rangeStrategy": "bump"
     }
   },

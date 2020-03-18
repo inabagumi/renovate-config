@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/inabagumi/renovate-config/compare/v1.4.0...v1.5.0) (2020-03-18)
+
+
+### Features
+
+* ran `go mod tidy` ([#762](https://github.com/inabagumi/renovate-config/issues/762)) ([7c4e3e0](https://github.com/inabagumi/renovate-config/commit/7c4e3e0072dccc423f8aa9acfc44b8a0da56a6e6))
+
 ## [1.4.0](https://github.com/inabagumi/renovate-config/compare/v1.3.0...v1.4.0) (2020-03-18)
 
 

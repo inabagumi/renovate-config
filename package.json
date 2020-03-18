@@ -28,6 +28,16 @@
             "peerDependencies"
           ],
           "rangeStrategy": "auto"
+        },
+        {
+          "description": "Group packages from nextjs monorepo together",
+          "groupName": "nextjs monorepo",
+          "packagePatterns": [
+            "^@next/"
+          ],
+          "sourceUrlPrefixes": [
+            "https://github.com/zeit/next.js"
+          ]
         }
       ],
       "rangeStrategy": "bump"

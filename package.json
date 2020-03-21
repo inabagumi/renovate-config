@@ -38,6 +38,13 @@
           "sourceUrlPrefixes": [
             "https://github.com/zeit/next.js"
           ]
+        },
+        {
+          "description": "Group packages from docusaurus",
+          "groupName": "docusaurus monorepo",
+          "sourceUrlPrefixes": [
+            "https://github.com/facebook/docusaurus"
+          ]
         }
       ],
       "postUpdateOptions": [

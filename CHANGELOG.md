@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/inabagumi/renovate-config/compare/v1.5.0...v1.6.0) (2020-03-21)
+
+
+### Features
+
+* add docusaurus monorepo ([#768](https://github.com/inabagumi/renovate-config/issues/768)) ([6e7e740](https://github.com/inabagumi/renovate-config/commit/6e7e7409813ae0c84a4fe3e1ed8f8f70e9219043))
+
 ## [1.5.0](https://github.com/inabagumi/renovate-config/compare/v1.4.0...v1.5.0) (2020-03-18)
 
 

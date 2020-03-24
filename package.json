@@ -32,18 +32,18 @@
         {
           "description": "Group packages from nextjs monorepo together",
           "groupName": "nextjs monorepo",
+          "packageNames": [
+            "next"
+          ],
           "packagePatterns": [
             "^@next/"
-          ],
-          "sourceUrlPrefixes": [
-            "https://github.com/zeit/next.js"
           ]
         },
         {
           "description": "Group packages from docusaurus",
           "groupName": "docusaurus monorepo",
-          "sourceUrlPrefixes": [
-            "https://github.com/facebook/docusaurus"
+          "packagePatterns": [
+            "^@docusaurus/"
           ]
         }
       ],

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.6.1](https://github.com/inabagumi/renovate-config/compare/v1.6.0...v1.6.1) (2020-03-24)
+
+
+### Bug Fixes
+
+* use packageNames ([#771](https://github.com/inabagumi/renovate-config/issues/771)) ([58e84b7](https://github.com/inabagumi/renovate-config/commit/58e84b739e9e4454ec0c06a26cfa3dbb0a4cf16a))
+
 ## [1.6.0](https://github.com/inabagumi/renovate-config/compare/v1.5.0...v1.6.0) (2020-03-21)
 
 

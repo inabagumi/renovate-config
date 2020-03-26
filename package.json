@@ -18,6 +18,7 @@
         "config:base",
         ":semanticCommitTypeAll(chore)"
       ],
+      "labels": ["dependencies"],
       "lockFileMaintenance": {
         "enabled": true
       },

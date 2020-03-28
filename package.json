@@ -18,7 +18,9 @@
         "config:base",
         ":semanticCommitTypeAll(chore)"
       ],
-      "labels": ["dependencies"],
+      "labels": [
+        "dependencies"
+      ],
       "lockFileMaintenance": {
         "enabled": true
       },
@@ -65,5 +67,5 @@
     "release": "standard-version",
     "test": "renovate-config-validator"
   },
-  "version": "1.6.1"
+  "version": "1.7.0"
 }

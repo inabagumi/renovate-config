@@ -1363,6 +1363,11 @@ fast-json-stable-stringify@^2.0.0:
   resolved "https://registry.yarnpkg.com/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz#874bf69c6f404c2b5d99c481341399fd55892633"
   integrity sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==
 
+fast-safe-stringify@2.0.7:
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/fast-safe-stringify/-/fast-safe-stringify-2.0.7.tgz#124aa885899261f68aedb42a7c080de9da608743"
+  integrity sha512-Utm6CdzT+6xsDk2m8S6uL8VHxNwI6Jub+e9NYTcAms28T84pTa25GJQV9j0CY0N1rM8hK4x6grpF2BQf+2qwVA==
+
 figgy-pudding@^3.4.1, figgy-pudding@^3.5.1:
   version "3.5.2"
   resolved "https://registry.yarnpkg.com/figgy-pudding/-/figgy-pudding-3.5.2.tgz#b4eee8148abb01dcf1d1ac34367d59e12fa61d6e"
@@ -4144,10 +4149,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@^19.195.5:
-  version "19.195.5"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.195.5.tgz#36f51794aac962d1c3b187e43813831895c2862d"
-  integrity sha512-OfWgnxu+2l4AgRigFoOck0Hct+KBujL26j+QiToq/7bQmHRcBYDt9F6OvJRTBQBPArqA4/UmRowVXXSiX+R/yg==
+renovate@^19.197.0:
+  version "19.197.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.197.0.tgz#8941e6b2391f0e96426f80536edf176becc0354f"
+  integrity sha512-PoJaFMZXqNK66NU12zmPyEUKUSKCsxg02Z1gVJ61PTP3VHhbqAv+c8C+q7MGM/NVjkifPTzrZKDM+/bzrbd5GA==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@sindresorhus/is" "1.2.0"
@@ -4167,6 +4172,7 @@ renovate@^19.195.5:
     delay "4.3.0"
     detect-indent "6.0.0"
     email-addresses "3.1.0"
+    fast-safe-stringify "2.0.7"
     fs-extra "8.1.0"
     get-installed-path "4.0.8"
     github-url-from-git "1.5.0"

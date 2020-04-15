@@ -33,16 +33,6 @@
           "rangeStrategy": "auto"
         },
         {
-          "description": "Group packages from nextjs monorepo together",
-          "groupName": "nextjs monorepo",
-          "packageNames": [
-            "next"
-          ],
-          "packagePatterns": [
-            "^@next/"
-          ]
-        },
-        {
           "description": "Group packages from docusaurus",
           "groupName": "docusaurus monorepo",
           "packagePatterns": [

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.7.1](https://github.com/inabagumi/renovate-config/compare/v1.7.0...v1.7.1) (2020-04-15)
+
+
+### Bug Fixes
+
+* remove workaround for nextjs monorepo ([#837](https://github.com/inabagumi/renovate-config/issues/837)) ([c4b2516](https://github.com/inabagumi/renovate-config/commit/c4b251616998bd5a4277263210997cc66cc184e3))
+
 ## [1.7.0](https://github.com/inabagumi/renovate-config/compare/v1.6.0...v1.7.0) (2020-03-28)
 
 

@@ -4185,10 +4185,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@^19.233.0:
-  version "19.233.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.233.0.tgz#2a96cffa60d0ccdc20de1f2954803e2ba9249fde"
-  integrity sha512-vI0XF8ll3bI9xK+4uIgGiUeD2Hp+XT6pFQAqGQwt+IM7p/pSvxXSpv6V18F2gsLJTJp6wt6SkPCiEGOLiL2z4Q==
+renovate@^19.233.1:
+  version "19.233.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.233.1.tgz#94f3c5d35069e564c1c0cc19edf07fc3ccf4fdbb"
+  integrity sha512-LPt5yJ5wSQO7wkUmaEltPOjfYKlOOIh8Eh6o15RIy/DnAqdX3cb8DVHj3v+NQNnAfIO8sDN2Oev9xZFA0BAZjg==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@sindresorhus/is" "2.1.1"
@@ -4234,6 +4234,7 @@ renovate@^19.233.0:
     node-html-parser "1.2.16"
     npm "6.14.5"
     p-all "2.1.0"
+    p-map "^4.0.0"
     parse-diff "0.7.0"
     parse-link-header "1.0.1"
     pnpm "3.8.1"

@@ -57,5 +57,5 @@
     "release": "standard-version",
     "test": "renovate-config-validator"
   },
-  "version": "1.7.2"
+  "version": "1.7.3"
 }

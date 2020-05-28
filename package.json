@@ -33,6 +33,14 @@
           "rangeStrategy": "auto"
         },
         {
+          "description": "Group packages from nextjs monorepo together",
+          "groupName": "nextjs monorepo",
+          "sourceUrlPrefixes": [
+            "https://github.com/vercel/next.js",
+            "https://github.com/zeit/next.js"
+          ]
+        },
+        {
           "description": "Group packages from docusaurus",
           "groupName": "docusaurus monorepo",
           "packagePatterns": [

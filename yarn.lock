@@ -2312,7 +2312,7 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@^20.8.1:
+renovate@^20.8.2:
   version "20.8.2"
   resolved "https://registry.yarnpkg.com/renovate/-/renovate-20.8.2.tgz#bd6b77c29eed385dba9de8fe080d16772586b1d8"
   integrity sha512-tTFtD5Zx+B2mKeTwkIT6r4i5UdHuHbbxCdq9/Imp8rvRGJxD8/q7AaDmylgl37/IB0BEb8OXSTa+oSjDpxr3Dw==

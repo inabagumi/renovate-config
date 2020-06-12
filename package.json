@@ -41,7 +41,8 @@
         }
       ],
       "postUpdateOptions": [
-        "gomodTidy"
+        "gomodTidy",
+        "yarnDedupeHighest"
       ],
       "rangeStrategy": "bump"
     }

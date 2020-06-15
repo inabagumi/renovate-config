@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.9.0](https://github.com/inabagumi/renovate-config/compare/v1.8.0...v1.9.0) (2020-06-15)
+
+
+### Features
+
+* **k8s:** add kubernetes config ([#992](https://github.com/inabagumi/renovate-config/issues/992)) ([5d633bf](https://github.com/inabagumi/renovate-config/commit/5d633bf19de93f3a55dbd81d0ca2bf645f107b98))
+
 ## [1.8.0](https://github.com/inabagumi/renovate-config/compare/v1.7.3...v1.8.0) (2020-06-12)
 
 

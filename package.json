@@ -19,7 +19,9 @@
         ":semanticCommitTypeAll(chore)"
       ],
       "kubernetes": {
-        "fileMatch": ["^k8s/.+\\.yaml$"]
+        "fileMatch": [
+          "^k8s/.+\\.yaml$"
+        ]
       },
       "labels": [
         "dependencies"
@@ -61,5 +63,5 @@
     "release": "standard-version",
     "test": "renovate-config-validator"
   },
-  "version": "1.8.0"
+  "version": "1.9.0"
 }

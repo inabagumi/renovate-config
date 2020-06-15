@@ -18,6 +18,9 @@
         "config:base",
         ":semanticCommitTypeAll(chore)"
       ],
+      "kubernetes": {
+        "fileMatch": ["^k8s/.+\\.yaml$"]
+      },
       "labels": [
         "dependencies"
       ],

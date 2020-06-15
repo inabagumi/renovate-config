@@ -6,9 +6,7 @@ Add this into `.github/renovate.json`:
 
 ```json
 {
-  "extends": [
-    "@inabagumi"
-  ]
+  "extends": ["@inabagumi"]
 }
 ```
 

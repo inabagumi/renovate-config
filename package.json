@@ -43,6 +43,15 @@
           "packagePatterns": [
             "^@docusaurus/"
           ]
+        },
+        {
+          "automerge": true,
+          "major": {
+            "automerge": false
+          },
+          "packagePatterns": [
+            "^@types/"
+          ]
         }
       ],
       "postUpdateOptions": [

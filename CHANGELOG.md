@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.10.0](https://github.com/inabagumi/renovate-config/compare/v1.9.0...v1.10.0) (2020-06-24)
+
+
+### Features
+
+* enable automerge for @types/* ([#1009](https://github.com/inabagumi/renovate-config/issues/1009)) ([6fc8aaa](https://github.com/inabagumi/renovate-config/commit/6fc8aaa07e025254df4919e8767576affd2033ac))
+
 ## [1.9.0](https://github.com/inabagumi/renovate-config/compare/v1.8.0...v1.9.0) (2020-06-15)
 
 

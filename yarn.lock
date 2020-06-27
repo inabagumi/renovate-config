@@ -316,10 +316,10 @@ builtins@^1.0.3:
   resolved "https://registry.yarnpkg.com/builtins/-/builtins-1.0.3.tgz#cb94faeb61c8696451db36534e1422f94f0aee88"
   integrity sha1-y5T662HIaWRR2zZTThQi+U8K7og=
 
-bunyan@1.8.12:
-  version "1.8.12"
-  resolved "https://registry.yarnpkg.com/bunyan/-/bunyan-1.8.12.tgz#f150f0f6748abdd72aeae84f04403be2ef113797"
-  integrity sha1-8VDw9nSKvdcq6uhPBEA74u8RN5c=
+bunyan@1.8.13:
+  version "1.8.13"
+  resolved "https://registry.yarnpkg.com/bunyan/-/bunyan-1.8.13.tgz#dde6bacd9ebccaedb110f1319f88db3f415ccfeb"
+  integrity sha512-4zO4iMxZeCpf+95ERsr83nwQr11o1KY2FLhX4wZ6kPXieIVYL3k9eX+N6vbHhFEK5h5O/qCQpfXt7N9VBAIvCA==
   optionalDependencies:
     dtrace-provider "~0.8"
     moment "^2.10.6"
@@ -2664,10 +2664,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@^21.18.1:
-  version "21.18.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-21.18.1.tgz#4b500d1ff3d43ab57086f77376f59c093c987955"
-  integrity sha512-L2TGRLccm5+0r50f22oEKw0qpXxYkZG9JF3jJ8Yct3V71o6xYuS+kcZQK6cuHX1JPNrJIbgkmCR2Hm4An1mNmg==
+renovate@^21.18.7:
+  version "21.18.7"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-21.18.7.tgz#7e1ad899c9d8ccf9ef3b26f19054dbf6adbf7d95"
+  integrity sha512-p1iMqQkBUQHyA/xM/rFcQ2eJ8T6taiW9LEq3Gzj6K5PAkQf9yh5nirovnt/BzIVWeFiBc/IcnCpbgfHg91MpEg==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@sindresorhus/is" "2.1.1"
@@ -2675,7 +2675,7 @@ renovate@^21.18.1:
     "@yarnpkg/lockfile" "1.1.0"
     aws-sdk "2.686.0"
     azure-devops-node-api "10.1.1"
-    bunyan "1.8.12"
+    bunyan "1.8.13"
     cacache "15.0.4"
     chalk "4.1.0"
     changelog-filename-regex "2.0.1"

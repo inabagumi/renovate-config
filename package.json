@@ -38,6 +38,22 @@
           "rangeStrategy": "auto"
         },
         {
+          "automerge": true,
+          "updateTypes": [
+            "patch"
+          ]
+        },
+        {
+          "automerge": true,
+          "depTypeList": [
+            "devDependencies"
+          ],
+          "updateTypes": [
+            "digest",
+            "minor"
+          ]
+        },
+        {
           "description": "Group packages from docusaurus",
           "groupName": "docusaurus monorepo",
           "packagePatterns": [

@@ -39,6 +39,9 @@
         },
         {
           "automerge": true,
+          "depTypeList": [
+            "dependencies"
+          ],
           "updateTypes": [
             "patch"
           ]

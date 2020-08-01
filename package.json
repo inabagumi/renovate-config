@@ -49,8 +49,26 @@
           "major": {
             "automerge": false
           },
+          "packageNames": [
+            "renovate"
+          ]
+        },
+        {
+          "automerge": true,
+          "major": {
+            "automerge": false
+          },
           "packagePatterns": [
             "^@types/"
+          ]
+        },
+        {
+          "automerge": true,
+          "major": {
+            "automerge": false
+          },
+          "sourceUrlPrefixes": [
+            "https://github.com/gatsbyjs/gatsby"
           ]
         }
       ],

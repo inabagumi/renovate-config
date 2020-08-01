@@ -1,6 +1,3 @@
 {
-  "extends": [
-    "@inabagumi"
-  ],
-  "automerge": true
+  "extends": ["@inabagumi"]
 }

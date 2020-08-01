@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.11.0](https://github.com/inabagumi/renovate-config/compare/v1.10.0...v1.11.0) (2020-08-01)
+
+
+### Features
+
+* enable automerge with gatsby and renovate ([#1091](https://github.com/inabagumi/renovate-config/issues/1091)) ([412dc7e](https://github.com/inabagumi/renovate-config/commit/412dc7e969bd448e6eaf8cec36a82e3dd1edfdfd))
+* improve automerge strategy ([#1092](https://github.com/inabagumi/renovate-config/issues/1092)) ([f5f6930](https://github.com/inabagumi/renovate-config/commit/f5f693073e0387e90d1f04ac8c24685a1dbb2300))
+
 ## [1.10.0](https://github.com/inabagumi/renovate-config/compare/v1.9.0...v1.10.0) (2020-06-24)
 
 

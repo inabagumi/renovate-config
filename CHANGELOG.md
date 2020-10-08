@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.12.0](https://github.com/inabagumi/renovate-config/compare/v1.11.1...v1.12.0) (2020-10-08)
+
+
+### Features
+
+* disable automerge in Gatsby.js ([#1153](https://github.com/inabagumi/renovate-config/issues/1153)) ([81a16f1](https://github.com/inabagumi/renovate-config/commit/81a16f1dd5e1315d106f6b0a9e94a497d3e5072c))
+
 ### [1.11.1](https://github.com/inabagumi/renovate-config/compare/v1.11.0...v1.11.1) (2020-08-01)
 
 

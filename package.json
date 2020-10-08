@@ -80,15 +80,6 @@
           "packagePatterns": [
             "^@types/"
           ]
-        },
-        {
-          "automerge": true,
-          "major": {
-            "automerge": false
-          },
-          "sourceUrlPrefixes": [
-            "https://github.com/gatsbyjs/gatsby"
-          ]
         }
       ],
       "postUpdateOptions": [

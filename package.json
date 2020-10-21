@@ -16,7 +16,7 @@
     "default": {
       "extends": [
         "config:base",
-        ":semanticCommitTypeAll(chore)"
+        ":semanticCommitTypeAll(build)"
       ],
       "kubernetes": {
         "fileMatch": [

@@ -5,7 +5,7 @@
   },
   "description": "Inabagumi presets for Renovate",
   "devDependencies": {
-    "renovate": "^23.55.4",
+    "renovate": "^23.56.0",
     "standard-version": "^9.0.0"
   },
   "files": [],

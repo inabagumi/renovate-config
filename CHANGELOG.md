@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/inabagumi/renovate-config/compare/v1.12.0...v2.0.0) (2020-10-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* change semanticCommitType to build (#1195)
+
+### Features
+
+* change semanticCommitType to build ([#1195](https://github.com/inabagumi/renovate-config/issues/1195)) ([25d86f7](https://github.com/inabagumi/renovate-config/commit/25d86f76d0a1a8ef33e9b280000e74472f5f65cc))
+
 ## [1.12.0](https://github.com/inabagumi/renovate-config/compare/v1.11.1...v1.12.0) (2020-10-08)
 
 

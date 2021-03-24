@@ -57,10 +57,12 @@
           ]
         },
         {
-          "description": "Group packages from docusaurus",
-          "groupName": "docusaurus monorepo",
-          "packagePatterns": [
-            "^@docusaurus/"
+          "description": "Group packages from nextra",
+          "groupName": "nextra monorepo",
+          "matchPackagePatterns": [
+            "nextra-theme-blog",
+            "nextra-theme-docs",
+            "nextra"
           ]
         },
         {
@@ -77,7 +79,7 @@
           "major": {
             "automerge": false
           },
-          "packagePatterns": [
+          "matchPackagePatterns": [
             "^@types/"
           ]
         }

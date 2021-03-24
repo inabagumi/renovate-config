@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/inabagumi/renovate-config/compare/v2.0.0...v2.1.0) (2021-03-24)
+
+
+### Features
+
+* **monorepo:** add nextra, and remove docusaurus ([#1472](https://github.com/inabagumi/renovate-config/issues/1472)) ([7c63281](https://github.com/inabagumi/renovate-config/commit/7c632812e32231791b003cae19b592ef6f0cb314))
+
 ## [2.0.0](https://github.com/inabagumi/renovate-config/compare/v1.12.0...v2.0.0) (2020-10-21)
 
 

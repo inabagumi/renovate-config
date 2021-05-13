@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.1](https://www.github.com/inabagumi/renovate-config/compare/v2.1.0...v2.1.1) (2021-05-13)
+
+
+### Bug Fixes
+
+* remove duplicated rule ([#1580](https://www.github.com/inabagumi/renovate-config/issues/1580)) ([a9c9d22](https://www.github.com/inabagumi/renovate-config/commit/a9c9d22bd45081cd6fd7b55c2fdda3b98a7c8121))
+
 ## [2.1.0](https://github.com/inabagumi/renovate-config/compare/v2.0.0...v2.1.0) (2021-03-24)
 
 

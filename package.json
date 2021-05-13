@@ -73,15 +73,6 @@
           "packageNames": [
             "renovate"
           ]
-        },
-        {
-          "automerge": true,
-          "major": {
-            "automerge": false
-          },
-          "matchPackagePatterns": [
-            "^@types/"
-          ]
         }
       ],
       "postUpdateOptions": [

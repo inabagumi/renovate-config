@@ -5,8 +5,7 @@
   },
   "description": "Inabagumi presets for Renovate",
   "devDependencies": {
-    "renovate": "^25.19.2",
-    "standard-version": "^9.3.0"
+    "renovate": "^25.19.2"
   },
   "files": [],
   "homepage": "https://github.com/inabagumi/renovate-config",
@@ -95,11 +94,7 @@
     "type": "git",
     "url": "https://github.com/inabagumi/renovate-config.git"
   },
-  "resolutions": {
-    "minimist": "^1.2.5"
-  },
   "scripts": {
-    "release": "standard-version",
     "test": "renovate-config-validator"
   },
   "version": "2.1.0"

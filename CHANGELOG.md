@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.0](https://www.github.com/inabagumi/renovate-config/compare/v2.1.1...v2.2.0) (2021-05-14)
+
+
+### Features
+
+* **pkg-rule:** add docusaurus rule ([#1587](https://www.github.com/inabagumi/renovate-config/issues/1587)) ([34da5ff](https://www.github.com/inabagumi/renovate-config/commit/34da5ff665f0ac3bf51a0fecd39eb9e20422160e))
+
 ### [2.1.1](https://www.github.com/inabagumi/renovate-config/compare/v2.1.0...v2.1.1) (2021-05-13)
 
 

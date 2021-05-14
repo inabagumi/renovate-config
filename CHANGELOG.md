@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2.1](https://www.github.com/inabagumi/renovate-config/compare/v2.2.0...v2.2.1) (2021-05-14)
+
+
+### Bug Fixes
+
+* **pkg-rule:** fix release tag for docusaurus ([62ab1f0](https://www.github.com/inabagumi/renovate-config/commit/62ab1f02d9377cf2898dc1c182715212c2e713e4))
+
 ## [2.2.0](https://www.github.com/inabagumi/renovate-config/compare/v2.1.1...v2.2.0) (2021-05-14)
 
 

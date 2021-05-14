@@ -66,11 +66,16 @@
         },
         {
           "automerge": true,
-          "major": {
-            "automerge": false
-          },
           "packageNames": [
             "renovate"
+          ]
+        },
+        {
+          "automerge": false,
+          "followTag": "next",
+          "ignoreUnstable": false,
+          "matchPackagePatterns": [
+            "^@docusaurus/"
           ]
         }
       ],

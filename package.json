@@ -72,7 +72,7 @@
         },
         {
           "automerge": false,
-          "followTag": "next",
+          "followTag": "latest",
           "ignoreUnstable": false,
           "matchPackagePatterns": [
             "^@docusaurus/"

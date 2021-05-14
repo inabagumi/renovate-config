@@ -13,7 +13,7 @@ jobs:
         id: release
         with:
           token: ${{ secrets.ACTIONS_BOT_TOKEN }}
-          package-name: inaba-jinja
+          package-name: renovate-config
           release-type: node
       - uses: actions/checkout@v2
         if: ${{ steps.release.outputs.release_created }}

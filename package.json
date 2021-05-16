@@ -5,7 +5,7 @@
   },
   "description": "Inabagumi presets for Renovate",
   "devDependencies": {
-    "renovate": "^25.21.10"
+    "renovate": "^25.21.11"
   },
   "files": [],
   "homepage": "https://github.com/inabagumi/renovate-config",

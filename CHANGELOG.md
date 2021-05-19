@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.1](https://www.github.com/inabagumi/renovate-config/compare/v3.0.0...v3.0.1) (2021-05-19)
+
+
+### Bug Fixes
+
+* add default.json to files ([#1605](https://www.github.com/inabagumi/renovate-config/issues/1605)) ([3cdebc1](https://www.github.com/inabagumi/renovate-config/commit/3cdebc1f241cb67c15ae58a52d9b4b08f415c988))
+
 ## [3.0.0](https://www.github.com/inabagumi/renovate-config/compare/v2.2.1...v3.0.0) (2021-05-19)
 
 

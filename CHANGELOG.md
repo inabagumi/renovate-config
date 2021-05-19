@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://www.github.com/inabagumi/renovate-config/compare/v2.2.1...v3.0.0) (2021-05-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* extract to single file (#1602)
+
+### Code Refactoring
+
+* extract to single file ([#1602](https://www.github.com/inabagumi/renovate-config/issues/1602)) ([345ea81](https://www.github.com/inabagumi/renovate-config/commit/345ea81c6450845afe01cd637302b2d5a3313e13))
+
 ### [2.2.1](https://www.github.com/inabagumi/renovate-config/compare/v2.2.0...v2.2.1) (2021-05-14)
 
 

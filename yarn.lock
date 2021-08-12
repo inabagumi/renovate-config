@@ -3073,10 +3073,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^25.70.4:
-  version "25.70.4"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-25.70.4.tgz#d9a5b160334f5cef47d56d61ab49969578c6f821"
-  integrity sha512-ZK4O9DFq7FncB1Urxopd8PtBAyOj/PZsczflcJwzELN52AwGQDQy6aa+RGAYfZ7U47XefNsV/0AC7e00vUxfww==
+renovate@^25.72.1:
+  version "25.72.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-25.72.1.tgz#620118822bed67c11a01b8c9c4be01fd3da42451"
+  integrity sha512-tEqYuDyHoyUv8wr5pYQGyU0vhfdvZYg98oWesw97I5PifBhlE/1XrOFixQnAemDt9HmvAfyqhf/pko/6lZ5BGQ==
   dependencies:
     "@aws-sdk/client-ecr" "3.18.0"
     "@breejs/later" "4.0.2"

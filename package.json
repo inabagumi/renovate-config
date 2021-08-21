@@ -5,7 +5,7 @@
   },
   "description": "Inabagumi presets for Renovate",
   "devDependencies": {
-    "renovate": "^26.4.0"
+    "renovate": "^26.4.1"
   },
   "homepage": "https://github.com/inabagumi/renovate-config",
   "license": "MIT",

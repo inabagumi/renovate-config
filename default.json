@@ -40,4 +40,3 @@
   "postUpdateOptions": ["gomodTidy", "yarnDedupeHighest"],
   "rangeStrategy": "bump"
 }
-diff --git a/package.json b/package.json

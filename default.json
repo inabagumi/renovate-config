@@ -1,0 +1,43 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    ":automergeMinor",
+    ":automergeRequireAllStatusChecks",
+    ":dependencyDashboard",
+    ":disableRateLimiting",
+    ":enableRenovate",
+    ":enableVulnerabilityAlertsWithLabel(security)",
+    ":ignoreModulesAndTests",
+    ":label(dependencies)",
+    ":maintainLockFilesWeekly",
+    ":renovatePrefix",
+    ":semanticCommitTypeAll(build)",
+    ":widenPeerDependencies",
+    "group:monorepos",
+    "group:recommended",
+    "workarounds:all"
+  ],
+  "kubernetes": {
+    "fileMatch": ["^k8s/.+\\.yaml$"]
+  },
+  "packageRules": [
+    {
+      "description": "Group packages from nextra",
+      "groupName": "nextra monorepo",
+      "matchPackagePatterns": [
+        "nextra-theme-blog",
+        "nextra-theme-docs",
+        "nextra"
+      ]
+    },
+    {
+      "automerge": false,
+      "followTag": "latest",
+      "ignoreUnstable": false,
+      "matchPackagePatterns": ["^@docusaurus/"]
+    }
+  ],
+  "postUpdateOptions": ["gomodTidy", "yarnDedupeHighest"],
+  "rangeStrategy": "bump"
+}
+diff --git a/package.json b/package.json

@@ -3,12 +3,12 @@ name: Node.js CI
 on:
   pull_request:
     branches:
-    - main
+      - main
   push:
     branches:
-    - main
+      - main
     tags:
-    - '!*'
+      - '!*'
 
 jobs:
   test:
@@ -20,6 +20,7 @@ jobs:
         with:
           node-version: 12.x
       - run: yarn install --frozen-lockfile
+      - run: yarn format-check
       - run: yarn test
         env:
           RENOVATE_CONFIG_FILE: default.json

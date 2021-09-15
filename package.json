@@ -5,6 +5,8 @@
   },
   "description": "Inabagumi presets for Renovate",
   "devDependencies": {
+    "@inabagumi/prettier-config": "^1.1.3",
+    "prettier": "~2.4.0",
     "renovate": "^27.8.2"
   },
   "homepage": "https://github.com/inabagumi/renovate-config",
@@ -16,6 +18,8 @@
     "url": "https://github.com/inabagumi/renovate-config.git"
   },
   "scripts": {
+    "format": "prettier --write .",
+    "format-check": "prettier --check .",
     "test": "renovate-config-validator"
   },
   "version": "5.0.0"

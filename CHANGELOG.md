@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.0](https://www.github.com/inabagumi/renovate-config/compare/v4.0.0...v5.0.0) (2021-09-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* * feat!: remove renovate-config from package.json
+
+### Features
+
+* remove renovate-config from package.json ([#1815](https://www.github.com/inabagumi/renovate-config/issues/1815)) ([8edbbd8](https://www.github.com/inabagumi/renovate-config/commit/8edbbd8ede11896b33ce49923d7e6a28bb54bb40))
+
 ## [4.0.0](https://www.github.com/inabagumi/renovate-config/compare/v3.0.1...v4.0.0) (2021-05-19)
 
 

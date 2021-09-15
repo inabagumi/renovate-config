@@ -6,7 +6,8 @@ Add this into `.github/renovate.json`:
 
 ```json
 {
-  "extends": ["@inabagumi"]
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>inabagumi/renovate-config"]
 }
 ```
 

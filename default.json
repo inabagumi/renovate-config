@@ -18,6 +18,7 @@
     "group:recommended",
     "workarounds:all"
   ],
+  "dependencyDashboardLabels": ["dependencies"],
   "kubernetes": {
     "fileMatch": ["^k8s/.+\\.yaml$"]
   },

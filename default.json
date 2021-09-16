@@ -12,6 +12,7 @@
     ":maintainLockFilesWeekly",
     ":renovatePrefix",
     ":semanticCommitTypeAll(build)",
+    ":timezone(Asia/Tokyo)",
     ":widenPeerDependencies",
     "group:monorepos",
     "group:recommended",

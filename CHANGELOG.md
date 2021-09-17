@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.1.1](https://www.github.com/inabagumi/renovate-config/compare/v5.1.0...v5.1.1) (2021-09-17)
+
+
+### Bug Fixes
+
+* **default:** change semantic commit type for lockfile maintenance ([#1834](https://www.github.com/inabagumi/renovate-config/issues/1834)) ([320e964](https://www.github.com/inabagumi/renovate-config/commit/320e9642686173bad68fdaefcacb222c95f44aec))
+
 ## [5.1.0](https://www.github.com/inabagumi/renovate-config/compare/v5.0.0...v5.1.0) (2021-09-17)
 
 

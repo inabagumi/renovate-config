@@ -39,6 +39,10 @@
       "matchPackagePatterns": ["^@docusaurus/"]
     }
   ],
-  "postUpdateOptions": ["gomodTidy", "yarnDedupeHighest"],
+  "postUpdateOptions": [
+    "gomodTidy",
+    "gomodUpdateImportPaths",
+    "yarnDedupeHighest"
+  ],
   "rangeStrategy": "bump"
 }

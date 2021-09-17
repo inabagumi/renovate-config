@@ -10,7 +10,7 @@
     ":ignoreModulesAndTests",
     ":label(dependencies)",
     ":maintainLockFilesWeekly",
-    "prImmediately",
+    ":prImmediately",
     ":renovatePrefix",
     ":semanticCommitTypeAll(build)",
     ":timezone(Asia/Tokyo)",

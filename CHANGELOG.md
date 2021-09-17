@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.1.0](https://www.github.com/inabagumi/renovate-config/compare/v5.0.0...v5.1.0) (2021-09-17)
+
+
+### Features
+
+* **default:** add :prImmediately ([#1828](https://www.github.com/inabagumi/renovate-config/issues/1828)) ([18364cb](https://www.github.com/inabagumi/renovate-config/commit/18364cb7355a1de45845b82ae060dd871d19b1c1))
+* **default:** add dependencies label to dependency dashboard ([#1823](https://www.github.com/inabagumi/renovate-config/issues/1823)) ([7952c66](https://www.github.com/inabagumi/renovate-config/commit/7952c665b34b43d69d6e36cb4e9396ce68b3c972))
+* **default:** add gomodUpdateImportPaths to postUpdateOptions ([#1827](https://www.github.com/inabagumi/renovate-config/issues/1827)) ([eaababc](https://www.github.com/inabagumi/renovate-config/commit/eaababc5ce19628ab282d8b75390ed9bb879d457))
+* **default:** enable docker compose ([#1830](https://www.github.com/inabagumi/renovate-config/issues/1830)) ([7fc6d73](https://www.github.com/inabagumi/renovate-config/commit/7fc6d73d1acd42c5df77b5bf8effc824e413c8cd))
+* **default:** enable separateMultipleMajor ([#1833](https://www.github.com/inabagumi/renovate-config/issues/1833)) ([75c23ea](https://www.github.com/inabagumi/renovate-config/commit/75c23ea001186b02015abb3fede8f8799f40d3fc))
+* **default:** rebase only when conflicted ([#1832](https://www.github.com/inabagumi/renovate-config/issues/1832)) ([df2a948](https://www.github.com/inabagumi/renovate-config/commit/df2a948a624580dac9a956ed5386d4500339eaf1))
+* **default:** set timezone ([#1821](https://www.github.com/inabagumi/renovate-config/issues/1821)) ([c67fb71](https://www.github.com/inabagumi/renovate-config/commit/c67fb71c30e21adbc180fc7054d51415d9e9d495))
+
+
+### Bug Fixes
+
+* **default:** add missing colon ([#1829](https://www.github.com/inabagumi/renovate-config/issues/1829)) ([cfcc17d](https://www.github.com/inabagumi/renovate-config/commit/cfcc17d0f97167a14d479716b9991cbfbe38d90e))
+
 ## [5.0.0](https://www.github.com/inabagumi/renovate-config/compare/v4.0.0...v5.0.0) (2021-09-15)
 
 

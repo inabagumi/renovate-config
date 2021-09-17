@@ -17,6 +17,8 @@
     ":widenPeerDependencies",
     "group:monorepos",
     "group:recommended",
+    "preview:dockerCompose",
+    "preview:dockerVersions",
     "workarounds:all"
   ],
   "dependencyDashboardLabels": ["dependencies"],

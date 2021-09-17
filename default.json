@@ -27,6 +27,9 @@
   "kubernetes": {
     "fileMatch": ["^k8s/.+\\.yaml$"]
   },
+  "lockFileMaintenance": {
+    "extends": [":semanticCommitTypeAll(build)"]
+  },
   "packageRules": [
     {
       "description": "Group packages from nextra",

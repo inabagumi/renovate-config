@@ -3,6 +3,7 @@
   "extends": [
     ":automergeMinor",
     ":automergeRequireAllStatusChecks",
+    ":combinePatchMinorReleases",
     ":dependencyDashboard",
     ":disableRateLimiting",
     ":enableRenovate",
@@ -13,6 +14,7 @@
     ":prImmediately",
     ":renovatePrefix",
     ":semanticCommitTypeAll(build)",
+    ":separateMultipleMajorReleases",
     ":timezone(Asia/Tokyo)",
     ":widenPeerDependencies",
     "group:monorepos",

@@ -28,7 +28,7 @@
     "fileMatch": ["^k8s/.+\\.yaml$"]
   },
   "lockFileMaintenance": {
-    "extends": [":semanticCommitTypeAll(build)"]
+    "extends": [":semanticCommitType(build)"]
   },
   "packageRules": [
     {

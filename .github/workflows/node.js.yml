@@ -11,9 +11,10 @@ on:
       - '!*'
 
 jobs:
-  test:
-    name: Test
+  lint:
+    name: Lint
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
@@ -22,6 +23,27 @@ jobs:
           cache: yarn
       - run: yarn install --frozen-lockfile
       - run: yarn format-check
+
+  test:
+    name: Testing ${{ matrix.name }} presets
+    needs: [lint]
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        name:
+          - automerge
+          - base
+          - default
+          - docker
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 14.x
+          cache: yarn
+      - run: yarn install --frozen-lockfile
       - run: yarn test
         env:
-          RENOVATE_CONFIG_FILE: default.json
+          RENOVATE_CONFIG_FILE: ${{ matrix.name }}.json

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    ":combinePatchMinorReleases",
+    ":dependencyDashboard",
+    ":enableRenovate",
+    ":enableVulnerabilityAlertsWithLabel(security)",
+    ":ignoreModulesAndTests",
+    ":label(dependencies)",
+    ":prImmediately",
+    ":renovatePrefix",
+    ":semanticCommitTypeAll(build)",
+    ":separateMultipleMajorReleases",
+    ":timezone(Asia/Tokyo)",
+    ":widenPeerDependencies",
+    "group:monorepos",
+    "group:recommended",
+    "workarounds:all"
+  ],
+  "dependencyDashboardLabels": ["dependencies"],
+  "postUpdateOptions": [
+    "gomodTidy",
+    "gomodUpdateImportPaths",
+    "yarnDedupeHighest"
+  ],
+  "rangeStrategy": "bump"
+}

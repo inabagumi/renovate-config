@@ -1,32 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    ":automergeMinor",
-    ":automergeRequireAllStatusChecks",
-    ":combinePatchMinorReleases",
-    ":dependencyDashboard",
+    "github>inabagumi/renovate-config:base",
+    "github>inabagumi/renovate-config:automerge",
+    "github>inabagumi/renovate-config:docker",
     ":disableRateLimiting",
-    ":enableRenovate",
-    ":enableVulnerabilityAlertsWithLabel(security)",
-    ":ignoreModulesAndTests",
-    ":label(dependencies)",
-    ":maintainLockFilesWeekly",
-    ":prImmediately",
-    ":renovatePrefix",
-    ":semanticCommitTypeAll(build)",
-    ":separateMultipleMajorReleases",
-    ":timezone(Asia/Tokyo)",
-    ":widenPeerDependencies",
-    "group:monorepos",
-    "group:recommended",
-    "preview:dockerCompose",
-    "preview:dockerVersions",
-    "workarounds:all"
+    ":maintainLockFilesWeekly"
   ],
-  "dependencyDashboardLabels": ["dependencies"],
-  "kubernetes": {
-    "fileMatch": ["^k8s/.+\\.yaml$"]
-  },
   "lockFileMaintenance": {
     "extends": [":semanticCommitType(build)"]
   },
@@ -41,17 +21,9 @@
       ]
     },
     {
-      "automerge": false,
       "followTag": "latest",
       "ignoreUnstable": false,
       "matchPackagePatterns": ["^@docusaurus/"]
     }
-  ],
-  "postUpdateOptions": [
-    "gomodTidy",
-    "gomodUpdateImportPaths",
-    "yarnDedupeHighest"
-  ],
-  "rangeStrategy": "bump",
-  "rebaseWhen": "conflicted"
+  ]
 }

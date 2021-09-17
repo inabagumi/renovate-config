@@ -47,5 +47,6 @@
     "gomodUpdateImportPaths",
     "yarnDedupeHighest"
   ],
-  "rangeStrategy": "bump"
+  "rangeStrategy": "bump",
+  "rebaseWhen": "conflicted"
 }

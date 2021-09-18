@@ -5,7 +5,7 @@ on:
     branches: [main]
   push:
     branches: [main]
-    tags: ["!*"]
+    tags: ['!*']
 
 jobs:
   lint:
@@ -23,7 +23,6 @@ jobs:
 
   test:
     name: Testing ${{ matrix.name }} presets
-    needs: [lint]
     runs-on: ubuntu-latest
 
     strategy:

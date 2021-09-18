@@ -2,13 +2,10 @@ name: Node.js CI
 
 on:
   pull_request:
-    branches:
-      - main
+    branches: [main]
   push:
-    branches:
-      - main
-    tags:
-      - '!*'
+    branches: [main]
+    tags: ["!*"]
 
 jobs:
   lint:
@@ -31,11 +28,7 @@ jobs:
 
     strategy:
       matrix:
-        name:
-          - automerge
-          - base
-          - default
-          - docker
+        name: [automerge, base, default, docker]
 
     steps:
       - uses: actions/checkout@v2

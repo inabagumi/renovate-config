@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.1.2](https://www.github.com/inabagumi/renovate-config/compare/v5.1.1...v5.1.2) (2021-10-21)
+
+
+### Reverts
+
+* **auto-approve:** disable auto approve bot ([00ea89e](https://www.github.com/inabagumi/renovate-config/commit/00ea89e28c926a283802d903975278de3041c47d))
+
 ### [5.1.1](https://www.github.com/inabagumi/renovate-config/compare/v5.1.0...v5.1.1) (2021-09-17)
 
 

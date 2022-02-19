@@ -7,6 +7,6 @@
       "matchPackagePatterns": ["^@docusaurus/"]
     }
   ],
-  "platformAutomerge ": true,
+  "platformAutomerge": true,
   "rebaseWhen": "conflicted"
 }

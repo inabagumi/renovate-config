@@ -6,7 +6,7 @@
   "description": "Inabagumi presets for Renovate",
   "devDependencies": {
     "@inabagumi/prettier-config": "^2.0.0",
-    "prettier": "~2.6.1",
+    "prettier": "~2.6.2",
     "renovate": "^32.10.4"
   },
   "homepage": "https://github.com/inabagumi/renovate-config",

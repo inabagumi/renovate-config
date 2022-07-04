@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.0.0 (2022-07-04)
+
+
+### Features
+
+* **automerge:** enable `platformAutomerge`` ([#2069](https://github.com/inabagumi/renovate-config/issues/2069)) ([5176bc2](https://github.com/inabagumi/renovate-config/commit/5176bc2c0c227acd620111dce72b51ca05bcc3b6))
+
 ## [5.2.0](https://github.com/inabagumi/renovate-config/compare/v5.1.2...v5.2.0) (2022-02-19)
 
 

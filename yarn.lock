@@ -3753,10 +3753,10 @@ once@~1.3.0:
   dependencies:
     wrappy "1"
 
-openpgp@5.3.0:
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/openpgp/-/openpgp-5.3.0.tgz#e8fc97e538865b8c095dbd91c7be4203bd1dd1df"
-  integrity sha512-qjCj0vYpV3dmmkE+vURiJ5kVAJwrMk8BPukvpWJiHcTNWKwPVsRS810plIe4klIcHVf1ScgUQwqtBbv99ff+kQ==
+openpgp@5.3.1:
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/openpgp/-/openpgp-5.3.1.tgz#001df6b33546fbed044686d4d6af7e80ed9354d2"
+  integrity sha512-CxjY4gZ3D0pp6dJUmcM6EgjvDv0u+LsY+3ymULPZYRUPa0tmigDXHNUm5EX+omqmU401DTQNO6ud+QA6UpCdEA==
   dependencies:
     asn1.js "^5.0.0"
 
@@ -4162,10 +4162,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^32.105.2:
-  version "32.105.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.105.2.tgz#ef3821203afc0e3dd8c9bb38dd7da224f76b6ef1"
-  integrity sha512-HHgJhyGRW3BYaR8DfTNkqCmagEJaM42l2CIFMv1DrEzf4RQf8C6gl8CrGE8dfDTr3Sip2IYmzoxCuDV/jvDL7A==
+renovate@^32.105.4:
+  version "32.105.4"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.105.4.tgz#48631b8c26fe2596342aa3ffa09dbb0242e76d12"
+  integrity sha512-vNA+4MXbZeTer0qooX1XzzvfJFmNRmcq0zuKVhoM3Tj6RW+FjgNYrYFUi1IlWnfnut1jf70XTn5+9RfOEwFg6A==
   dependencies:
     "@aws-sdk/client-ec2" "3.112.0"
     "@aws-sdk/client-ecr" "3.112.0"
@@ -4226,7 +4226,7 @@ renovate@^32.105.2:
     moo "0.5.1"
     nanoid "3.3.4"
     node-html-parser "5.3.3"
-    openpgp "5.3.0"
+    openpgp "5.3.1"
     p-all "3.0.0"
     p-map "4.0.0"
     p-queue "6.6.2"

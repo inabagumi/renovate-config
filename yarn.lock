@@ -117,10 +117,10 @@
   dependencies:
     tslib "^2.3.1"
 
-"@aws-sdk/client-ec2@3.154.0":
-  version "3.154.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/client-ec2/-/client-ec2-3.154.0.tgz#7a1523d37311d4489f3eb737a3551e73dd335e2a"
-  integrity sha512-0/wZORnbVV1oMeZ10hUIQHW/ZR+Nej5Nvd9tW3GStafCvqpiprKE/5kTAfgBR+zoZhiVhgbJeiYp6zJbOUCv1w==
+"@aws-sdk/client-ec2@3.155.0":
+  version "3.155.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/client-ec2/-/client-ec2-3.155.0.tgz#1b10868bb603dda2071c2baac0c5eb57d80af7c8"
+  integrity sha512-FfWWw6A7SmyD4tXX6bDZgvLshyBLhT4wJXVDX2pkZRg0hqngy3Knrp0cu4r9i9t50w4016RAwUzJjMrurEL2FA==
   dependencies:
     "@aws-crypto/sha256-browser" "2.0.0"
     "@aws-crypto/sha256-js" "2.0.0"
@@ -4216,12 +4216,12 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^32.184.0:
-  version "32.184.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.184.0.tgz#be663868e298e3487f6e72f288f8c322badb352f"
-  integrity sha512-vcINqVkDzhmJ7PSB8Cxg7eqA+NcUVO0ScivndiOkE0J3Dy2gNg7mA2yX9meNGWkVHxLLJezvUFumCx7nZLP35w==
+renovate@^32.184.2:
+  version "32.184.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.184.2.tgz#f06b68143aba2337862c593e13125858ae4c810a"
+  integrity sha512-PFTZ7Rzmt2yg5K6A5wGqJPwmEs4aAIXaXyUumu8OmNM0q05STAFs4QozFzLZFwBdvuBZ3H4z7EeXFy8PQDOH0Q==
   dependencies:
-    "@aws-sdk/client-ec2" "3.154.0"
+    "@aws-sdk/client-ec2" "3.155.0"
     "@aws-sdk/client-ecr" "3.154.0"
     "@aws-sdk/client-rds" "3.154.0"
     "@aws-sdk/client-s3" "3.154.0"

@@ -1684,7 +1684,7 @@ agent-base@6, agent-base@^6.0.2:
   dependencies:
     debug "4"
 
-agentkeepalive@^4.2.1:
+agentkeepalive@4.2.1, agentkeepalive@^4.2.1:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/agentkeepalive/-/agentkeepalive-4.2.1.tgz#a7975cbb9f83b367f06c90cc51ff28fe7d499717"
   integrity sha512-Zn4cw2NEqd+9fiSVWMscnjyQ1a8Yfoc5oBajLeo5w+YBHgDUcEBY2hS4YpTz6iN5f/2zQiktcuM6tS8x1p9dpA==
@@ -4185,10 +4185,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^32.187.1:
-  version "32.187.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.187.1.tgz#44a8e8396db4ec1aecc8d840dcb0a8b9377f8886"
-  integrity sha512-lzStxsC6FFkEd3Mip+aoTEK6h+yuj+calzmzLmzBUoYFeSMh4BkQGYgZ8naaz8kMqQGSUhtj//34hFub+uM+YQ==
+renovate@^32.188.1:
+  version "32.188.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.188.1.tgz#636652247b70fc8cb4c3c30110c390ea69b83cda"
+  integrity sha512-ZSUwsJobLOxGaKauQDKaGF1QbkkRoLDX646J+cpcIF6G6mXbindj2uyXLtlefdhIXuhUywJiN2aQ+9qtflImng==
   dependencies:
     "@aws-sdk/client-ec2" "3.155.0"
     "@aws-sdk/client-ecr" "3.154.0"
@@ -4204,6 +4204,7 @@ renovate@^32.187.1:
     "@types/tmp" "0.2.3"
     "@yarnpkg/core" "3.2.4"
     "@yarnpkg/parsers" "2.5.1"
+    agentkeepalive "4.2.1"
     auth-header "1.0.0"
     azure-devops-node-api "11.2.0"
     bunyan "1.8.15"

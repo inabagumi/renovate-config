@@ -1695,7 +1695,7 @@ agentkeepalive@4.2.1, agentkeepalive@^4.2.1:
     depd "^1.1.2"
     humanize-ms "^1.2.1"
 
-aggregate-error@^3.0.0:
+aggregate-error@3.1.0, aggregate-error@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/aggregate-error/-/aggregate-error-3.1.0.tgz#92670ff50f5359bdb7a3e0d40d0ec30c5737687a"
   integrity sha512-4I7Td01quW/RpocfNayFdFVk1qSuoh0E7JrbRJ16nH01HhKFQ88INq9Sd+nd72zqRySlr9BmDA8xlEJ6vJMrYA==
@@ -4188,10 +4188,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^32.192.2:
-  version "32.192.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.192.2.tgz#92def9db8961cb6665ccc2d897918636cc397ef2"
-  integrity sha512-8lpw2PUK/3qhSsEUUFUsx5NUsumM3yUpxiSRFDqPhSSAasy0lICG6jZMen1fFPc6AXBd7InUPAYihnhj+3BOlQ==
+renovate@^32.192.3:
+  version "32.192.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.192.3.tgz#6cbe44f11c2c12f9935246cbd94b8c6a9384ab65"
+  integrity sha512-m6aBPAYnTcSq8xf+JUSIeBCUM3LZAhL4MhBUD1wx3wK6i2lXbXQog3gzMsBIMPW5nuO7Fi3hTOE4Aj0L+LZf9Q==
   dependencies:
     "@aws-sdk/client-ec2" "3.155.0"
     "@aws-sdk/client-ecr" "3.154.0"
@@ -4208,6 +4208,7 @@ renovate@^32.192.2:
     "@yarnpkg/core" "3.2.4"
     "@yarnpkg/parsers" "2.5.1"
     agentkeepalive "4.2.1"
+    aggregate-error "3.1.0"
     auth-header "1.0.0"
     azure-devops-node-api "11.2.0"
     bunyan "1.8.15"

@@ -1643,12 +1643,12 @@
   resolved "https://registry.yarnpkg.com/@renovatebot/pep440/-/pep440-2.1.5.tgz#6a9d09ade925f380f9ae4e2153f711a1db92162a"
   integrity sha512-5KqCemtyjR7e98uHadFQUylRpoILYTopJGVaEbs+/WHfB14pJKGPGIkCUN1Zl6fYh+D0Qh7JAXsZ+fRVeSVNZg==
 
-"@renovatebot/ruby-semver@1.1.6":
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/@renovatebot/ruby-semver/-/ruby-semver-1.1.6.tgz#c3ca354b62d683de5f108fb91881333e1788b1fd"
-  integrity sha512-sNNI3Zu0Vo5Jngbe1aBkfSmwdODxK/YPMfczrLgYj9LU/qb5N9NsF0EUOf52igoaVZo8zdCAb0w7tsXEd8+N4Q==
+"@renovatebot/ruby-semver@1.1.7":
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/@renovatebot/ruby-semver/-/ruby-semver-1.1.7.tgz#0f684158ace11b0c18ba40425c24169d1b81fc75"
+  integrity sha512-M07oVOD2pr+E0lopMgFVtDwUqJ5oTZD2QlrVT7yyZ3qW5/R1RQTGb6FwME2Iy+QNjfxYtvkCz1XS2LHZcOPyOw==
   dependencies:
-    tslib "2.4.0"
+    tslib "2.4.1"
 
 "@seald-io/binary-search-tree@^1.0.2":
   version "1.0.2"
@@ -4315,10 +4315,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^34.20.3:
-  version "34.20.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.20.3.tgz#6ad5158b0737b38d8d76c97068567a6569aae6d8"
-  integrity sha512-qLJlmf19Uxq6F2/n8pBbV8pLptyiS6UGaNVPuvPeTHyYi8HIm0mOBsrdvAroI4IeDaZZS5vjNqF8heKLms9AnA==
+renovate@^34.20.4:
+  version "34.20.4"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.20.4.tgz#2373dc01d6b4dfb8452325d6d707111de6744746"
+  integrity sha512-T60QLEE26Vc1rDpKCg9aA+divMDQ1dUOH3Kw4eY9ZqUMaKRVHlyaOIBktt8+EU0IiJNbCu5rFuFOBF77rrp8ZQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.154.0"
     "@aws-sdk/client-ec2" "3.155.0"
@@ -4341,7 +4341,7 @@ renovate@^34.20.3:
     "@opentelemetry/semantic-conventions" "1.7.0"
     "@renovatebot/osv-offline" "1.0.6"
     "@renovatebot/pep440" "2.1.5"
-    "@renovatebot/ruby-semver" "1.1.6"
+    "@renovatebot/ruby-semver" "1.1.7"
     "@sindresorhus/is" "4.6.0"
     "@types/tmp" "0.2.3"
     "@yarnpkg/core" "3.2.5"
@@ -4877,11 +4877,6 @@ trough@^1.0.0:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/trough/-/trough-1.0.5.tgz#b8b639cefad7d0bb2abd37d433ff8293efa5f406"
   integrity sha512-rvuRbTarPXmMb79SmzEp8aqXNKcK+y0XaB298IXueQ8I2PsrATcPBCSPyK/dDNa2iWOhKlfNnOjdAOTBU/nkFA==
-
-tslib@2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
-  integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
 
 tslib@2.4.1, tslib@^2.3.1:
   version "2.4.1"

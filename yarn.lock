@@ -3429,10 +3429,10 @@ json-stringify-safe@^5.0.1:
   resolved "https://registry.yarnpkg.com/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
   integrity sha512-ZClg6AaYvamvYEE82d3Iyd3vSSIjQ+odgjaTzRuO3s7toCdFKczob2i0zCh7JE8kWn17yvAWhUVxvqGwUalsRA==
 
-json5@2.2.2, json5@^2.2.1:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.2.tgz#64471c5bdcc564c18f7c1d4df2e2297f2457c5ab"
-  integrity sha512-46Tk9JiOL2z7ytNQWFLpj99RZkVgeHf87yGQKsIkaPz1qSH9UczKH1rO7K3wgRselo0tYMUNfecYpm/p1vC7tQ==
+json5@2.2.3, json5@^2.2.1:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.3.tgz#78cd6f1a19bdc12b73db5ad0c61efd66c1e29283"
+  integrity sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==
 
 jsonfile@^6.0.1:
   version "6.1.0"
@@ -4391,10 +4391,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^34.79.0:
-  version "34.79.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.79.0.tgz#1eb77e7dd4a3c1bf506984a80b8c6ff940f51ab2"
-  integrity sha512-jlPGgCMzjoTCSZ5PqQOxcOIUN8y8zXIvSAr5EUZlQnoowV1lNAXnYLjQiZJTpmiCCy4D0CgUeKjS4WU/wwXfGg==
+renovate@^34.80.0:
+  version "34.80.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.80.0.tgz#1aec0923c0fce01ceb344343413a6e021472aaf9"
+  integrity sha512-pduq6Ut0rqT22BIDMkg9cslVteuqImZ1ubY7TYr40mFOfN+ZTetrmFR/hWxyF/jcrnqRnm44F3cnjSdgU69rKA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.226.0"
     "@aws-sdk/client-ec2" "3.226.0"
@@ -4462,7 +4462,7 @@ renovate@^34.79.0:
     js-yaml "4.1.0"
     json-dup-key-validator "1.0.3"
     json-stringify-pretty-compact "3.0.0"
-    json5 "2.2.2"
+    json5 "2.2.3"
     luxon "3.1.1"
     markdown-it "13.0.1"
     markdown-table "2.0.0"

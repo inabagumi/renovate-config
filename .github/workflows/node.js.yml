@@ -14,16 +14,17 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+      - run: corepack enable
       - uses: actions/setup-node@v3
         with:
           node-version: 18.x
-          cache: yarn
-      - run: yarn install --frozen-lockfile
-      - run: yarn format-check
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm format-check
 
   test:
     name: Testing ${{ matrix.name }} presets
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     strategy:
       matrix:
@@ -31,11 +32,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+      - run: corepack enable
       - uses: actions/setup-node@v3
         with:
           node-version: 18.x
-          cache: yarn
-      - run: yarn install --frozen-lockfile
-      - run: yarn test
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm test
         env:
           RENOVATE_CONFIG_FILE: ${{ matrix.name }}.json

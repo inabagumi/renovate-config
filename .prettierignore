@@ -117,5 +117,8 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+# pnpm
+pnpm-lock.yaml
+
 # generated docs
 CHANGELOG.md

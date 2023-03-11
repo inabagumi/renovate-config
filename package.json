@@ -12,6 +12,7 @@
   "homepage": "https://github.com/inabagumi/renovate-config",
   "license": "MIT",
   "name": "@inabagumi/renovate-config",
+  "packageManager": "pnpm@7.29.1",
   "private": true,
   "repository": {
     "type": "git",

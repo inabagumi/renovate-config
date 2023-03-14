@@ -3,12 +3,12 @@ lockfileVersion: 5.4
 specifiers:
   '@inabagumi/prettier-config': ^2.0.0
   prettier: ~2.8.4
-  renovate: ^35.4.0
+  renovate: ^35.4.1
 
 devDependencies:
   '@inabagumi/prettier-config': 2.0.0_prettier@2.8.4
   prettier: 2.8.4
-  renovate: 35.4.0
+  renovate: 35.4.1
 
 packages:
 
@@ -4433,8 +4433,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/35.4.0:
-    resolution: {integrity: sha512-yXsYC8s1qfHcules0LEdBFw2GIDbeUvZYZY75j92aCl8pGtdC/hjsVV0Qb213Qn1YiJat1ptZgXXtLtHAlO1Rw==}
+  /renovate/35.4.1:
+    resolution: {integrity: sha512-8s89K8HMC8MW8T37st5eRzCRlK9omJum04xQn7ee4JTSWXZ4BcwXY9CfSlltjBjFfDhPUjE2E/zIcsk+eD3AoQ==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4542,7 +4542,7 @@ packages:
       validate-npm-package-name: 5.0.0
       vuln-vects: 1.1.0
       xmldoc: 1.2.0
-      zod: 3.21.3
+      zod: 3.21.4
     optionalDependencies:
       re2: 1.18.0
     transitivePeerDependencies:
@@ -5323,8 +5323,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /zod/3.21.3:
-    resolution: {integrity: sha512-tz1QgJomEhMTQhOBvQxnnrTo8q77EjpGLlaWicCoEEkMzScuONzDkJKIHr83CS89fGY24iGCStj2ZOCHpPOEyA==}
+  /zod/3.21.4:
+    resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==}
     dev: true
 
   /zwitch/1.0.5:

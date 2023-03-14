@@ -3,12 +3,12 @@ lockfileVersion: 5.4
 specifiers:
   '@inabagumi/prettier-config': ^2.0.0
   prettier: ~2.8.4
-  renovate: ^35.4.1
+  renovate: ^35.4.2
 
 devDependencies:
   '@inabagumi/prettier-config': 2.0.0_prettier@2.8.4
   prettier: 2.8.4
-  renovate: 35.4.1
+  renovate: 35.4.2
 
 packages:
 
@@ -4433,8 +4433,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/35.4.1:
-    resolution: {integrity: sha512-8s89K8HMC8MW8T37st5eRzCRlK9omJum04xQn7ee4JTSWXZ4BcwXY9CfSlltjBjFfDhPUjE2E/zIcsk+eD3AoQ==}
+  /renovate/35.4.2:
+    resolution: {integrity: sha512-KTK2LwUYX212LU/3ISxLJrxXegh6uBVwFbQvIUa37HobqJF4t7bDfBTn0Gc2scKV4UUXxaYN8do8CURtm2gmRw==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
     hasBin: true
     dependencies:

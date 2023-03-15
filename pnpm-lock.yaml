@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@inabagumi/prettier-config': ^2.0.0
   prettier: ~2.8.4
-  renovate: ^35.8.2
+  renovate: ^35.8.3
 
 devDependencies:
   '@inabagumi/prettier-config': 2.0.0_prettier@2.8.4

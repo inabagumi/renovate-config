@@ -3,12 +3,12 @@ lockfileVersion: 5.4
 specifiers:
   '@inabagumi/prettier-config': ^2.0.0
   prettier: ~2.8.7
-  renovate: ^35.23.2
+  renovate: ^35.23.3
 
 devDependencies:
   '@inabagumi/prettier-config': 2.0.0_prettier@2.8.7
   prettier: 2.8.7
-  renovate: 35.23.2
+  renovate: 35.23.3
 
 packages:
 
@@ -4453,8 +4453,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/35.23.2:
-    resolution: {integrity: sha512-H2yA1kL2Z4M5lDL25c4REde46Bgq2zIBIJfOHrETUODuTwWMEqfyyHRckYvP2nAScg6oH0urQoQnX7IojhhqEg==}
+  /renovate/35.23.3:
+    resolution: {integrity: sha512-K1olygkQjokT7uIfL7FcjM/NmFLwSn/lEyCuCbkIav9YsUbdnuM1JKn7QQ+Lo+H/rxZ66bItNG1scvXDXq0cCw==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4547,7 +4547,7 @@ packages:
       redis: 4.6.5
       remark: 13.0.0
       remark-github: 10.1.0
-      safe-stable-stringify: 2.4.2
+      safe-stable-stringify: 2.4.3
       semver: 7.3.8
       semver-stable: 3.0.0
       semver-utils: 1.1.4
@@ -4678,8 +4678,8 @@ packages:
     dev: true
     optional: true
 
-  /safe-stable-stringify/2.4.2:
-    resolution: {integrity: sha512-gMxvPJYhP0O9n2pvcfYfIuYgbledAOJFcqRThtPRmjscaipiwcwPPKLytpVzMkG2HAN87Qmo2d4PtGiri1dSLA==}
+  /safe-stable-stringify/2.4.3:
+    resolution: {integrity: sha512-e2bDA2WJT0wxseVd4lsDP4+3ONX6HpMXQa1ZhFQ7SU+GjvORCmShbCMltrtIDfkYhVHrOcPtj+KhmDBdPdZD1g==}
     engines: {node: '>=10'}
     dev: true
 

@@ -3,12 +3,12 @@ lockfileVersion: 5.4
 specifiers:
   '@inabagumi/prettier-config': ^2.0.0
   prettier: ~2.8.7
-  renovate: ^35.24.2
+  renovate: ^35.24.3
 
 devDependencies:
   '@inabagumi/prettier-config': 2.0.0_prettier@2.8.7
   prettier: 2.8.7
-  renovate: 35.24.2
+  renovate: 35.24.3
 
 packages:
 
@@ -4447,8 +4447,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/35.24.2:
-    resolution: {integrity: sha512-7EeXxw7HKW57ATW7BNqLYoWFUY9w789cHJNVA3D3nzKGW29IZ3XTCthNWh4uinRuTKTSaCKRg4CfIrwpQlMZ6g==}
+  /renovate/35.24.3:
+    resolution: {integrity: sha512-2ctxrJtjcTyrpaee60KvSNoMvMegfVV9VyKdLksopgbWQuUXtqKQ1T7EiCu0/kTvy6j7YADrDLNytMqZhR+IWg==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4555,7 +4555,7 @@ packages:
       url-join: 4.0.1
       validate-npm-package-name: 5.0.0
       vuln-vects: 1.1.0
-      xmldoc: 1.2.0
+      xmldoc: 1.3.0
       zod: 3.21.4
     optionalDependencies:
       re2: 1.18.0
@@ -5308,8 +5308,8 @@ packages:
       write-file-atomic: 3.0.3
     dev: true
 
-  /xmldoc/1.2.0:
-    resolution: {integrity: sha512-2eN8QhjBsMW2uVj7JHLHkMytpvGHLHxKXBy4J3fAT/HujsEtM6yU84iGjpESYGHg6XwK0Vu4l+KgqQ2dv2cCqg==}
+  /xmldoc/1.3.0:
+    resolution: {integrity: sha512-y7IRWW6PvEnYQZNZFMRLNJw+p3pezM4nKYPfr15g4OOW9i8VpeydycFuipE2297OvZnh3jSb2pxOt9QpkZUVng==}
     dependencies:
       sax: 1.2.4
     dev: true

@@ -21,6 +21,7 @@
   "postUpdateOptions": [
     "gomodTidy",
     "gomodUpdateImportPaths",
+    "pnpmDedupe",
     "yarnDedupeHighest"
   ],
   "rangeStrategy": "bump"

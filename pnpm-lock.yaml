@@ -8,8 +8,8 @@ devDependencies:
     specifier: ~2.8.8
     version: 2.8.8
   renovate:
-    specifier: ^35.71.5
-    version: 35.71.5(typanion@3.12.1)
+    specifier: ^35.71.6
+    version: 35.71.6(typanion@3.12.1)
 
 packages:
 
@@ -1824,11 +1824,9 @@ packages:
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     dev: true
 
-  /@renovatebot/ruby-semver@2.1.12:
-    resolution: {integrity: sha512-9j42JmVRqDmdeEauCcMCRyvy3NA7z7ftuVUkUhB98NU1HUwmxiz1OExgPvxeNRIW/MryNXvUvPNT9dfDT75anw==}
-    engines: {node: ^14.15.0 || ^16.13.0 || >= 18.12.0, yarn: ^1.22.0}
-    dependencies:
-      tslib: 2.5.0
+  /@renovatebot/ruby-semver@3.0.1:
+    resolution: {integrity: sha512-sbNb8/J/bI8ZYFrgwpEnYAZl8WDrB9OvEPbnEw4hakAMNLJ4H9ByrzywmJa+xqmPXcF4rOqFqqURMiLZkBXwtQ==}
+    engines: {node: ^18.12.0 || >= 20.0.0, yarn: ^1.22.0}
     dev: true
 
   /@seald-io/binary-search-tree@1.0.3:
@@ -4520,8 +4518,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@35.71.5(typanion@3.12.1):
-    resolution: {integrity: sha512-yUFULNfXE1xq9ct9jAstfjQwlpxYypUop79jGoJWoKtH3EmF+6hug75OpqUTEUmIfVgPHNS+4kDkRk3qe9oH8Q==}
+  /renovate@35.71.6(typanion@3.12.1):
+    resolution: {integrity: sha512-5+1tJAAbqY4s3mP/YKn9+gxhnMHQ73HTx818RY7FaYs2FwiesmQwvvWt0uUqYIkXPMQODSMQC+LETc+KJqZncg==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4548,7 +4546,7 @@ packages:
       '@qnighy/marshal': 0.1.3
       '@renovatebot/osv-offline': 1.2.4
       '@renovatebot/pep440': 2.1.14
-      '@renovatebot/ruby-semver': 2.1.12
+      '@renovatebot/ruby-semver': 3.0.1
       '@sindresorhus/is': 4.6.0
       '@types/ms': 0.7.31
       '@types/tmp': 0.2.3

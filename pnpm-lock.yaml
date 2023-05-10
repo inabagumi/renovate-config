@@ -8,8 +8,8 @@ devDependencies:
     specifier: ~2.8.8
     version: 2.8.8
   renovate:
-    specifier: ^35.75.0
-    version: 35.75.0(typanion@3.12.1)
+    specifier: ^35.77.0
+    version: 35.77.0(typanion@3.12.1)
 
 packages:
 
@@ -4513,8 +4513,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@35.75.0(typanion@3.12.1):
-    resolution: {integrity: sha512-MsGSiRwF7HDJs20eOPfCsG0irLiprdB6GhvxHm9arM1K6orNBiY7iqjFcB7hWxz89ZAvKGY8CCAkCycKvsNrEA==}
+  /renovate@35.77.0(typanion@3.12.1):
+    resolution: {integrity: sha512-GhAmYMUOLqitKRei9HIwsl40AtDm1BwRUf38LwiTg9uWLWiLm6Vuw4Epov4fkmCToulOuoS+VDlwasPoc5/c7w==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4576,6 +4576,7 @@ packages:
       fs-extra: 11.1.1
       git-url-parse: 13.1.0
       github-url-from-git: 1.5.0
+      glob: 10.2.2
       global-agent: 3.0.0
       good-enough-parser: 1.1.22
       got: 11.8.6

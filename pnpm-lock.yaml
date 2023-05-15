@@ -8,8 +8,8 @@ devDependencies:
     specifier: ~2.8.8
     version: 2.8.8
   renovate:
-    specifier: ^35.85.0
-    version: 35.85.0(typanion@3.12.1)
+    specifier: ^35.86.2
+    version: 35.86.2(typanion@3.12.1)
 
 packages:
 
@@ -1352,7 +1352,7 @@ packages:
     engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
     dependencies:
       '@gar/promisify': 1.1.3
-      semver: 7.5.0
+      semver: 7.5.1
     dev: true
     optional: true
 
@@ -1360,7 +1360,7 @@ packages:
     resolution: {integrity: sha512-7kZUAaLscfgbwBQRbvdMYaZOWyMEcPTH/tJjnyAWJ/dvvs9Ef+CERx/qJb9GExJpl1qipaDGn7KqHnFGGixd0w==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dependencies:
-      semver: 7.5.0
+      semver: 7.5.1
     dev: true
 
   /@npmcli/move-file@2.0.1:
@@ -1554,7 +1554,7 @@ packages:
       '@opentelemetry/core': 1.12.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/instrumentation': 0.38.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/semantic-conventions': 1.12.0
-      semver: 7.5.0
+      semver: 7.5.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1567,7 +1567,7 @@ packages:
     dependencies:
       '@opentelemetry/api': 1.4.1
       require-in-the-middle: 6.0.0
-      semver: 7.5.0
+      semver: 7.5.1
       shimmer: 1.2.1
     transitivePeerDependencies:
       - supports-color
@@ -1663,7 +1663,7 @@ packages:
       '@opentelemetry/propagator-b3': 1.12.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/propagator-jaeger': 1.12.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/sdk-trace-base': 1.12.0(@opentelemetry/api@1.4.1)
-      semver: 7.5.0
+      semver: 7.5.1
     dev: true
 
   /@opentelemetry/semantic-conventions@1.12.0:
@@ -1805,8 +1805,8 @@ packages:
       '@seald-io/nedb': 4.0.2
     dev: true
 
-  /@renovatebot/osv-offline@1.2.5:
-    resolution: {integrity: sha512-PRzSyAhel/coD68Z8WK5nFw9UJ8vLCvQQb+aRzwwmMEuSzAbe1FnVbvEZ/wae3sDy57nvMuVhk358InMYHYyVQ==}
+  /@renovatebot/osv-offline@1.2.6:
+    resolution: {integrity: sha512-0FXihAGhDRAXfqtnEWsz8EH+3vEJpH5zB6FZD48tsK+puz43e6tI4obQGcylhMBToV7ex9M7tU4ukChkHwOGcg==}
     dependencies:
       '@octokit/rest': 19.0.8
       '@renovatebot/osv-offline-db': 1.3.3
@@ -2031,7 +2031,7 @@ packages:
       p-limit: 2.3.0
       pluralize: 7.0.0
       pretty-bytes: 5.6.0
-      semver: 7.5.0
+      semver: 7.5.1
       stream-to-promise: 2.2.0
       strip-ansi: 6.0.1
       tar: 6.1.14
@@ -2304,7 +2304,7 @@ packages:
   /builtins@5.0.1:
     resolution: {integrity: sha512-qwVpFEHNfhYJIzNRBvd2C1kyo6jz3ZSMPyyuR47OPdiKWlbYnZNyDWuyR175qDnAJLiCo5fBBqPb3RiXgWlkOQ==}
     dependencies:
-      semver: 7.5.0
+      semver: 7.5.1
     dev: true
 
   /bunyan@1.8.15:
@@ -2730,7 +2730,7 @@ packages:
       '@one-ini/wasm': 0.1.1
       commander: 10.0.1
       minimatch: 6.1.6
-      semver: 7.5.0
+      semver: 7.5.1
     dev: true
 
   /email-addresses@5.0.0:
@@ -3087,7 +3087,7 @@ packages:
       es6-error: 4.1.1
       matcher: 3.0.0
       roarr: 2.15.4
-      semver: 7.5.0
+      semver: 7.5.1
       serialize-error: 7.0.1
     dev: true
 
@@ -3110,12 +3110,13 @@ packages:
       slash: 3.0.0
     dev: true
 
-  /good-enough-parser@1.1.22:
-    resolution: {integrity: sha512-fI4qWIeyqjleGazMcXnqgtvG8qBJGUoj5CtraqaUpZmk94ztMab6irx3Yz+EsJKKgIrwkSBM69WHLngfhAe7hg==}
+  /good-enough-parser@1.1.23:
+    resolution: {integrity: sha512-QUcQZutczESpdo2w9BMG6VpLFoq9ix7ER5HLM1mAdZdri2F3eISkCb8ep84W6YOo0grYWJdyT/8JkYqGjQfSSQ==}
+    engines: {node: '>=18.12.0', yarn: ^1.17.0}
     dependencies:
       '@thi.ng/zipper': 1.0.3
       '@types/moo': 0.5.5
-      klona: 2.0.5
+      klona: 2.0.6
       moo: 0.5.2
     dev: true
 
@@ -3567,8 +3568,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /klona@2.0.5:
-    resolution: {integrity: sha512-pJiBpiXMbt7dkzXe8Ghj/u4FfXOOa98fPW+bihOJ4SjnoijweJrNThJfd3ifXpXhREjpoF2mZVH1GfS9LV3kHQ==}
+  /klona@2.0.6:
+    resolution: {integrity: sha512-dhG34DXATL5hSxJbIexCft8FChFXtmskoZYnoPWjXQuebWYCNkVeV3KkGegCK9CP1oswI/vQibS2GY7Em/sJJA==}
     engines: {node: '>= 8'}
     dev: true
 
@@ -4025,7 +4026,7 @@ packages:
       nopt: 6.0.0
       npmlog: 6.0.2
       rimraf: 3.0.2
-      semver: 7.5.0
+      semver: 7.5.1
       tar: 6.1.14
       which: 2.0.2
     transitivePeerDependencies:
@@ -4073,7 +4074,7 @@ packages:
     dependencies:
       hosted-git-info: 4.1.0
       is-core-module: 2.12.0
-      semver: 7.5.0
+      semver: 7.5.1
       validate-npm-package-license: 3.0.4
     dev: true
 
@@ -4519,8 +4520,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@35.85.0(typanion@3.12.1):
-    resolution: {integrity: sha512-bxceEZzyut+IrVgoswH+wguyOfmT7gp5WnQYNoEulrvucCFmz8wnjngExh8Bqu3JTND6TfkwX5VUa8fdpWEiNQ==}
+  /renovate@35.86.2(typanion@3.12.1):
+    resolution: {integrity: sha512-98x8wQLR/maxjgSzh9GUUis6nzFJGPh25GnK3wKH75d2GvFnrrgS4LprxBnEWHzz47oA1hjWqtPS+Y+pVi7KjA==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4545,7 +4546,7 @@ packages:
       '@opentelemetry/sdk-trace-node': 1.12.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/semantic-conventions': 1.12.0
       '@qnighy/marshal': 0.1.3
-      '@renovatebot/osv-offline': 1.2.5
+      '@renovatebot/osv-offline': 1.2.6
       '@renovatebot/pep440': 2.1.15
       '@renovatebot/ruby-semver': 3.0.1
       '@sindresorhus/is': 4.6.0
@@ -4584,7 +4585,7 @@ packages:
       github-url-from-git: 1.5.0
       glob: 10.2.2
       global-agent: 3.0.0
-      good-enough-parser: 1.1.22
+      good-enough-parser: 1.1.23
       got: 11.8.6
       graph-data-structure: 3.3.0
       handlebars: 4.7.7
@@ -4615,7 +4616,7 @@ packages:
       remark: 13.0.0
       remark-github: 10.1.0
       safe-stable-stringify: 2.4.3
-      semver: 7.5.0
+      semver: 7.5.1
       semver-stable: 3.0.0
       semver-utils: 1.1.4
       shlex: 2.1.2
@@ -4773,8 +4774,8 @@ packages:
     hasBin: true
     dev: true
 
-  /semver@7.5.0:
-    resolution: {integrity: sha512-+XC0AD/R7Q2mPSRuy2Id0+CGTZ98+8f+KvwirxOKIEyid+XSx6HbC63p+O4IndTHuX5Z+JxQ0TghCkO5Cg/2HA==}
+  /semver@7.5.1:
+    resolution: {integrity: sha512-Wvss5ivl8TMRZXXESstBA4uR5iXgEN/VC5/sOcuXdVLzcdkz4HWetIoRfG5gb5X+ij/G9rw9YoGn3QoQ8OCSpw==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:

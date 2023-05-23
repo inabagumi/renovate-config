@@ -8,8 +8,8 @@ devDependencies:
     specifier: ~2.8.8
     version: 2.8.8
   renovate:
-    specifier: ^35.98.4
-    version: 35.98.4(typanion@3.12.1)
+    specifier: ^35.98.6
+    version: 35.98.6(typanion@3.12.1)
 
 packages:
 
@@ -1543,14 +1543,14 @@ packages:
       '@opentelemetry/sdk-trace-base': 1.13.0(@opentelemetry/api@1.4.1)
     dev: true
 
-  /@opentelemetry/instrumentation-bunyan@0.31.2(@opentelemetry/api@1.4.1):
-    resolution: {integrity: sha512-De35vwLh9MJRs9nMRP+o25AIr3EGteonjtW8hcHxt79gb+6b4sWXZyihLJZtsE7NY7sW1H6FPB5ZAminqVTMCQ==}
+  /@opentelemetry/instrumentation-bunyan@0.31.3(@opentelemetry/api@1.4.1):
+    resolution: {integrity: sha512-2lTgi50Nr+wDHyVpLKj4wsSmAbJyS5PWpbLj0OrxLhwbYn58+HhpKQaTTkI1obsQqUDO5kldFzPC4FZ4PHkPNg==}
     engines: {node: '>=14'}
     peerDependencies:
       '@opentelemetry/api': ^1.3.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/instrumentation': 0.38.0(@opentelemetry/api@1.4.1)
+      '@opentelemetry/instrumentation': 0.39.1(@opentelemetry/api@1.4.1)
       '@types/bunyan': 1.8.7
     transitivePeerDependencies:
       - supports-color
@@ -1567,20 +1567,6 @@ packages:
       '@opentelemetry/instrumentation': 0.39.1(@opentelemetry/api@1.4.1)
       '@opentelemetry/semantic-conventions': 1.13.0
       semver: 7.5.1
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
-  /@opentelemetry/instrumentation@0.38.0(@opentelemetry/api@1.4.1):
-    resolution: {integrity: sha512-wr1WkIbzHGV+oz6SCme88D2c+zNG23COkCjcida8b3jIzX2lJafOpEHPDcbBF38F8ChkRSj/tVnx1wnYAXZvbA==}
-    engines: {node: '>=14'}
-    peerDependencies:
-      '@opentelemetry/api': ^1.3.0
-    dependencies:
-      '@opentelemetry/api': 1.4.1
-      require-in-the-middle: 6.0.0
-      semver: 7.5.1
-      shimmer: 1.2.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2386,8 +2372,8 @@ packages:
     dev: true
     optional: true
 
-  /cacache@17.1.0:
-    resolution: {integrity: sha512-hXpFU+Z3AfVmNuiLve1qxWHMq0RSIt5gjCKAHi/M6DktwFwDdAXAtunl1i4WSKaaVcU9IsRvXFg42jTHigcC6Q==}
+  /cacache@17.1.2:
+    resolution: {integrity: sha512-VcRDUtZd9r7yfGDpdm3dBDBSQbLd19IqWs9q1tuB9g6kmxYLwIjfLngRKMCfDHxReuf0SBclRuYn66Xds7jzUQ==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dependencies:
       '@npmcli/fs': 3.1.0
@@ -3368,8 +3354,8 @@ packages:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
     dev: true
 
-  /ini@4.1.0:
-    resolution: {integrity: sha512-HLR38RSF2iulAzc3I/sma4CoYxQP844rPYCNfzGDOHqa/YqVlwuuZgBx6M50/X8dKgzk0cm1qRg3+47mK2N+cQ==}
+  /ini@4.1.1:
+    resolution: {integrity: sha512-QQnnxNyfvmHFIsj7gkPcYymR8Jdw/o7mp5ZFihxn6h8Ci6fh3Dx4E1gPjpQEpIuPo9XVNY/ZUwh4BPMjGyL01g==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dev: true
 
@@ -4566,8 +4552,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@35.98.4(typanion@3.12.1):
-    resolution: {integrity: sha512-dAL0G0wI0CNKjMqLQkf9nIE6Ji6RFnP45XJQMH5uU9P6C3G/TtMPR6qUGVhSg+M8B2045EnVbKptTTleggvL8Q==}
+  /renovate@35.98.6(typanion@3.12.1):
+    resolution: {integrity: sha512-sg74U1TDwK/t80Kfz8C+I2oBHgHxZLZAPOAUrGTtOrbwCHeRmRblrv/T3QCjdFLb2Ptxw4L2cIrezrhmEnnj/A==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4585,7 +4571,7 @@ packages:
       '@opentelemetry/context-async-hooks': 1.13.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/exporter-trace-otlp-http': 0.39.1(@opentelemetry/api@1.4.1)
       '@opentelemetry/instrumentation': 0.39.1(@opentelemetry/api@1.4.1)
-      '@opentelemetry/instrumentation-bunyan': 0.31.2(@opentelemetry/api@1.4.1)
+      '@opentelemetry/instrumentation-bunyan': 0.31.3(@opentelemetry/api@1.4.1)
       '@opentelemetry/instrumentation-http': 0.39.1(@opentelemetry/api@1.4.1)
       '@opentelemetry/resources': 1.13.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/sdk-trace-base': 1.13.0(@opentelemetry/api@1.4.1)
@@ -4606,7 +4592,7 @@ packages:
       aws4: 1.12.0
       azure-devops-node-api: 12.0.0
       bunyan: 1.8.15
-      cacache: 17.1.0
+      cacache: 17.1.2
       cacheable-lookup: 5.0.4
       chalk: 4.1.2
       changelog-filename-regex: 2.0.1
@@ -4637,7 +4623,7 @@ packages:
       handlebars: 4.7.7
       hasha: 5.2.2
       ignore: 5.2.4
-      ini: 4.1.0
+      ini: 4.1.1
       js-yaml: 4.1.0
       json-dup-key-validator: 1.0.3
       json-stringify-pretty-compact: 3.0.0
@@ -4691,17 +4677,6 @@ packages:
   /repeat-string@1.6.1:
     resolution: {integrity: sha512-PV0dzCYDNfRi1jCDbJzpW7jNNDRuCOG/jI5ctQcGKt/clZD+YcPS3yIlWuTJMmESC8aevCFmWJy5wjAFgNqN6w==}
     engines: {node: '>=0.10'}
-    dev: true
-
-  /require-in-the-middle@6.0.0:
-    resolution: {integrity: sha512-+dtWQ7l2lqQDxheaG3jjyN1QI37gEwvzACSgjYi4/C2y+ZTUMeRW8BIOm+9NBKvwaMBUSZfPXVOt1skB0vBkRw==}
-    engines: {node: '>=8.6.0'}
-    dependencies:
-      debug: 4.3.4
-      module-details-from-path: 1.0.3
-      resolve: 1.22.2
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /require-in-the-middle@7.1.0:

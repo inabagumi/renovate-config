@@ -8,8 +8,8 @@ devDependencies:
     specifier: ~2.8.8
     version: 2.8.8
   renovate:
-    specifier: ^35.100.0
-    version: 35.100.0(typanion@3.12.1)
+    specifier: ^35.100.1
+    version: 35.100.1(typanion@3.12.1)
 
 packages:
 
@@ -4552,8 +4552,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@35.100.0(typanion@3.12.1):
-    resolution: {integrity: sha512-d470OtXWjGVDI4yBjsvQfv8Wsst+WK5cr4bzdK2+O2u9kQi7+LWezLIBXO9cyJJyVKQIDngdWy5nO3oB22ou/A==}
+  /renovate@35.100.1(typanion@3.12.1):
+    resolution: {integrity: sha512-oMlHcvZP18DrH/h2LeIlDmCcNDPKjbmJep07LUJ5mO3+EzUxtH2+MxndHOQUhaEwj5fSHJEnjqGCVhL8jage2A==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
     hasBin: true
     dependencies:

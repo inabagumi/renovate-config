@@ -1582,7 +1582,7 @@ packages:
       '@opentelemetry/api': ^1.3.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      require-in-the-middle: 7.1.0
+      require-in-the-middle: 7.1.1
       semver: 7.5.1
       shimmer: 1.2.1
     transitivePeerDependencies:
@@ -2045,7 +2045,7 @@ packages:
       '@yarnpkg/json-proxy': 2.1.1
       '@yarnpkg/libzip': 2.3.0
       '@yarnpkg/parsers': 2.5.1
-      '@yarnpkg/pnp': 3.3.2
+      '@yarnpkg/pnp': 3.3.3
       '@yarnpkg/shell': 3.2.5(typanion@3.12.1)
       camelcase: 5.3.1
       chalk: 3.0.0
@@ -2106,8 +2106,8 @@ packages:
       tslib: 1.14.1
     dev: true
 
-  /@yarnpkg/pnp@3.3.2:
-    resolution: {integrity: sha512-3rJbY9/wB7fLrjZtgcYyqtWHK3ihmCbFFqnjghH3MnBYABeh5IgB83BjSfbIT5s/BtVIg583yBHok02OO4ighg==}
+  /@yarnpkg/pnp@3.3.3:
+    resolution: {integrity: sha512-pI1mQ4m5RwgUA/TW6Y4odqSOt4QV+FuWXi9M9WKfuD+gePgjsMgjRA2siK8DekVmPUUb6ffhWEcKuGjjjj69Iw==}
     engines: {node: '>=12 <14 || 14.2 - 14.9 || >14.10.0'}
     dependencies:
       '@types/node': 13.13.52
@@ -3669,8 +3669,8 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /lru-cache@9.1.1:
-    resolution: {integrity: sha512-65/Jky17UwSb0BuB9V+MyDpsOtXKmYwzhyl+cOa9XUiI4uV2Ouy/2voFP3+al0BjZbJgMBD8FojMpAf+Z+qn4A==}
+  /lru-cache@9.1.2:
+    resolution: {integrity: sha512-ERJq3FOzJTxBbFjZ7iDs+NiK4VI9Wz+RdrrAB8dio1oV+YvdPzUEE4QNiT2VD51DkIbCYRUUzCRkssXCHqSnKQ==}
     engines: {node: 14 || >=16.14}
     dev: true
 
@@ -4326,7 +4326,7 @@ packages:
     resolution: {integrity: sha512-qSDLy2aGFPm8i4rsbHd4MNyTcrzHFsLQykrtbuGRknZZCBBVXSv2tSCDN2Cg6Rt/GFRw8GoW9y9Ecw5rIPG1sg==}
     engines: {node: '>=16 || 14 >=14.17'}
     dependencies:
-      lru-cache: 9.1.1
+      lru-cache: 9.1.2
       minipass: 6.0.2
     dev: true
 
@@ -4683,8 +4683,8 @@ packages:
     engines: {node: '>=0.10'}
     dev: true
 
-  /require-in-the-middle@7.1.0:
-    resolution: {integrity: sha512-6f86Mh0vWCxqKKatRPwgY6VzYmcVay3WUTIpJ1ILBCNh+dTWabMR1swKGKz3XcEZ5mgjndzRu7fQ+44G2H9Gew==}
+  /require-in-the-middle@7.1.1:
+    resolution: {integrity: sha512-OScOjQjrrjhAdFpQmnkE/qbIBGCRFhQB/YaJhcC3CPOlmhe7llnW46Ac1J5+EjcNXOTnDdpF96Erw/yedsGksQ==}
     engines: {node: '>=8.6.0'}
     dependencies:
       debug: 4.3.4

@@ -1267,7 +1267,7 @@ packages:
     resolution: {integrity: sha512-TNPDN6aBFaUox2Lu+H/Y1dKKQgr4ucz/FGyCz67RVYLsBpVpUFf1dDngzg+Od8aqbrqwyztkaZjtWCZEUOT8zA==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      core-js-pure: 3.30.2
+      core-js-pure: 3.31.0
       regenerator-runtime: 0.13.11
     dev: true
 
@@ -2595,8 +2595,8 @@ packages:
       through2-concurrent: 2.0.0
     dev: true
 
-  /core-js-pure@3.30.2:
-    resolution: {integrity: sha512-p/npFUJXXBkCCTIlEGBdghofn00jWG6ZOtdoIXSJmAu2QBvN0IqpZXWweOytcwE6cfx8ZvVUy1vw8zxhe4Y2vg==}
+  /core-js-pure@3.31.0:
+    resolution: {integrity: sha512-/AnE9Y4OsJZicCzIe97JP5XoPKQJfTuEG43aEVLFJGOJpyqELod+pE6LEl63DfG1Mp8wX97LDaDpy1GmLEUxlg==}
     requiresBuild: true
     dev: true
 

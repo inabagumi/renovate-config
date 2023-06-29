@@ -12,8 +12,8 @@ devDependencies:
     specifier: ~2.8.8
     version: 2.8.8
   renovate:
-    specifier: ^35.144.0
-    version: 35.144.0(typanion@3.12.1)
+    specifier: ^35.144.2
+    version: 35.144.2(typanion@3.12.1)
 
 packages:
 
@@ -2319,7 +2319,7 @@ packages:
     dependencies:
       '@npmcli/fs': 3.1.0
       fs-minipass: 3.0.2
-      glob: 10.2.7
+      glob: 10.3.1
       lru-cache: 7.18.3
       minipass: 5.0.0
       minipass-collect: 1.0.2
@@ -2998,8 +2998,8 @@ packages:
       is-glob: 4.0.3
     dev: true
 
-  /glob@10.2.7:
-    resolution: {integrity: sha512-jTKehsravOJo8IJxUGfZILnkvVJM/MOfHRs8QcXolVef2zNI9Tqyy5+SeuOAZd3upViEZQLyFpQhYiHLrMUNmA==}
+  /glob@10.3.1:
+    resolution: {integrity: sha512-9BKYcEeIs7QwlCYs+Y3GBvqAMISufUS0i2ELd11zpZjxI5V9iyRj0HgzB5/cLf2NY4vcYBTYzJ7GIui7j/4DOw==}
     engines: {node: '>=16 || 14 >=14.17'}
     hasBin: true
     dependencies:
@@ -3007,7 +3007,7 @@ packages:
       jackspeak: 2.2.1
       minimatch: 9.0.1
       minipass: 6.0.2
-      path-scurry: 1.9.2
+      path-scurry: 1.10.0
     dev: true
 
   /glob@6.0.4:
@@ -4236,8 +4236,8 @@ packages:
     resolution: {integrity: sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==}
     dev: true
 
-  /path-scurry@1.9.2:
-    resolution: {integrity: sha512-qSDLy2aGFPm8i4rsbHd4MNyTcrzHFsLQykrtbuGRknZZCBBVXSv2tSCDN2Cg6Rt/GFRw8GoW9y9Ecw5rIPG1sg==}
+  /path-scurry@1.10.0:
+    resolution: {integrity: sha512-tZFEaRQbMLjwrsmidsGJ6wDMv0iazJWk6SfIKnY4Xru8auXgmJkOBa5DUbYFcFD2Rzk2+KDlIiF0GVXNCbgC7g==}
     engines: {node: '>=16 || 14 >=14.17'}
     dependencies:
       lru-cache: 9.1.2
@@ -4459,8 +4459,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@35.144.0(typanion@3.12.1):
-    resolution: {integrity: sha512-FS6kVMUr6qTYrOLNH0jbNu+DPAV813Ls0xjQDCK3+kNc8B2oDuP45X+KUWA1quL75ib8R3clNWeCo1qgLHVqwg==}
+  /renovate@35.144.2(typanion@3.12.1):
+    resolution: {integrity: sha512-EFoV7H27ZaxUsVOtgBewDeDGwF6+IK1dWsQHrJb1MEXMW+z76MMPvVERHCOGr8nW1CjVz2LFmdlk6QWNFcvQJA==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4520,7 +4520,7 @@ packages:
       fs-extra: 11.1.1
       git-url-parse: 13.1.0
       github-url-from-git: 1.5.0
-      glob: 10.2.7
+      glob: 10.3.1
       global-agent: 3.0.0
       good-enough-parser: 1.1.23
       got: 11.8.6

@@ -1217,8 +1217,8 @@ packages:
       js-tokens: 4.0.0
     dev: true
 
-  /@babel/runtime-corejs3@7.22.5:
-    resolution: {integrity: sha512-TNPDN6aBFaUox2Lu+H/Y1dKKQgr4ucz/FGyCz67RVYLsBpVpUFf1dDngzg+Od8aqbrqwyztkaZjtWCZEUOT8zA==}
+  /@babel/runtime-corejs3@7.22.6:
+    resolution: {integrity: sha512-M+37LLIRBTEVjktoJjbw4KVhupF0U/3PYUCbBwgAd9k17hoKhRu1n935QiG7Tuxv0LJOMrb2vuKEeYUlv0iyiw==}
     engines: {node: '>=6.9.0'}
     dependencies:
       core-js-pure: 3.31.0
@@ -1723,7 +1723,7 @@ packages:
   /@qnighy/marshal@0.1.3:
     resolution: {integrity: sha512-uaDZTJYtD2UgQTGemmgWeth+e2WapZm+GkAq8UU8AJ55PKRFaf1GkH7X/uzA+Ygu8iInzIlM2FGyCUnruyMKMg==}
     dependencies:
-      '@babel/runtime-corejs3': 7.22.5
+      '@babel/runtime-corejs3': 7.22.6
     dev: true
 
   /@redis/bloom@1.2.0(@redis/client@1.5.8):

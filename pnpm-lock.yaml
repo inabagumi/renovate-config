@@ -12,8 +12,8 @@ devDependencies:
     specifier: ~2.8.8
     version: 2.8.8
   renovate:
-    specifier: ^36.1.10
-    version: 36.1.10(typanion@3.13.0)
+    specifier: ^36.1.11
+    version: 36.1.11(typanion@3.13.0)
 
 packages:
 
@@ -2631,11 +2631,6 @@ packages:
       object-keys: 1.1.1
     dev: true
 
-  /delay@5.0.0:
-    resolution: {integrity: sha512-ReEBKkIfe4ya47wlPYf/gu5ib6yUG0/Aez0JQZQz94kiWtRQvZIQbTiehsnwHvLSWJnQdhVeqYue7Id1dKr0qw==}
-    engines: {node: '>=10'}
-    dev: true
-
   /delegates@1.0.0:
     resolution: {integrity: sha512-bd2L678uiWATM6m5Z1VzNCErI3jiGzt6HGY8OVICs40JQq/HALfbyNJmp0UDakEY4pMMaN0Ly5om/B1VI/+xfQ==}
     dev: true
@@ -4485,8 +4480,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@36.1.10(typanion@3.13.0):
-    resolution: {integrity: sha512-zlnvX8FNTAvtEBwF15kEtjWlhSmDRLHHi5SacKTT2KfUsFeiFMBxSixO7cafpaUn4keMBbz5cjN8w0ZrBem9zQ==}
+  /renovate@36.1.11(typanion@3.13.0):
+    resolution: {integrity: sha512-wZVVGZrXYAOYN+SkK7aEH5QppNDslbFovf/VYm3pfYQ/V1tJXCndgaOPv+Q7q/ZXWS+jS4yMzXKZSAiBmgn9eQ==}
     engines: {node: ^18.12.0 || >=20.0.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4532,7 +4527,6 @@ packages:
       commander: 11.0.0
       conventional-commits-detector: 1.0.3
       deepmerge: 4.3.1
-      delay: 5.0.0
       dequal: 2.0.3
       detect-indent: 6.1.0
       editorconfig: 2.0.0

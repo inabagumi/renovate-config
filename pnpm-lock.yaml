@@ -12,8 +12,8 @@ devDependencies:
     specifier: ~3.0.0
     version: 3.0.0
   renovate:
-    specifier: ^36.7.1
-    version: 36.7.1(typanion@3.13.0)
+    specifier: ^36.7.3
+    version: 36.7.3(typanion@3.13.0)
 
 packages:
 
@@ -1464,8 +1464,8 @@ packages:
       - encoding
     dev: true
 
-  /@renovatebot/pep440@2.1.19:
-    resolution: {integrity: sha512-ekk2lUPUmPUiR7teeU2N/5GGQEY1pTQiWN20GNjzE4BPyaF+UhvsSCM3i26gqnCD0njv+i7yiJa5j9dXkRBzeQ==}
+  /@renovatebot/pep440@2.1.20:
+    resolution: {integrity: sha512-Z6SLxecPwPUbzdfMVenF04fogoB0LVmaBa4IMzc3s2yV+bbDQUQTFhsmMhqxFfK2iRCKky3vDHspNFQ+gdThMQ==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     dev: true
 
@@ -4495,8 +4495,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@36.7.1(typanion@3.13.0):
-    resolution: {integrity: sha512-zNTXY2nfIYS2xq6MK4HdIsxfDGfWh2WoofglKFny5vzg1qd0VOwCVneH/EGbkTXJ8TeJuMh6WEg8sczrP7XTng==}
+  /renovate@36.7.3(typanion@3.13.0):
+    resolution: {integrity: sha512-gnaSiUkxyoewnTr5aL8lM6H5AfRD4zTwJxHu2T+EgyaUXUv8CoBBwCVcUAzQVine8vipW7gBYt2PdB7HDEbbGg==}
     engines: {node: ^18.12.0 || >=20.0.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4521,7 +4521,7 @@ packages:
       '@opentelemetry/semantic-conventions': 1.14.0
       '@qnighy/marshal': 0.1.3
       '@renovatebot/osv-offline': 1.3.1
-      '@renovatebot/pep440': 2.1.19
+      '@renovatebot/pep440': 2.1.20
       '@renovatebot/ruby-semver': 3.0.4
       '@sindresorhus/is': 4.6.0
       '@types/ms': 0.7.31

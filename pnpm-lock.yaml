@@ -12,8 +12,8 @@ devDependencies:
     specifier: ~3.0.0
     version: 3.0.0
   renovate:
-    specifier: ^36.8.7
-    version: 36.8.7(typanion@3.13.0)
+    specifier: ^36.8.9
+    version: 36.8.9(typanion@3.13.0)
 
 packages:
 
@@ -2403,7 +2403,7 @@ packages:
     dependencies:
       '@npmcli/fs': 3.1.0
       fs-minipass: 3.0.2
-      glob: 10.3.1
+      glob: 10.3.3
       lru-cache: 7.18.3
       minipass: 5.0.0
       minipass-collect: 1.0.2
@@ -3081,8 +3081,8 @@ packages:
       is-glob: 4.0.3
     dev: true
 
-  /glob@10.3.1:
-    resolution: {integrity: sha512-9BKYcEeIs7QwlCYs+Y3GBvqAMISufUS0i2ELd11zpZjxI5V9iyRj0HgzB5/cLf2NY4vcYBTYzJ7GIui7j/4DOw==}
+  /glob@10.3.3:
+    resolution: {integrity: sha512-92vPiMb/iqpmEgsOoIDvTjc50wf9CCCvMzsi6W0JLPeUKE8TWP1a73PgqSrqy7iAZxaSD1YdzU7QZR5LF51MJw==}
     engines: {node: '>=16 || 14 >=14.17'}
     hasBin: true
     dependencies:
@@ -4562,8 +4562,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@36.8.7(typanion@3.13.0):
-    resolution: {integrity: sha512-EADV4aNizYE3DzLXpfyY903MwRLnKifDPEJPwN2tle2PiMlUnajbwNuS6CFpmet55ojEh4jeDtEmBJ3avTZYTg==}
+  /renovate@36.8.9(typanion@3.13.0):
+    resolution: {integrity: sha512-X2ZEBOJdGMOUJFuRZLDmReR4IY3m0pRc0RArcCFdiJwoCnWjndJCAQCkvR9ysOhdo1tFQg9Q6AdyU9AUucPGrA==}
     engines: {node: ^18.12.0 || >=20.0.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4622,7 +4622,7 @@ packages:
       fs-extra: 11.1.1
       git-url-parse: 13.1.0
       github-url-from-git: 1.5.0
-      glob: 10.3.1
+      glob: 10.3.3
       global-agent: 3.0.0
       good-enough-parser: 1.1.23
       got: 11.8.6

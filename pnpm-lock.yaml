@@ -12,8 +12,8 @@ devDependencies:
     specifier: ~3.0.0
     version: 3.0.0
   renovate:
-    specifier: ^36.8.12
-    version: 36.8.12(typanion@3.13.0)
+    specifier: ^36.9.0
+    version: 36.9.0(typanion@3.13.0)
 
 packages:
 
@@ -903,10 +903,6 @@ packages:
     resolution: {integrity: sha512-nOAuJe22FKzBlNJhKRHHTH8Pst2kNEJ18IIL4T2Tfde9EMayyBcGmQ4rsEu4tj0+EuUkryKSkLmwdzPrJS+aaQ==}
     dependencies:
       fs-extra: 11.1.1
-    dev: true
-
-  /@cheap-glitch/mi-cron@1.0.1:
-    resolution: {integrity: sha512-kxl7vhg+SUgyHRn22qVbR9MfSm5CzdlYZDJTbGemqFFi/Jmno/hdoQIvBIPoqFY9dcPyxzOUNRRFn6x88UQMpw==}
     dev: true
 
   /@chevrotain/types@9.1.0:
@@ -2601,6 +2597,13 @@ packages:
 
   /core-util-is@1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
+    dev: true
+
+  /cron-parser@4.8.1:
+    resolution: {integrity: sha512-jbokKWGcyU4gl6jAfX97E1gDpY12DJ1cLJZmoDzaAln/shZ+S3KBFBuA2Q6WeUN4gJf/8klnV1EfvhA2lK5IRQ==}
+    engines: {node: '>=12.0.0'}
+    dependencies:
+      luxon: 3.3.0
     dev: true
 
   /cross-spawn@7.0.3:
@@ -4558,8 +4561,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@36.8.12(typanion@3.13.0):
-    resolution: {integrity: sha512-tYDmRYajeI48PLRITil2h3VDcpQldBU5ev0IvLW0YAjm9wKlIhQ4n2t/vFrZmmWOtNv+j538cyFv36TOBUprwg==}
+  /renovate@36.9.0(typanion@3.13.0):
+    resolution: {integrity: sha512-lSLd9c2DSTxJ2YTvinO9Wteirk8f5VplTg+ydfM+kvwstHZkYKxfDWGbuTRdyusRQJUxX8hzbV7vrzKvUGcW3g==}
     engines: {node: ^18.12.0 || >=20.0.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4570,7 +4573,6 @@ packages:
       '@aws-sdk/client-s3': 3.363.0
       '@breejs/later': 4.1.0
       '@cdktf/hcl2json': 0.17.1
-      '@cheap-glitch/mi-cron': 1.0.1
       '@iarna/toml': 3.0.0
       '@opentelemetry/api': 1.4.1
       '@opentelemetry/context-async-hooks': 1.15.0(@opentelemetry/api@1.4.1)
@@ -4604,6 +4606,7 @@ packages:
       clean-git-ref: 2.0.1
       commander: 11.0.0
       conventional-commits-detector: 1.0.3
+      cron-parser: 4.8.1
       deepmerge: 4.3.1
       dequal: 2.0.3
       detect-indent: 6.1.0

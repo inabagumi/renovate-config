@@ -12,8 +12,8 @@ devDependencies:
     specifier: ~3.0.0
     version: 3.0.0
   renovate:
-    specifier: ^36.23.1
-    version: 36.23.1(typanion@3.13.0)
+    specifier: ^36.23.2
+    version: 36.23.2(typanion@3.13.0)
 
 packages:
 
@@ -2781,6 +2781,7 @@ packages:
 
   /emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
+    requiresBuild: true
     dev: true
 
   /emoji-regex@9.2.2:
@@ -3443,6 +3444,7 @@ packages:
   /is-fullwidth-code-point@3.0.0:
     resolution: {integrity: sha512-zymm5+u+sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk+KY7BMAlsWeK4Ueg6EV6XQg==}
     engines: {node: '>=8'}
+    requiresBuild: true
     dev: true
 
   /is-generator-function@1.0.10:
@@ -4574,8 +4576,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@36.23.1(typanion@3.13.0):
-    resolution: {integrity: sha512-sbAybvusHp0Bqdr9GyeHc+93QeeaOd/aOiMJNBCzcd90y+xVRrmEzd6oYowedURltEuM0UieqLZpdOkpIh+Ieg==}
+  /renovate@36.23.2(typanion@3.13.0):
+    resolution: {integrity: sha512-t/V4oQgl7cpcKfpFBg1cwtJZ7/qfYm6kQAKnOuy6AtY5JK1KarOFFd3dMfWm1GZJwD4LVSSl2xhdvQT79vh6VQ==}
     engines: {node: ^18.12.0 || >=20.0.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:

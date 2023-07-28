@@ -12,8 +12,8 @@ devDependencies:
     specifier: ~3.0.0
     version: 3.0.0
   renovate:
-    specifier: ^36.25.0
-    version: 36.25.0(typanion@3.13.0)
+    specifier: ^36.25.2
+    version: 36.25.2(typanion@3.13.0)
 
 packages:
 
@@ -899,8 +899,8 @@ packages:
     engines: {node: '>= 10'}
     dev: true
 
-  /@cdktf/hcl2json@0.17.1:
-    resolution: {integrity: sha512-nOAuJe22FKzBlNJhKRHHTH8Pst2kNEJ18IIL4T2Tfde9EMayyBcGmQ4rsEu4tj0+EuUkryKSkLmwdzPrJS+aaQ==}
+  /@cdktf/hcl2json@0.17.3:
+    resolution: {integrity: sha512-lczep0P2adwv08bf3mF1ScKyAD/Y502QVxGrYm8+E+3cl11qtFVblFJXRcAS288Opnqz1X0ekN4YCmkPawETbg==}
     dependencies:
       fs-extra: 11.1.1
     dev: true
@@ -4576,8 +4576,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@36.25.0(typanion@3.13.0):
-    resolution: {integrity: sha512-SZ275dJ/CuX0P2x+5YmS83d8Ivdx7DdWYBID/nOyWwlVZEnc+3XDHrbzbbDsl98vypffiz+oCCUgqjUwRasSVA==}
+  /renovate@36.25.2(typanion@3.13.0):
+    resolution: {integrity: sha512-9Epe4KS6OqVETBOX1kgrNG2HSOnljyTBo178UtDQmnzhGsyIix9hBBTlUBjd7Uaomsjlqir67NBkLlbEeZGfdQ==}
     engines: {node: ^18.12.0 || >=20.0.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4587,7 +4587,7 @@ packages:
       '@aws-sdk/client-rds': 3.363.0
       '@aws-sdk/client-s3': 3.363.0
       '@breejs/later': 4.1.0
-      '@cdktf/hcl2json': 0.17.1
+      '@cdktf/hcl2json': 0.17.3
       '@iarna/toml': 3.0.0
       '@opentelemetry/api': 1.4.1
       '@opentelemetry/context-async-hooks': 1.15.0(@opentelemetry/api@1.4.1)

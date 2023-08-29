@@ -7,10 +7,10 @@ settings:
 devDependencies:
   '@inabagumi/prettier-config':
     specifier: ^2.0.0
-    version: 2.0.0(prettier@3.0.2)
+    version: 2.0.0(prettier@3.0.3)
   prettier:
-    specifier: ~3.0.2
-    version: 3.0.2
+    specifier: ~3.0.3
+    version: 3.0.3
   renovate:
     specifier: ^36.68.1
     version: 36.68.1(typanion@3.14.0)
@@ -923,12 +923,12 @@ packages:
     resolution: {integrity: sha512-td6ZUkz2oS3VeleBcN+m//Q6HlCFCPrnI0FZhrt/h4XqLEdOyYp2u21nd8MdsR+WJy5r9PTDaHTDDfhf4H4l6Q==}
     dev: true
 
-  /@inabagumi/prettier-config@2.0.0(prettier@3.0.2):
+  /@inabagumi/prettier-config@2.0.0(prettier@3.0.3):
     resolution: {integrity: sha512-b5tcbqpJv4gmJca3SQrRQ+QH/cDlMV5rS9gi9zTPXtIRGMByR4hLMuIffkknbKTOQ5UrDjvrWBbzY1mfw5geJA==}
     peerDependencies:
       prettier: '>= 2.4.0'
     dependencies:
-      prettier: 3.0.2
+      prettier: 3.0.3
     dev: true
 
   /@isaacs/cliui@8.0.2:
@@ -4353,8 +4353,8 @@ packages:
     hasBin: true
     dev: true
 
-  /prettier@3.0.2:
-    resolution: {integrity: sha512-o2YR9qtniXvwEZlOKbveKfDQVyqxbEIWn48Z8m3ZJjBjcCmUy3xZGIv+7AkaeuaTr6yPXJjwv07ZWlsWbEy1rQ==}
+  /prettier@3.0.3:
+    resolution: {integrity: sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true

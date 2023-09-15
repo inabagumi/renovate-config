@@ -12,8 +12,8 @@ devDependencies:
     specifier: ~3.0.3
     version: 3.0.3
   renovate:
-    specifier: ^36.94.1
-    version: 36.94.1(typanion@3.14.0)
+    specifier: ^36.94.2
+    version: 36.94.2(typanion@3.14.0)
 
 packages:
 
@@ -2442,11 +2442,31 @@ packages:
   /cacache@17.1.4:
     resolution: {integrity: sha512-/aJwG2l3ZMJ1xNAnqbMpA40of9dj/pIH3QfiuQSqjfPJF747VR0J/bHn+/KdNnHKc6XQcWt/AfRSBft82W1d2A==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
+    requiresBuild: true
     dependencies:
       '@npmcli/fs': 3.1.0
       fs-minipass: 3.0.3
       glob: 10.3.4
       lru-cache: 7.18.3
+      minipass: 7.0.3
+      minipass-collect: 1.0.2
+      minipass-flush: 1.0.5
+      minipass-pipeline: 1.2.4
+      p-map: 4.0.0
+      ssri: 10.0.5
+      tar: 6.2.0
+      unique-filename: 3.0.0
+    dev: true
+    optional: true
+
+  /cacache@18.0.0:
+    resolution: {integrity: sha512-I7mVOPl3PUCeRub1U8YoGz2Lqv9WOBpobZ8RyWFXmReuILz+3OAyTa5oH3QPdtKZD7N0Yk00aLfzn0qvp8dZ1w==}
+    engines: {node: ^16.14.0 || >=18.0.0}
+    dependencies:
+      '@npmcli/fs': 3.1.0
+      fs-minipass: 3.0.3
+      glob: 10.3.4
+      lru-cache: 10.0.1
       minipass: 7.0.3
       minipass-collect: 1.0.2
       minipass-flush: 1.0.5
@@ -3747,7 +3767,9 @@ packages:
   /lru-cache@7.18.3:
     resolution: {integrity: sha512-jumlc0BIUrS3qJGgIkWZsyfAM7NCWiBcCDhnd+3NNM5KbBmLTgHVfWBcg6W+rLUsIpzpERPsvwUP7CckAQSOoA==}
     engines: {node: '>=12'}
+    requiresBuild: true
     dev: true
+    optional: true
 
   /luxon@3.4.3:
     resolution: {integrity: sha512-tFWBiv3h7z+T/tDaoxA8rqTxy1CHV6gHS//QdaH4pulbq/JuBSGgQspQQqcgnwdAx6pNI7cmvz5Sv/addzHmUg==}
@@ -4628,8 +4650,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@36.94.1(typanion@3.14.0):
-    resolution: {integrity: sha512-krffBwt+wFddgTI0RAYVFnQEWWd02X97s+RDD3RSHgn3OUWobYYpzVPThW1winwlaoVdkutDrXs6PHXg9g9/PA==}
+  /renovate@36.94.2(typanion@3.14.0):
+    resolution: {integrity: sha512-VmZUm2dx+VpsGGK6Gzx7rEnLqMt0cUm9EliGBKz0d3u5cpH401aeV1sE0kpqAsQEmNy4e13aFUIo1TY6wc1mjw==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4667,7 +4689,7 @@ packages:
       aws4: 1.12.0
       azure-devops-node-api: 12.1.0
       bunyan: 1.8.15
-      cacache: 17.1.4
+      cacache: 18.0.0
       cacheable-lookup: 5.0.4
       chalk: 4.1.2
       changelog-filename-regex: 2.0.1

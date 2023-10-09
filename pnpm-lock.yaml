@@ -12,8 +12,8 @@ devDependencies:
     specifier: ~3.0.3
     version: 3.0.3
   renovate:
-    specifier: ^37.8.1
-    version: 37.8.1(typanion@3.14.0)
+    specifier: ^37.9.1
+    version: 37.9.1(typanion@3.14.0)
 
 packages:
 
@@ -4787,8 +4787,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.8.1(typanion@3.14.0):
-    resolution: {integrity: sha512-deDGkjW8847zWmJ03L/CQ6jiiZbXtBGF2FAc17MbC2Cpj0WtE26modA3z0SkK/r2TFmaDB9U6FpBOxkyatsqgQ==}
+  /renovate@37.9.1(typanion@3.14.0):
+    resolution: {integrity: sha512-kBiDitXqqLoUDW4v9NgJbJmHcSG70CHxWVlXAWdLTxzyuAQLJs1bl3IqENB6B4CanLD6CxhhvX/pSYGjRqkrlg==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:

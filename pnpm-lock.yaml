@@ -12,8 +12,8 @@ devDependencies:
     specifier: ~3.0.3
     version: 3.0.3
   renovate:
-    specifier: ^37.29.0
-    version: 37.29.0(typanion@3.14.0)
+    specifier: ^37.31.1
+    version: 37.31.1(typanion@3.14.0)
 
 packages:
 
@@ -3419,14 +3419,6 @@ packages:
     engines: {node: '>= 0.4.0'}
     dev: true
 
-  /hasha@5.2.2:
-    resolution: {integrity: sha512-Hrp5vIK/xr5SkeN2onO32H0MgNZ0f17HRNH39WfL0SYUNOTZ5Lz1TJ8Pajo/87dYGEFlLMm7mIc/k/s6Bvz9HQ==}
-    engines: {node: '>=8'}
-    dependencies:
-      is-stream: 2.0.1
-      type-fest: 0.8.1
-    dev: true
-
   /he@1.2.0:
     resolution: {integrity: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==}
     hasBin: true
@@ -4769,8 +4761,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.29.0(typanion@3.14.0):
-    resolution: {integrity: sha512-ojj+K1EjR3Bnti9e7xdqxgqZul8TxHzFx1I+8UQJxFuTdu4SAuW4uzD0hxccOIpmK7YfwF84GewvGV/U3Z8ycw==}
+  /renovate@37.31.1(typanion@3.14.0):
+    resolution: {integrity: sha512-bu030qrl08gtT+nnxJr7yGmmJNazN73UFQ45QPBpjPqn80FAbd/ZqGbtJKU0oc62NK6Ns+eBmxU9Wa4kEq2qLw==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4837,7 +4829,6 @@ packages:
       got: 11.8.6
       graph-data-structure: 3.3.0
       handlebars: 4.7.8
-      hasha: 5.2.2
       ignore: 5.2.4
       ini: 4.1.1
       js-yaml: 4.1.0

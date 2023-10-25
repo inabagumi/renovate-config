@@ -12,8 +12,8 @@ devDependencies:
     specifier: ~3.0.3
     version: 3.0.3
   renovate:
-    specifier: ^37.32.0
-    version: 37.32.0(typanion@3.14.0)
+    specifier: ^37.33.1
+    version: 37.33.1(typanion@3.14.0)
 
 packages:
 
@@ -2059,8 +2059,8 @@ packages:
     resolution: {integrity: sha512-eXQpwnkI4Ntw5uJg6i2PINdRFWLr55dqjuYQaLHNjvqTzF14QdNWbCbml9sza0byyXNA0hZlHtcdN+VNDcgVHA==}
     dev: true
 
-  /@types/ms@0.7.32:
-    resolution: {integrity: sha512-xPSg0jm4mqgEkNhowKgZFBNtwoEwF6gJ4Dhww+GFpm3IgtNseHQZ5IqdNwnquZEoANxyDAKDRAdVo4Z72VvD/g==}
+  /@types/ms@0.7.33:
+    resolution: {integrity: sha512-AuHIyzR5Hea7ij0P9q7vx7xu4z0C28ucwjAZC0ja7JhINyCnOw8/DnvAPQQ9TfOlCtZAmCERKQX9+o1mgQhuOQ==}
     dev: true
 
   /@types/node@13.13.52:
@@ -4764,8 +4764,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.32.0(typanion@3.14.0):
-    resolution: {integrity: sha512-gEULa1hl/GKHyn42YYfK4ID7MbNer4Z2et8UefGCACW/8PUKBtZZ8YeH2FPnf7SK00aBdvnpeTJ/f5i4eERTzw==}
+  /renovate@37.33.1(typanion@3.14.0):
+    resolution: {integrity: sha512-aVLvm8oUmuu5sjS+gf1OwUaK+O/x/0XFUuWAAkkoocho7AeCA8NVPGUK1uyrzcvIkD6LTIsrbWcR4UZ2cYseAA==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4793,7 +4793,7 @@ packages:
       '@renovatebot/pep440': 3.0.9
       '@renovatebot/ruby-semver': 3.0.16
       '@sindresorhus/is': 4.6.0
-      '@types/ms': 0.7.32
+      '@types/ms': 0.7.33
       '@types/tmp': 0.2.4
       '@yarnpkg/core': 3.5.4(typanion@3.14.0)
       '@yarnpkg/parsers': 2.5.1

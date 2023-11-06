@@ -12,8 +12,8 @@ devDependencies:
     specifier: ~3.0.3
     version: 3.0.3
   renovate:
-    specifier: ^37.48.1
-    version: 37.48.1(typanion@3.14.0)
+    specifier: ^37.49.0
+    version: 37.49.0(typanion@3.14.0)
 
 packages:
 
@@ -1003,10 +1003,6 @@ packages:
   /@gwhitney/detect-indent@7.0.1:
     resolution: {integrity: sha512-7bQW+gkKa2kKZPeJf6+c6gFK9ARxQfn+FKy9ScTBppyKRWH2KzsmweXUoklqeEiHiNVWaeP5csIdsNq6w7QhzA==}
     engines: {node: '>=12.20'}
-    dev: true
-
-  /@iarna/toml@3.0.0:
-    resolution: {integrity: sha512-td6ZUkz2oS3VeleBcN+m//Q6HlCFCPrnI0FZhrt/h4XqLEdOyYp2u21nd8MdsR+WJy5r9PTDaHTDDfhf4H4l6Q==}
     dev: true
 
   /@inabagumi/prettier-config@2.0.0(prettier@3.0.3):
@@ -3023,6 +3019,11 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
+  /eslint-visitor-keys@3.4.3:
+    resolution: {integrity: sha512-wpc+LXeiyiisxPlEkUzU6svyS1frIO3Mgxj1fdy7Pm8Ygzguax2N3Fa/D/ag1WqbOprdI+uY6wMUl8/a2G+iag==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    dev: true
+
   /esprima@4.0.1:
     resolution: {integrity: sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==}
     engines: {node: '>=4'}
@@ -4857,8 +4858,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.48.1(typanion@3.14.0):
-    resolution: {integrity: sha512-AaohAHJN8rtam20MbYLDN867vapR4iH3Gbk89AVEZDkQOyRc2PFNnINPOF/J6v2SvYY4fPi7d/XetVYwLJyplw==}
+  /renovate@37.49.0(typanion@3.14.0):
+    resolution: {integrity: sha512-uwif8Me24w1h+o94TapZxazUArwgds8SvxWni6RGh6XMctMadbuOd2vhOU6SfB73E8Vdzsq70VNytHtNyN3bng==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4870,7 +4871,6 @@ packages:
       '@aws-sdk/credential-providers': 3.363.0
       '@breejs/later': 4.1.0
       '@cdktf/hcl2json': 0.19.0
-      '@iarna/toml': 3.0.0
       '@opentelemetry/api': 1.6.0
       '@opentelemetry/context-async-hooks': 1.17.0(@opentelemetry/api@1.6.0)
       '@opentelemetry/exporter-trace-otlp-http': 0.43.0(@opentelemetry/api@1.6.0)
@@ -4960,6 +4960,7 @@ packages:
       simple-git: 3.20.0
       slugify: 1.6.6
       source-map-support: 0.5.21
+      toml-eslint-parser: 0.6.0
       traverse: 0.6.7
       tslib: 2.6.2
       upath: 2.0.1
@@ -5447,6 +5448,13 @@ packages:
     engines: {node: '>=8.0'}
     dependencies:
       is-number: 7.0.0
+    dev: true
+
+  /toml-eslint-parser@0.6.0:
+    resolution: {integrity: sha512-aTmQa0RFb+2URe8IZOfo/oxt3b5rlXlpG9xE+6FmeI8immCGLnZYvKVxbnCYJx4bIKIaEwl0BnCDhwO70yeWSA==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    dependencies:
+      eslint-visitor-keys: 3.4.3
     dev: true
 
   /tr46@0.0.3:

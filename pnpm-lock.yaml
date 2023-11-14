@@ -12,8 +12,8 @@ devDependencies:
     specifier: ~3.1.0
     version: 3.1.0
   renovate:
-    specifier: ^37.59.2
-    version: 37.59.2(typanion@3.14.0)
+    specifier: ^37.59.3
+    version: 37.59.3(typanion@3.14.0)
 
 packages:
 
@@ -1547,7 +1547,7 @@ packages:
       adm-zip: 0.5.10
       fs-extra: 11.1.1
       got: 11.8.6
-      luxon: 3.4.3
+      luxon: 3.4.4
       node-fetch: 2.7.0
     transitivePeerDependencies:
       - encoding
@@ -2099,8 +2099,8 @@ packages:
     resolution: {integrity: sha512-9Hp0ObzwwO57DpLFF0InUjUm/II8GmKAvzbefxQTihCb7KI6yc9yzf0nLc4mVdby5N4DRCgQM2wCup9KTieeww==}
     dev: true
 
-  /@types/tmp@0.2.5:
-    resolution: {integrity: sha512-KodRrjqWrk/3VyzfR4aeXkf2n5Ssg+bvVUhXlvHVffLiIHriLlrO3vYobB+Kvnr9DkNzMiyWHT3G6hT/xX0ryQ==}
+  /@types/tmp@0.2.6:
+    resolution: {integrity: sha512-chhaNf2oKHlRkDGt+tiKE2Z5aJ6qalm7Z9rlLdBwmOiAAf09YQvvoLXjWK4HWPF1xU/fqvMgfNfpVoBscA/tKA==}
     dev: true
 
   /@types/treeify@1.0.3:
@@ -2674,7 +2674,7 @@ packages:
     resolution: {integrity: sha512-p0SaNjrHOnQeR8/VnfGbmg9te2kfyYSQ7Sc/j/6DtPL3JQvKxmjO9TSjNFpujqV3vEYYBvNNvXSxzyksBWAx1Q==}
     engines: {node: '>=12.0.0'}
     dependencies:
-      luxon: 3.4.3
+      luxon: 3.4.4
     dev: true
 
   /cross-spawn@7.0.3:
@@ -3847,8 +3847,8 @@ packages:
     dev: true
     optional: true
 
-  /luxon@3.4.3:
-    resolution: {integrity: sha512-tFWBiv3h7z+T/tDaoxA8rqTxy1CHV6gHS//QdaH4pulbq/JuBSGgQspQQqcgnwdAx6pNI7cmvz5Sv/addzHmUg==}
+  /luxon@3.4.4:
+    resolution: {integrity: sha512-zobTr7akeGHnv7eBOXcRgMeCP6+uyYsczwmeRCauvpvaAltgNyTbLH/+VaEAPUeWBT+1GuNmz4wC/6jtQzbbVA==}
     engines: {node: '>=12'}
     dev: true
 
@@ -4688,8 +4688,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.59.2(typanion@3.14.0):
-    resolution: {integrity: sha512-ITvbPjWS7seygR31Thm9ysPFPu+0lSYzzBM1PBxqDwxXRtc2ou4vsZ53fGyDPiX/Vz5OnRC1tB6jkoQL8giazQ==}
+  /renovate@37.59.3(typanion@3.14.0):
+    resolution: {integrity: sha512-fbiDW0GBbJD/iyb81BlSU0a3Wp6Asp8RIQzFxj5bDgbk5sdigeSES43xEC8nIh0tXdsgtHSYitAi1gcGt3ZaKg==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4717,7 +4717,7 @@ packages:
       '@renovatebot/ruby-semver': 3.0.18
       '@sindresorhus/is': 4.6.0
       '@types/ms': 0.7.34
-      '@types/tmp': 0.2.5
+      '@types/tmp': 0.2.6
       '@yarnpkg/core': 4.0.1(typanion@3.14.0)
       '@yarnpkg/parsers': 3.0.0
       agentkeepalive: 4.5.0
@@ -4764,7 +4764,7 @@ packages:
       jsonata: 2.0.3
       klona: 2.0.6
       lru-cache: 10.0.1
-      luxon: 3.4.3
+      luxon: 3.4.4
       markdown-it: 13.0.2
       markdown-table: 2.0.0
       minimatch: 9.0.3

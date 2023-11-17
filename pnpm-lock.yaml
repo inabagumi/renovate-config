@@ -12,8 +12,8 @@ devDependencies:
     specifier: ~3.1.0
     version: 3.1.0
   renovate:
-    specifier: ^37.61.0
-    version: 37.61.0(typanion@3.14.0)
+    specifier: ^37.61.1
+    version: 37.61.1(typanion@3.14.0)
 
 packages:
 
@@ -2471,7 +2471,7 @@ packages:
       '@npmcli/fs': 3.1.0
       fs-minipass: 3.0.3
       glob: 10.3.10
-      lru-cache: 10.0.1
+      lru-cache: 10.0.2
       minipass: 7.0.4
       minipass-collect: 1.0.2
       minipass-flush: 1.0.5
@@ -3828,9 +3828,11 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /lru-cache@10.0.1:
-    resolution: {integrity: sha512-IJ4uwUTi2qCccrioU6g9g/5rvvVl13bsdczUUcqbciD9iLr095yj8DQKdObriEvuNSx325N1rV1O0sJFszx75g==}
+  /lru-cache@10.0.2:
+    resolution: {integrity: sha512-Yj9mA8fPiVgOUpByoTZO5pNrcl5Yk37FcSHsUINpAsaBIEZIuqcCclDZJCVxqQShDsmYX8QG63svJiTbOATZwg==}
     engines: {node: 14 || >=16.14}
+    dependencies:
+      semver: 7.5.4
     dev: true
 
   /lru-cache@6.0.0:
@@ -4490,7 +4492,7 @@ packages:
     resolution: {integrity: sha512-MkhCqzzBEpPvxxQ71Md0b1Kk51W01lrYvlMzSUaIzNsODdd7mqhiimSZlr+VegAz5Z6Vzt9Xg2ttE//XBhH3EQ==}
     engines: {node: '>=16 || 14 >=14.17'}
     dependencies:
-      lru-cache: 10.0.1
+      lru-cache: 10.0.2
       minipass: 7.0.4
     dev: true
 
@@ -4688,8 +4690,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.61.0(typanion@3.14.0):
-    resolution: {integrity: sha512-q9vGsssDfPIWEznjpj77oNhPcsO/hgZlKb627xdKi4o4xFn1ly4P7ChPetIy+5yl90wCRV+3RjmpV4ZCdMjSpQ==}
+  /renovate@37.61.1(typanion@3.14.0):
+    resolution: {integrity: sha512-R8ph5vw1XRcAdhO6LRHMl9/xbodaYn5XGwxprd8JA9KvAh9UYTVIY9BiTwPtNGVN/20Z/GiN3YxvA1KMqvcDAA==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4763,7 +4765,7 @@ packages:
       json5: 2.2.3
       jsonata: 2.0.3
       klona: 2.0.6
-      lru-cache: 10.0.1
+      lru-cache: 10.0.2
       luxon: 3.4.4
       markdown-it: 13.0.2
       markdown-table: 2.0.0

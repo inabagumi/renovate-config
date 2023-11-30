@@ -12,8 +12,8 @@ devDependencies:
     specifier: ~3.1.0
     version: 3.1.0
   renovate:
-    specifier: ^37.76.1
-    version: 37.76.1(typanion@3.14.0)
+    specifier: ^37.77.1
+    version: 37.77.1(typanion@3.14.0)
 
 packages:
 
@@ -4344,8 +4344,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /re2@1.20.8:
-    resolution: {integrity: sha512-5GArE3towC0ZyinRkkaZARZxlbX3K+z2REXSVltGSW+F/ID8SLrbh1okTXEcTFBp9zsAhKcGH1Vm+zJ2IwMb7Q==}
+  /re2@1.20.9:
+    resolution: {integrity: sha512-ZYcPTFr5ha2xq3WQjBDTF9CWPSDK1z28MLh5UFRxc//7X8BNQ3A7yR7ITnP0jO346661ertdKVFqw1qoL3FMEQ==}
     requiresBuild: true
     dependencies:
       install-artifact-from-github: 1.3.5
@@ -4459,8 +4459,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.76.1(typanion@3.14.0):
-    resolution: {integrity: sha512-cQRllnXfUwEU4llFQzCwmFXVDT5vyxn7kpTG298q9urBOYrUOqMovUvHDx3Pta4D4hedZsnK/uesGxgMae/1Og==}
+  /renovate@37.77.1(typanion@3.14.0):
+    resolution: {integrity: sha512-Yfoq2zs/xt/NeR2EKSY55pIh/OZbNM15co50swN+OwRHPZVXNwr9+CvZ3tdmh6wws3BJYPFMWgss2Z1cirrYgQ==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4571,7 +4571,7 @@ packages:
       xmldoc: 1.3.0
       zod: 3.22.4
     optionalDependencies:
-      re2: 1.20.8
+      re2: 1.20.9
     transitivePeerDependencies:
       - '@aws-sdk/signature-v4-crt'
       - aws-crt

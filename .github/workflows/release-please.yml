@@ -6,16 +6,16 @@ on:
 
 jobs:
   release-please:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
+
     steps:
       - id: generate_token
         uses: actions/create-github-app-token@v1
         with:
           app-id: ${{ secrets.RENOVATE_BOT_APP_ID }}
           private-key: ${{ secrets.RENOVATE_BOT_PRIVATE_KEY }}
-      - uses: google-github-actions/release-please-action@v4
-        id: release
+      - id: release
+        uses: google-github-actions/release-please-action@v4
         with:
-          token: ${{ steps.generate_token.outputs.token }}
-          package-name: renovate-config
           release-type: node
+          token: ${{ steps.generate_token.outputs.token }}

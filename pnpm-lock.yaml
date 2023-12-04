@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@inabagumi/prettier-config':
-    specifier: ^2.0.0
-    version: 2.0.0(prettier@3.1.0)
+    specifier: ^2.0.2
+    version: 2.0.2(prettier@3.1.0)
   prettier:
     specifier: ~3.1.0
     version: 3.1.0
@@ -991,8 +991,8 @@ packages:
     engines: {node: '>=12.20'}
     dev: true
 
-  /@inabagumi/prettier-config@2.0.0(prettier@3.1.0):
-    resolution: {integrity: sha512-b5tcbqpJv4gmJca3SQrRQ+QH/cDlMV5rS9gi9zTPXtIRGMByR4hLMuIffkknbKTOQ5UrDjvrWBbzY1mfw5geJA==}
+  /@inabagumi/prettier-config@2.0.2(prettier@3.1.0):
+    resolution: {integrity: sha512-R35xTbZ0QeZ31k6S8KoSpzDSPPbFggYE6DgoVpW4cwIHF9VwAWToTfxd7vJ4J7m1rmMIJMWSvuYmPu1lvEcBNw==}
     peerDependencies:
       prettier: '>= 2.4.0'
     dependencies:

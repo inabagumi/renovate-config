@@ -12,8 +12,8 @@ devDependencies:
     specifier: ~3.1.0
     version: 3.1.0
   renovate:
-    specifier: ^37.87.0
-    version: 37.87.0(typanion@3.14.0)
+    specifier: ^37.87.1
+    version: 37.87.2(typanion@3.14.0)
 
 packages:
 
@@ -975,8 +975,8 @@ packages:
       regenerator-runtime: 0.14.0
     dev: true
 
-  /@breejs/later@4.1.0:
-    resolution: {integrity: sha512-QgGnZ9b7o4k0Ai1ZbTJWwZpZcFK9d+Gb+DyNt4UT9x6IEIs5HVu0iIlmgzGqN+t9MoJSpSPo9S/Mm51UtHr3JA==}
+  /@breejs/later@4.2.0:
+    resolution: {integrity: sha512-EVMD0SgJtOuFeg0lAVbCwa+qeTKILb87jqvLyUtQswGD9+ce2nB52Y5zbTF1Hc0MDFfbydcMcxb47jSdhikVHA==}
     engines: {node: '>= 10'}
     dev: true
 
@@ -4459,8 +4459,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.87.0(typanion@3.14.0):
-    resolution: {integrity: sha512-mAnNgcCPxPBQQqWaVAESYvNgMTjsbK6i5tEWMUEMKPmVGghucx0Iiju+OMVzOYyQwx1NFFlXGHu3T8HzimhSNQ==}
+  /renovate@37.87.2(typanion@3.14.0):
+    resolution: {integrity: sha512-CkXQuAvjXki810aKsQSpjTj6GArc/XQnbuYg0pf+BsWSdrVBEbvKggutpfIl02zexNMRyGKqMLKRun7KRFZ99g==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4470,7 +4470,7 @@ packages:
       '@aws-sdk/client-rds': 3.363.0
       '@aws-sdk/client-s3': 3.363.0
       '@aws-sdk/credential-providers': 3.363.0
-      '@breejs/later': 4.1.0
+      '@breejs/later': 4.2.0
       '@cdktf/hcl2json': 0.19.1
       '@opentelemetry/api': 1.7.0
       '@opentelemetry/context-async-hooks': 1.18.1(@opentelemetry/api@1.7.0)

@@ -12,8 +12,8 @@ devDependencies:
     specifier: ~3.1.1
     version: 3.1.1
   renovate:
-    specifier: ^37.92.3
-    version: 37.92.3(typanion@3.14.0)
+    specifier: ^37.92.4
+    version: 37.92.4(typanion@3.14.0)
 
 packages:
 
@@ -3152,8 +3152,8 @@ packages:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
     dev: true
 
-  /graph-data-structure@3.3.0:
-    resolution: {integrity: sha512-p5z0GZ3tm85kuB0iXFjLpbL9gNSFeDPPOyINhLQm6mVfHbLaj62LF9uB1tymcsxkHqLWLQSqGA0f/4/OepCdxA==}
+  /graph-data-structure@3.5.0:
+    resolution: {integrity: sha512-AAgjRtBZC1acIExgK2otv2LDdcYeZdQFKiEStXRDTyaVs6sUUaGUif05pCczTqAU4ny82NQtM1p5PK7AQEYgRA==}
     dev: true
 
   /grapheme-splitter@1.0.4:
@@ -4459,8 +4459,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.92.3(typanion@3.14.0):
-    resolution: {integrity: sha512-XO65euX+39uBwKZ6wmEtBy77NhIwLK+gM+8oyiTBEt9dvxBxES1sbDv6egRO48f11mZk4d78wyoJ8pMfZvQ9eg==}
+  /renovate@37.92.4(typanion@3.14.0):
+    resolution: {integrity: sha512-8EUVae1SroAkUr3t1FzFYzRNchUd5Cy1Lx0SM6J5ZvHAt5iltevjRHRp3L9GEqlNnTTOvNWjyhtbWL8eNdGrsg==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4524,7 +4524,7 @@ packages:
       good-enough-parser: 1.1.23
       google-auth-library: 9.4.1
       got: 11.8.6
-      graph-data-structure: 3.3.0
+      graph-data-structure: 3.5.0
       handlebars: 4.7.8
       ignore: 5.3.0
       ini: 4.1.1

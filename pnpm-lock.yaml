@@ -12,8 +12,8 @@ devDependencies:
     specifier: ~3.1.1
     version: 3.1.1
   renovate:
-    specifier: ^37.91.4
-    version: 37.91.4(typanion@3.14.0)
+    specifier: ^37.92.0
+    version: 37.92.0(typanion@3.14.0)
 
 packages:
 
@@ -1523,8 +1523,8 @@ packages:
       - encoding
     dev: true
 
-  /@renovatebot/pep440@3.0.13:
-    resolution: {integrity: sha512-lweg1JT8Eu4rN/l3t8KxOFakwGHOA72MUrfaUBc8ErAWE379H1vbykGitHxkJ/jFQe999FoaYIz9sI17exUE1w==}
+  /@renovatebot/pep440@3.0.14:
+    resolution: {integrity: sha512-ijhB6zyR20xUyhKR9zOy+9wBBAUD6D+LiBjbVMjMTF+8rEfPMA2mTGh+EJ0t44h8ysV41iKNzC0dQmYjxSw9BA==}
     engines: {node: ^18.12.0 || >= 20.0.0, pnpm: ^8.6.11}
     dev: true
 
@@ -4459,8 +4459,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.91.4(typanion@3.14.0):
-    resolution: {integrity: sha512-uL01AJhBndvr+doXxdRcbIhY63c4Tx8sZIGHZc4Ut9LGxaDCjI+JinzMxJwt/P25uG0yW7xADFKrrktfptr0vA==}
+  /renovate@37.92.0(typanion@3.14.0):
+    resolution: {integrity: sha512-v1j7hPLxLanJxbXzgZHbALUQ3bxAbws4NTMesMaJ6JZwhlmKLJZEzy/xg9hfzOgDao54zMndjghc/qjbuk4STg==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4484,7 +4484,7 @@ packages:
       '@opentelemetry/semantic-conventions': 1.18.1
       '@qnighy/marshal': 0.1.3
       '@renovatebot/osv-offline': 1.3.10
-      '@renovatebot/pep440': 3.0.13
+      '@renovatebot/pep440': 3.0.14
       '@renovatebot/ruby-semver': 3.0.20
       '@sindresorhus/is': 4.6.0
       '@types/ms': 0.7.34

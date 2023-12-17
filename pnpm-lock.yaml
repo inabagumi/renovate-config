@@ -967,12 +967,12 @@ packages:
       js-tokens: 4.0.0
     dev: true
 
-  /@babel/runtime-corejs3@7.23.5:
-    resolution: {integrity: sha512-7+ziVclejQTLYhXl+Oi1f6gTGD1XDCeLa4R472TNGQxb08zbEJ0OdNoh5Piz+57Ltmui6xR88BXR4gS3/Toslw==}
+  /@babel/runtime-corejs3@7.23.6:
+    resolution: {integrity: sha512-Djs/ZTAnpyj0nyg7p1J6oiE/tZ9G2stqAFlLGZynrW+F3k2w2jGK2mLOBxzYIOcZYA89+c3d3wXKpYLcpwcU6w==}
     engines: {node: '>=6.9.0'}
     dependencies:
       core-js-pure: 3.34.0
-      regenerator-runtime: 0.14.0
+      regenerator-runtime: 0.14.1
     dev: true
 
   /@breejs/later@4.2.0:
@@ -1452,7 +1452,7 @@ packages:
   /@qnighy/marshal@0.1.3:
     resolution: {integrity: sha512-uaDZTJYtD2UgQTGemmgWeth+e2WapZm+GkAq8UU8AJ55PKRFaf1GkH7X/uzA+Ygu8iInzIlM2FGyCUnruyMKMg==}
     dependencies:
-      '@babel/runtime-corejs3': 7.23.5
+      '@babel/runtime-corejs3': 7.23.6
     dev: true
 
   /@redis/bloom@1.2.0(@redis/client@1.5.12):
@@ -1507,7 +1507,7 @@ packages:
   /@renovatebot/osv-offline-db@1.4.0:
     resolution: {integrity: sha512-VqR66WlewMLnDOVmnEAHIFZuATG46LwvNu6ZPjH0sEaH6bCqNxfJ6kBMFEiJOWWjGOxI1u2F+nr1vtdixC9UwA==}
     dependencies:
-      '@seald-io/nedb': 4.0.2
+      '@seald-io/nedb': 4.0.3
     dev: true
 
   /@renovatebot/osv-offline@1.3.10:
@@ -1538,8 +1538,8 @@ packages:
     resolution: {integrity: sha512-qv3jnwoakeax2razYaMsGI/luWdliBLHTdC6jU55hQt1hcFqzauH/HsBollQ7IR4ySTtYhT+xyHoijpA16C+tA==}
     dev: true
 
-  /@seald-io/nedb@4.0.2:
-    resolution: {integrity: sha512-gJ91fT1sgh2cLXYVcTSh7khZ8LdemI8+SojCdpZ5wy+DUQ4fSrEwGqOwbdV49NDs2BBO6GeBpSb8CnhG2IW1rw==}
+  /@seald-io/nedb@4.0.3:
+    resolution: {integrity: sha512-ik4rn0Ks8q1VEzhe6qFh9/MBrw77ym1OZxF2mBS6/H8cr4lpNhCvF8FqB901Oft1CSP50LL0ay4QQCU3xqn+Ew==}
     dependencies:
       '@seald-io/binary-search-tree': 1.0.3
       localforage: 1.10.0
@@ -4424,8 +4424,8 @@ packages:
       '@redis/time-series': 1.0.5(@redis/client@1.5.12)
     dev: true
 
-  /regenerator-runtime@0.14.0:
-    resolution: {integrity: sha512-srw17NI0TUWHuGa5CFGGmhfNIeja30WMBfbslPNhf6JrqQlLN5gcrvig1oqPxiVaXb0oW0XRKtH6Nngs5lKCIA==}
+  /regenerator-runtime@0.14.1:
+    resolution: {integrity: sha512-dYnhHh0nJoMfnkZs6GmmhFknAGRrLznOu5nc9ML+EJxGvrx6H7teuevqVqCuPcPK//3eDrrjQhehXVx9cnkGdw==}
     dev: true
 
   /remark-github@10.1.0:
@@ -5099,7 +5099,6 @@ packages:
 
   /undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
-    requiresBuild: true
     dev: true
 
   /unified@9.2.2:

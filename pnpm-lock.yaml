@@ -12,8 +12,8 @@ devDependencies:
     specifier: ~3.1.1
     version: 3.1.1
   renovate:
-    specifier: ^37.105.3
-    version: 37.105.3(typanion@3.14.0)
+    specifier: ^37.106.1
+    version: 37.106.1(typanion@3.14.0)
 
 packages:
 
@@ -4492,8 +4492,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.105.3(typanion@3.14.0):
-    resolution: {integrity: sha512-xuB3SLcPXoVbhmEne/KmY9yyvj+g92Jf+4ndopBZwG+LGCC8BCh7kDJSOyvkGLSrw4elkSS6VzS0HjOcq2FKvg==}
+  /renovate@37.106.1(typanion@3.14.0):
+    resolution: {integrity: sha512-B16GJdawyfPlqt91NtlgWZ54WraHGS29JsvSEXUkBmqrT24VzHNhBWNZTXw1iloTdFhaoXnvulxw/tFEpr1MeQ==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4595,7 +4595,7 @@ packages:
       slugify: 1.6.6
       source-map-support: 0.5.21
       toml-eslint-parser: 0.9.3
-      traverse: 0.6.7
+      traverse: 0.6.8
       tslib: 2.6.2
       upath: 2.0.1
       url-join: 4.0.1
@@ -5044,8 +5044,9 @@ packages:
     resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
     dev: true
 
-  /traverse@0.6.7:
-    resolution: {integrity: sha512-/y956gpUo9ZNCb99YjxG7OaslxZWHfCHAUUfshwqOXmxUIvqLjVO581BT+gM59+QV9tFe6/CGG53tsA1Y7RSdg==}
+  /traverse@0.6.8:
+    resolution: {integrity: sha512-aXJDbk6SnumuaZSANd21XAo15ucCDE38H4fkqiGsc3MhCK+wOlZvLP9cB/TvpHT0mOyWgC4Z8EwRlzqYSUzdsA==}
+    engines: {node: '>= 0.4'}
     dev: true
 
   /treeify@1.1.0:

@@ -7,10 +7,10 @@ settings:
 devDependencies:
   '@inabagumi/prettier-config':
     specifier: ^2.0.2
-    version: 2.0.2(prettier@3.2.3)
+    version: 2.0.2(prettier@3.2.4)
   prettier:
-    specifier: ~3.2.3
-    version: 3.2.3
+    specifier: ~3.2.4
+    version: 3.2.4
   renovate:
     specifier: ^37.138.0
     version: 37.139.0(typanion@3.14.0)
@@ -991,12 +991,12 @@ packages:
     engines: {node: '>=12.20'}
     dev: true
 
-  /@inabagumi/prettier-config@2.0.2(prettier@3.2.3):
+  /@inabagumi/prettier-config@2.0.2(prettier@3.2.4):
     resolution: {integrity: sha512-R35xTbZ0QeZ31k6S8KoSpzDSPPbFggYE6DgoVpW4cwIHF9VwAWToTfxd7vJ4J7m1rmMIJMWSvuYmPu1lvEcBNw==}
     peerDependencies:
       prettier: '>= 2.4.0'
     dependencies:
-      prettier: 3.2.3
+      prettier: 3.2.4
     dev: true
 
   /@isaacs/cliui@8.0.2:
@@ -4292,8 +4292,8 @@ packages:
     hasBin: true
     dev: true
 
-  /prettier@3.2.3:
-    resolution: {integrity: sha512-QNhUTBq+mqt1oH1dTfY3phOKNhcDdJkfttHI6u0kj7M2+c+7fmNKlgh2GhnHiqMcbxJ+a0j2igz/2jfl9QKLuw==}
+  /prettier@3.2.4:
+    resolution: {integrity: sha512-FWu1oLHKCrtpO1ypU6J0SbK2d9Ckwysq6bHj/uaCP26DxrPpppCLQRGVuqAxSTvhF00AcvDRyYrLNW7ocBhFFQ==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true

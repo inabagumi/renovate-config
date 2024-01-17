@@ -12,8 +12,8 @@ devDependencies:
     specifier: ~3.2.4
     version: 3.2.4
   renovate:
-    specifier: ^37.138.0
-    version: 37.139.0(typanion@3.14.0)
+    specifier: ^37.139.3
+    version: 37.139.3(typanion@3.14.0)
 
 packages:
 
@@ -980,8 +980,8 @@ packages:
     engines: {node: '>= 10'}
     dev: true
 
-  /@cdktf/hcl2json@0.19.2:
-    resolution: {integrity: sha512-gFj36AshWSyPKq/eNjQtMnWj0QM0tPtMulFpQ0FrB+eWj0GvxgWg9d65gGCZ8Y/o33VV/2Kv5l8VlDEYDW2S7Q==}
+  /@cdktf/hcl2json@0.20.1:
+    resolution: {integrity: sha512-pFSs2QfCS0I5qRhO9SI0VK87Zz8ZJK4MO8GlYprEO2s1aXo1VH6WWJw5tFFqMgntbzeci+Xj0kx7VaLgr21cTQ==}
     dependencies:
       fs-extra: 11.2.0
     dev: true
@@ -4466,8 +4466,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.139.0(typanion@3.14.0):
-    resolution: {integrity: sha512-9wEr5L+YIK7s36KIL2DEQJUWltDjE4hu1Sk+bGGe1Q05Yp2gmBwprZ7ePLTmefXaPYL0/5QC0g1ldLNZdUHiCw==}
+  /renovate@37.139.3(typanion@3.14.0):
+    resolution: {integrity: sha512-8Mp87kris8fu8aSlL+vfbQNtDCIucZ/Gt0SHCpiVem/ns7LR57HnqxYUmA15fgiCZrHTeKgpF3ZWym0K258Zlg==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4478,7 +4478,7 @@ packages:
       '@aws-sdk/client-s3': 3.363.0
       '@aws-sdk/credential-providers': 3.363.0
       '@breejs/later': 4.2.0
-      '@cdktf/hcl2json': 0.19.2
+      '@cdktf/hcl2json': 0.20.1
       '@opentelemetry/api': 1.7.0
       '@opentelemetry/context-async-hooks': 1.19.0(@opentelemetry/api@1.7.0)
       '@opentelemetry/exporter-trace-otlp-http': 0.46.0(@opentelemetry/api@1.7.0)

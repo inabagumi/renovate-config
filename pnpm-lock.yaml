@@ -12,8 +12,8 @@ devDependencies:
     specifier: ~3.2.4
     version: 3.2.4
   renovate:
-    specifier: ^37.140.2
-    version: 37.140.2(typanion@3.14.0)
+    specifier: ^37.140.3
+    version: 37.140.3(typanion@3.14.0)
 
 packages:
 
@@ -2276,8 +2276,8 @@ packages:
     resolution: {integrity: sha512-NmWvPnx0F1SfrQbYwOi7OeaNGokp9XhzNioJ/CSBs8Qa4vxug81mhJEAVZwxXuBmYB5KDRfMq/F3RR0BIU7sWg==}
     dev: true
 
-  /azure-devops-node-api@12.2.0:
-    resolution: {integrity: sha512-htza/rAmMNdLWpoFh5kG7CQFaZ17ylDEGCcQCTIu39R33YFCB8LIJNzjIL9Uqudzc5VdU47sxcXxAJvcuwc3Tw==}
+  /azure-devops-node-api@12.3.0:
+    resolution: {integrity: sha512-5HDhBFIXJxiFhcJ+A3hN87gwo92PrDNLJvcvRHjr+p7AsuUSF64yQU+M6wcBDczkIDVV7m+MrraKQ2tqUxSbCA==}
     dependencies:
       tunnel: 0.0.6
       typed-rest-client: 1.8.11
@@ -4466,8 +4466,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.140.2(typanion@3.14.0):
-    resolution: {integrity: sha512-v0G2CVoGGfAhynp64Cg9gg7ODJOy47QiXia4ILNQ509rAdRE44qaAJVgPpCco0ZeZXM3lq6ERk53DZLIeMy2LQ==}
+  /renovate@37.140.3(typanion@3.14.0):
+    resolution: {integrity: sha512-j1OnCPl9rJkDjAYelmZ0qZXV6AHgxv2cT4gr4nMzSL057Q/F6Gl6PVQPgBIJOnDwX0PwaEPybEntGEaOFTBI5A==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4502,7 +4502,7 @@ packages:
       aggregate-error: 3.1.0
       auth-header: 1.0.0
       aws4: 1.12.0
-      azure-devops-node-api: 12.2.0
+      azure-devops-node-api: 12.3.0
       bunyan: 1.8.15
       cacache: 18.0.2
       cacheable-lookup: 5.0.4

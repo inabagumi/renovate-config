@@ -12,8 +12,8 @@ devDependencies:
     specifier: ~3.2.5
     version: 3.2.5
   renovate:
-    specifier: ^37.182.1
-    version: 37.182.1(typanion@3.14.0)
+    specifier: ^37.182.2
+    version: 37.182.2(typanion@3.14.0)
 
 packages:
 
@@ -4401,12 +4401,6 @@ packages:
       tunnel-agent: 0.6.0
     dev: true
 
-  /prettier@3.2.2:
-    resolution: {integrity: sha512-HTByuKZzw7utPiDO523Tt2pLtEyK7OibUD9suEJQrPUCYQqrHr74GGX6VidMrovbf/I50mPqr8j/II6oBAuc5A==}
-    engines: {node: '>=14'}
-    hasBin: true
-    dev: true
-
   /prettier@3.2.5:
     resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
     engines: {node: '>=14'}
@@ -4591,8 +4585,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.182.1(typanion@3.14.0):
-    resolution: {integrity: sha512-HZ2mACjCEg1wVB+Uu5xghtEzFxqg0VYos1uDuPw6dRhyuOJNK1nG5jAhOhglR1pM6KE2DvaIfgNG5hyuqqH2QA==}
+  /renovate@37.182.2(typanion@3.14.0):
+    resolution: {integrity: sha512-oAQiLxvfzQm5D9pJm9R0FqFXX+fEqU35Gzk6FzkaLGyZiCw8fUQlWoKNhLrrlD2DLz6xrLewKavEubBltkQ/ZQ==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4683,7 +4677,7 @@ packages:
       p-queue: 6.6.2
       p-throttle: 4.1.1
       parse-link-header: 2.0.0
-      prettier: 3.2.2
+      prettier: 3.2.5
       redis: 4.6.12
       remark: 13.0.0
       remark-github: 10.1.0

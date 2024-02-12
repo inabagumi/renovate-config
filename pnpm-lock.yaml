@@ -12,8 +12,8 @@ devDependencies:
     specifier: ~3.2.5
     version: 3.2.5
   renovate:
-    specifier: ^37.183.2
-    version: 37.183.2(typanion@3.14.0)
+    specifier: ^37.184.2
+    version: 37.184.2(typanion@3.14.0)
 
 packages:
 
@@ -1504,17 +1504,17 @@ packages:
       '@redis/client': 1.5.13
     dev: true
 
-  /@renovatebot/osv-offline-db@1.5.1:
-    resolution: {integrity: sha512-I356SDDjbCu58j58TC1qiGQ4dwhSd9nQjl9bVbWNPjDY91S4tH5OfR6I5eV4bXxZgp0dxMWRakyFlbTbOjPpfw==}
+  /@renovatebot/osv-offline-db@1.6.0:
+    resolution: {integrity: sha512-cEOCTyd3+/7gPDmBn0pyJtF01+f9e/dJ1mOoML+v5AsP8GIPAzhtQUuIB5FiCxS4IsbP0qm34anYUZHGJldNJA==}
     dependencies:
       '@seald-io/nedb': 4.0.4
     dev: true
 
-  /@renovatebot/osv-offline@1.5.0:
-    resolution: {integrity: sha512-IQK1b0uCugooaK+miCNcaKUf+pBIK8uICFRZY2QyG1DuAFm2MfPYF3asMtO1ebD317QZGxaI4q08+V66T3K8HA==}
+  /@renovatebot/osv-offline@1.5.1:
+    resolution: {integrity: sha512-NQT7ikG+uA2M9IrGEY/f43FNXWQrFbIKSKk4kFxcOJL+Y3mYJF6EpVcqxfp2ExIrwu50r2rBbzdX9jgbuhiwwQ==}
     dependencies:
       '@octokit/rest': 20.0.2
-      '@renovatebot/osv-offline-db': 1.5.1
+      '@renovatebot/osv-offline-db': 1.6.0
       adm-zip: 0.5.10
       fs-extra: 11.2.0
       got: 11.8.6
@@ -4588,8 +4588,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.183.2(typanion@3.14.0):
-    resolution: {integrity: sha512-m/UlKl4VWB6xleus2eiOMGQVwuPkI7yyNKv0LOanaFSkjg6APlHOCGXk2yT5x1jrkYSbYbja94x6B1zW9JZaeg==}
+  /renovate@37.184.2(typanion@3.14.0):
+    resolution: {integrity: sha512-E7aVfMwKW4F07+Xs8CCCNdA580G12DnRpCYWMUQ2TqBBws9ry5iU+D4TPCqxW+abzPcpX9LqPENmvMTLgTN7gg==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4612,7 +4612,7 @@ packages:
       '@opentelemetry/sdk-trace-node': 1.21.0(@opentelemetry/api@1.7.0)
       '@opentelemetry/semantic-conventions': 1.21.0
       '@qnighy/marshal': 0.1.3
-      '@renovatebot/osv-offline': 1.5.0
+      '@renovatebot/osv-offline': 1.5.1
       '@renovatebot/pep440': 3.0.17
       '@renovatebot/ruby-semver': 3.0.23
       '@sindresorhus/is': 4.6.0

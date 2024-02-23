@@ -12,8 +12,8 @@ devDependencies:
     specifier: ~3.2.5
     version: 3.2.5
   renovate:
-    specifier: ^37.210.0
-    version: 37.210.0(typanion@3.14.0)
+    specifier: ^37.210.1
+    version: 37.210.1(typanion@3.14.0)
 
 packages:
 
@@ -4610,8 +4610,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.210.0(typanion@3.14.0):
-    resolution: {integrity: sha512-18Ak1VP5mLI3WUHYIQoj5JmPsSgJy6GyPn8C4gtZVy4qkpw/qRkVEuTeDhzPouY0vfOVS+iYkqKxSJ4ll/QlfQ==}
+  /renovate@37.210.1(typanion@3.14.0):
+    resolution: {integrity: sha512-MYWa/uNRSfFK6g/nWcOxNVJJwJHVTSdaIGcs69Wce2n2A8SWbzQ4YDSHxBskY1C1CUJ3oPXW9YyVtn4DkRmm1A==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4975,6 +4975,7 @@ packages:
   /socks@2.7.3:
     resolution: {integrity: sha512-vfuYK48HXCTFD03G/1/zkIls3Ebr2YNa4qU9gHDZdblHLiqhJrJGkY3+0Nx0JpN9qBhJbVObc1CNciT1bIZJxw==}
     engines: {node: '>= 10.0.0', npm: '>= 3.0.0'}
+    deprecated: please use 2.7.4 or 2.8.1 to fix package-lock issue
     requiresBuild: true
     dependencies:
       ip-address: 9.0.5

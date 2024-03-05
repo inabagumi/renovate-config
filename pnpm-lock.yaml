@@ -12,8 +12,8 @@ devDependencies:
     specifier: ~3.2.5
     version: 3.2.5
   renovate:
-    specifier: ^37.227.0
-    version: 37.227.0(typanion@3.14.0)
+    specifier: ^37.227.1
+    version: 37.227.1(typanion@3.14.0)
 
 packages:
 
@@ -3658,8 +3658,8 @@ packages:
     hasBin: true
     dev: true
 
-  /jsonata@2.0.3:
-    resolution: {integrity: sha512-Up2H81MUtjqI/dWwWX7p4+bUMfMrQJVMN/jW6clFMTiYP528fBOBNtRu944QhKTs3+IsVWbgMeUTny5fw2VMUA==}
+  /jsonata@2.0.4:
+    resolution: {integrity: sha512-vfavX4/G/yrYxE+UrmT/oUJ3ph7KqUrb0R7b0LVRcntQwxw+Z5kA1pNUIQzX5hF04Oe1eKxyoIPsmXtc2LgJTQ==}
     engines: {node: '>= 8'}
     dev: true
 
@@ -4617,8 +4617,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.227.0(typanion@3.14.0):
-    resolution: {integrity: sha512-KwZcwDKCId+xwHxARaMdzJSI3ojLQXcPgZq0EK9jIRpfAU8zwKl8DanY+hLjeUZI8xpnBRl1f4ovs4H3urY1OQ==}
+  /renovate@37.227.1(typanion@3.14.0):
+    resolution: {integrity: sha512-tWIH77p4BTAJdIQrW5mzXpiKJSBUY9H1pVQ48hiWixcR74IbwP0ApJLIEtt0Chz06QUL1g/SgquBeAgGM7lB5g==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4692,7 +4692,7 @@ packages:
       json-dup-key-validator: 1.0.3
       json-stringify-pretty-compact: 3.0.0
       json5: 2.2.3
-      jsonata: 2.0.3
+      jsonata: 2.0.4
       klona: 2.0.6
       lru-cache: 10.2.0
       luxon: 3.4.4

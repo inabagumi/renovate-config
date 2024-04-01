@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@inabagumi/prettier-config':
-    specifier: ^2.0.2
-    version: 2.0.2(prettier@3.2.5)
+    specifier: ^3.0.0
+    version: 3.0.0(prettier@3.2.5)
   prettier:
     specifier: ~3.2.5
     version: 3.2.5
@@ -992,8 +992,8 @@ packages:
     engines: {node: '>=12.20'}
     dev: true
 
-  /@inabagumi/prettier-config@2.0.2(prettier@3.2.5):
-    resolution: {integrity: sha512-R35xTbZ0QeZ31k6S8KoSpzDSPPbFggYE6DgoVpW4cwIHF9VwAWToTfxd7vJ4J7m1rmMIJMWSvuYmPu1lvEcBNw==}
+  /@inabagumi/prettier-config@3.0.0(prettier@3.2.5):
+    resolution: {integrity: sha512-C6SXKNTQ5Zd7+b/cDRlXpkzTcecbq0lsWFpIe+oxo4zIf6fuyi0/CS4w8vcviZI5QEQSU/mXBha/VF0ulyzZtQ==}
     peerDependencies:
       prettier: '>= 2.4.0'
     dependencies:
@@ -5500,6 +5500,7 @@ packages:
 
   /wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
+    requiresBuild: true
     dev: true
 
   /write-file-atomic@3.0.3:

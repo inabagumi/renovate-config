@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.2.1](https://github.com/inabagumi/renovate-config/compare/renovate-config-v5.2.0...renovate-config-v5.2.1) (2024-04-01)
+
+
+### Bug Fixes
+
+* **release-please:** change secret env key prefix to `RELEASE_PLEASE_` ([#3617](https://github.com/inabagumi/renovate-config/issues/3617)) ([1fab76d](https://github.com/inabagumi/renovate-config/commit/1fab76da76773d6ee93caba820deb05556384fe6))
+* **release-please:** fix secret name ([#3612](https://github.com/inabagumi/renovate-config/issues/3612)) ([7d6febc](https://github.com/inabagumi/renovate-config/commit/7d6febc8d5b5837287a096b595ac32ec9c31a9bd))
+* **release-please:** remove legacy property ([#3613](https://github.com/inabagumi/renovate-config/issues/3613)) ([2b4fc2f](https://github.com/inabagumi/renovate-config/commit/2b4fc2f4159d19ab9540fa118370c6867878b9c7))
+
 ## [5.2.0](https://github.com/inabagumi/renovate-config/compare/v5.1.2...v5.2.0) (2022-02-19)
 
 

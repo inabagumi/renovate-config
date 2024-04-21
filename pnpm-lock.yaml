@@ -329,8 +329,8 @@ packages:
   '@octokit/openapi-types@20.0.0':
     resolution: {integrity: sha512-EtqRBEjp1dL/15V7WiX5LJMIxxkdiGJnabzYx5Apx4FkQIFgAfKumXeYAqqJCj1s+BMX4cPFIFC4OLCR6stlnA==}
 
-  '@octokit/openapi-types@22.0.1':
-    resolution: {integrity: sha512-1yN5m1IMNXthoBDUXFF97N1gHop04B3H8ws7wtOr8GgRyDO1gKALjwMHARNBoMBiB/2vEe/vxstrApcJZzQbnQ==}
+  '@octokit/openapi-types@22.1.0':
+    resolution: {integrity: sha512-pGUdSP+eEPfZiQHNkZI0U01HLipxncisdJQB4G//OAmfeO8sqTQ9KRa0KF03TUPCziNsoXUrTg4B2Q1EX++T0Q==}
 
   '@octokit/plugin-paginate-rest@9.2.1':
     resolution: {integrity: sha512-wfGhE/TAkXZRLjksFXuDZdmGnJQHvtU/joFQdweXUgzo1XwvBCD4o4+75NtFfjfLK5IwLf9vHTfSiU3sLRYpRw==}
@@ -365,8 +365,8 @@ packages:
   '@octokit/types@12.6.0':
     resolution: {integrity: sha512-1rhSOfRa6H9w4YwK0yrf5faDaDTb+yLyBUKOCV4xtCDB5VmIPqd/v9yr9o6SAzOAlRxMiRiCic6JVM1/kunVkw==}
 
-  '@octokit/types@13.4.0':
-    resolution: {integrity: sha512-WlMegy3lPXYWASe3k9Jslc5a0anrYAYMWtsFrxBTdQjS70hvLH6C+PGvHbOsgy3RA3LouGJoU/vAt4KarecQLQ==}
+  '@octokit/types@13.4.1':
+    resolution: {integrity: sha512-Y73oOAzRBAUzR/iRAbGULzpNkX8vaxKCqEtg6K74Ff3w9f5apFnWtE/2nade7dMWWW3bS5Kkd6DJS4HF04xreg==}
 
   '@one-ini/wasm@0.1.1':
     resolution: {integrity: sha512-XuySG1E38YScSJoMlqovLru4KTUNSjgVTIjyh7qMX6aNN5HY5Ct5LhRJdxO79JtTzKfzV/bnWpz+zquYrISsvw==}
@@ -1107,8 +1107,8 @@ packages:
     engines: {node: '>=6.9.0'}
     hasBin: true
 
-  core-js-pure@3.36.1:
-    resolution: {integrity: sha512-NXCvHvSVYSrewP0L5OhltzXeWFJLo2AL2TYnj6iLV3Bw8mM62wAQMNgUCRI6EBu6hVVpbCxmOPlxh1Ikw2PfUA==}
+  core-js-pure@3.37.0:
+    resolution: {integrity: sha512-d3BrpyFr5eD4KcbRvQ3FTUx/KWmaDesr7+a3+1+P46IUnNoEt+oiLijPINZMEon7w9oGkIINWxrBAU9DEciwFQ==}
 
   core-util-is@1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
@@ -1411,8 +1411,8 @@ packages:
   functions-have-names@1.2.3:
     resolution: {integrity: sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==}
 
-  gaxios@6.4.0:
-    resolution: {integrity: sha512-apAloYrY4dlBGlhauDAYSZveafb5U6+L9titing1wox6BvWM0TSXBp603zTrLpyLMGkrcFgohnUN150dFN/zOA==}
+  gaxios@6.5.0:
+    resolution: {integrity: sha512-R9QGdv8j4/dlNoQbX3hSaK/S0rkMijqjVvW3YM06CoBdbU/VdKd159j4hePpng0KuE6Lh6JJ7UdmVGJZFcAG1w==}
     engines: {node: '>=14'}
 
   gcp-metadata@6.1.0:
@@ -2048,8 +2048,8 @@ packages:
   neo-async@2.6.2:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
 
-  node-abi@3.57.0:
-    resolution: {integrity: sha512-Dp+A9JWxRaKuHP35H77I4kCKesDy5HUDEmScia2FyncMTOXASMyg251F5PhFoDA5uqBrDDffiLpbqnrZmNXW+g==}
+  node-abi@3.60.0:
+    resolution: {integrity: sha512-zcGgwoXbzw9NczqbGzAWL/ToDYAxv1V8gL1D67ClbdkIfeeDBbY0GelZtC25ayLvVjr2q2cloHeQV1R0QAWqRQ==}
     engines: {node: '>=10'}
 
   node-fetch@2.7.0:
@@ -3604,7 +3604,7 @@ snapshots:
 
   '@babel/runtime-corejs3@7.24.4':
     dependencies:
-      core-js-pure: 3.36.1
+      core-js-pure: 3.37.0
       regenerator-runtime: 0.14.1
 
   '@breejs/later@4.2.0': {}
@@ -3671,24 +3671,24 @@ snapshots:
       '@octokit/graphql': 7.1.0
       '@octokit/request': 8.4.0
       '@octokit/request-error': 5.1.0
-      '@octokit/types': 13.4.0
+      '@octokit/types': 13.4.1
       before-after-hook: 2.2.3
       universal-user-agent: 6.0.1
 
   '@octokit/endpoint@9.0.5':
     dependencies:
-      '@octokit/types': 13.4.0
+      '@octokit/types': 13.4.1
       universal-user-agent: 6.0.1
 
   '@octokit/graphql@7.1.0':
     dependencies:
       '@octokit/request': 8.4.0
-      '@octokit/types': 13.4.0
+      '@octokit/types': 13.4.1
       universal-user-agent: 6.0.1
 
   '@octokit/openapi-types@20.0.0': {}
 
-  '@octokit/openapi-types@22.0.1': {}
+  '@octokit/openapi-types@22.1.0': {}
 
   '@octokit/plugin-paginate-rest@9.2.1(@octokit/core@5.2.0)':
     dependencies:
@@ -3706,7 +3706,7 @@ snapshots:
 
   '@octokit/request-error@5.1.0':
     dependencies:
-      '@octokit/types': 13.4.0
+      '@octokit/types': 13.4.1
       deprecation: 2.3.1
       once: 1.4.0
 
@@ -3714,7 +3714,7 @@ snapshots:
     dependencies:
       '@octokit/endpoint': 9.0.5
       '@octokit/request-error': 5.1.0
-      '@octokit/types': 13.4.0
+      '@octokit/types': 13.4.1
       universal-user-agent: 6.0.1
 
   '@octokit/rest@20.1.0':
@@ -3728,9 +3728,9 @@ snapshots:
     dependencies:
       '@octokit/openapi-types': 20.0.0
 
-  '@octokit/types@13.4.0':
+  '@octokit/types@13.4.1':
     dependencies:
-      '@octokit/openapi-types': 22.0.1
+      '@octokit/openapi-types': 22.1.0
 
   '@one-ini/wasm@0.1.1': {}
 
@@ -4641,7 +4641,7 @@ snapshots:
       meow: 7.1.1
       through2-concurrent: 2.0.0
 
-  core-js-pure@3.36.1: {}
+  core-js-pure@3.37.0: {}
 
   core-util-is@1.0.3: {}
 
@@ -4985,7 +4985,7 @@ snapshots:
 
   functions-have-names@1.2.3: {}
 
-  gaxios@6.4.0(encoding@0.1.13):
+  gaxios@6.5.0(encoding@0.1.13):
     dependencies:
       extend: 3.0.2
       https-proxy-agent: 7.0.4
@@ -4998,7 +4998,7 @@ snapshots:
 
   gcp-metadata@6.1.0(encoding@0.1.13):
     dependencies:
-      gaxios: 6.4.0(encoding@0.1.13)
+      gaxios: 6.5.0(encoding@0.1.13)
       json-bigint: 1.0.0
     transitivePeerDependencies:
       - encoding
@@ -5090,7 +5090,7 @@ snapshots:
     dependencies:
       base64-js: 1.5.1
       ecdsa-sig-formatter: 1.0.11
-      gaxios: 6.4.0(encoding@0.1.13)
+      gaxios: 6.5.0(encoding@0.1.13)
       gcp-metadata: 6.1.0(encoding@0.1.13)
       gtoken: 7.1.0(encoding@0.1.13)
       jws: 4.0.0
@@ -5124,7 +5124,7 @@ snapshots:
 
   gtoken@7.1.0(encoding@0.1.13):
     dependencies:
-      gaxios: 6.4.0(encoding@0.1.13)
+      gaxios: 6.5.0(encoding@0.1.13)
       jws: 4.0.0
     transitivePeerDependencies:
       - encoding
@@ -5688,7 +5688,7 @@ snapshots:
 
   neo-async@2.6.2: {}
 
-  node-abi@3.57.0:
+  node-abi@3.60.0:
     dependencies:
       semver: 7.6.0
 
@@ -5868,7 +5868,7 @@ snapshots:
       minimist: 1.2.8
       mkdirp-classic: 0.5.3
       napi-build-utils: 1.0.2
-      node-abi: 3.57.0
+      node-abi: 3.60.0
       pump: 3.0.0
       rc: 1.2.8
       simple-get: 4.0.1

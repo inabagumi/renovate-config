@@ -15,8 +15,8 @@ importers:
         specifier: ~3.2.5
         version: 3.2.5
       renovate:
-        specifier: ^37.316.0
-        version: 37.316.0(encoding@0.1.13)(typanion@3.14.0)
+        specifier: ^37.316.3
+        version: 37.316.3(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -268,8 +268,8 @@ packages:
     resolution: {integrity: sha512-EVMD0SgJtOuFeg0lAVbCwa+qeTKILb87jqvLyUtQswGD9+ce2nB52Y5zbTF1Hc0MDFfbydcMcxb47jSdhikVHA==}
     engines: {node: '>= 10'}
 
-  '@cdktf/hcl2json@0.20.6':
-    resolution: {integrity: sha512-TP3kjz0Oi8HFFlZrqOHTXC6heeRER7Ww5o/HyQDyoCeqLFxl/tqjBe3NxgCw9sOV9oNhYq6ldV/6BBOV7G2gwg==}
+  '@cdktf/hcl2json@0.20.7':
+    resolution: {integrity: sha512-325Swm3ySUEbscSIXrtrNOt0mJCyVTheD5SNuDTcMYLyTPQNgu/6LgKu36YQt0AKK3zUp+f56pEYMitpR9FmLQ==}
 
   '@gwhitney/detect-indent@7.0.1':
     resolution: {integrity: sha512-7bQW+gkKa2kKZPeJf6+c6gFK9ARxQfn+FKy9ScTBppyKRWH2KzsmweXUoklqeEiHiNVWaeP5csIdsNq6w7QhzA==}
@@ -2305,8 +2305,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@37.316.0:
-    resolution: {integrity: sha512-jq0wx3+QCPfsEu15NsN14qMJnOsfsO3hfPP6dlF8RiAKb1UGFZ/q11ifi2R9YJu2ftDAj6MX76sfROhNtMJYJw==}
+  renovate@37.316.3:
+    resolution: {integrity: sha512-BkPkNWvFZgrFrF7DeLF32GOrabjKo7ECDK5Se9mueQxN7VxqqkGFFg+riBBxDO54BotU+NOcaYJlaweon4PKuQ==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
 
@@ -3609,7 +3609,7 @@ snapshots:
 
   '@breejs/later@4.2.0': {}
 
-  '@cdktf/hcl2json@0.20.6':
+  '@cdktf/hcl2json@0.20.7':
     dependencies:
       fs-extra: 11.2.0
 
@@ -6002,7 +6002,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@37.316.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@37.316.3(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.363.0
       '@aws-sdk/client-ec2': 3.363.0
@@ -6011,7 +6011,7 @@ snapshots:
       '@aws-sdk/client-s3': 3.363.0
       '@aws-sdk/credential-providers': 3.363.0
       '@breejs/later': 4.2.0
-      '@cdktf/hcl2json': 0.20.6
+      '@cdktf/hcl2json': 0.20.7
       '@opentelemetry/api': 1.8.0
       '@opentelemetry/context-async-hooks': 1.23.0(@opentelemetry/api@1.8.0)
       '@opentelemetry/exporter-trace-otlp-http': 0.50.0(@opentelemetry/api@1.8.0)

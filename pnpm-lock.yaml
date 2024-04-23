@@ -15,8 +15,8 @@ importers:
         specifier: ~3.2.5
         version: 3.2.5
       renovate:
-        specifier: ^37.318.0
-        version: 37.318.0(encoding@0.1.13)(typanion@3.14.0)
+        specifier: ^37.318.1
+        version: 37.318.1(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -1486,8 +1486,8 @@ packages:
     resolution: {integrity: sha512-QUcQZutczESpdo2w9BMG6VpLFoq9ix7ER5HLM1mAdZdri2F3eISkCb8ep84W6YOo0grYWJdyT/8JkYqGjQfSSQ==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
 
-  google-auth-library@9.7.0:
-    resolution: {integrity: sha512-I/AvzBiUXDzLOy4iIZ2W+Zq33W4lcukQv1nl7C8WUA6SQwyQwUwu3waNmWNAvzds//FG8SZ+DnKnW/2k6mQS8A==}
+  google-auth-library@9.8.0:
+    resolution: {integrity: sha512-TJJXFzMlVGRlIH27gYZ6XXyPf5Y3OItsKFfefsDAafNNywYRTkei83nEO29IrYj8GtdHWU78YnW+YZdaZaXIJA==}
     engines: {node: '>=14'}
 
   gopd@1.0.1:
@@ -2351,8 +2351,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@37.318.0:
-    resolution: {integrity: sha512-y11mabx5guUNeCuxEe32ZVgvOmhSpofmghcAT3SomOsVQk1Q1yB9yYVg7KZwUIux9R7iGQRPF+ZWaw09buFZgw==}
+  renovate@37.318.1:
+    resolution: {integrity: sha512-aRXv5gJmIdBs7hOtYV5ZbCTH5Z52FT7ZhPIovEh19cZ96a8ubaqOoeqhEwhCFOFAOn/z618xPhOn5w+oOobKiQ==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
 
@@ -5156,7 +5156,7 @@ snapshots:
       klona: 2.0.6
       moo: 0.5.2
 
-  google-auth-library@9.7.0(encoding@0.1.13):
+  google-auth-library@9.8.0(encoding@0.1.13):
     dependencies:
       base64-js: 1.5.1
       ecdsa-sig-formatter: 1.0.11
@@ -6126,7 +6126,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@37.318.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@37.318.1(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.363.0
       '@aws-sdk/client-ec2': 3.363.0
@@ -6188,7 +6188,7 @@ snapshots:
       glob: 10.3.12
       global-agent: 3.0.0
       good-enough-parser: 1.1.23
-      google-auth-library: 9.7.0(encoding@0.1.13)
+      google-auth-library: 9.8.0(encoding@0.1.13)
       got: 11.8.6
       graph-data-structure: 3.5.0
       handlebars: 4.7.8

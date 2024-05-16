@@ -15,8 +15,8 @@ importers:
         specifier: ~3.2.5
         version: 3.2.5
       renovate:
-        specifier: ^37.367.0
-        version: 37.367.0(@aws-sdk/client-sso-oidc@3.574.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.574.0))(encoding@0.1.13)(typanion@3.14.0)
+        specifier: ^37.368.0
+        version: 37.368.0(@aws-sdk/client-sso-oidc@3.574.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.574.0))(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -1549,8 +1549,8 @@ packages:
     resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==}
     engines: {node: '>= 6'}
 
-  glob@10.3.12:
-    resolution: {integrity: sha512-TCNv8vJ+xz4QiqTpfOJA7HvYv+tNIRHKfUWw/q+v2jdgN4ebz+KY9tGx5J4rHP0o84mNP+ApH66HRX8us3Khqg==}
+  glob@10.3.14:
+    resolution: {integrity: sha512-4fkAqu93xe9Mk7le9v0y3VrPDqLKHarNi2s4Pv7f2yOvfhWfhc7hRPHC/JyqMqb8B/Dt/eGS4n7ykwf3fOsl8g==}
     engines: {node: '>=16 || 14 >=14.17'}
     hasBin: true
 
@@ -2464,8 +2464,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@37.367.0:
-    resolution: {integrity: sha512-bHtQJOsuEztJp7UMltfDJbHYHbJRwL7nf43uxz13/2dUo1WtG7RzjoluAp7kYlvBZGjHzRtF2gjDRNAro8n5xw==}
+  renovate@37.368.0:
+    resolution: {integrity: sha512-LHm3TytIspht/k/MGBIpoFLh+UPVWClphHwX2TPUtv60x+5MvgflDsYa0+f5r2+dcKloU7ysruInO43tM6QNFw==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^9.0.0}
     hasBin: true
 
@@ -5178,7 +5178,7 @@ snapshots:
     dependencies:
       '@npmcli/fs': 3.1.1
       fs-minipass: 3.0.3
-      glob: 10.3.12
+      glob: 10.3.14
       lru-cache: 10.2.2
       minipass: 7.1.1
       minipass-collect: 2.0.1
@@ -5735,7 +5735,7 @@ snapshots:
     dependencies:
       is-glob: 4.0.3
 
-  glob@10.3.12:
+  glob@10.3.14:
     dependencies:
       foreground-child: 3.1.1
       jackspeak: 2.3.6
@@ -6438,7 +6438,7 @@ snapshots:
     dependencies:
       env-paths: 2.2.1
       exponential-backoff: 3.1.1
-      glob: 10.3.12
+      glob: 10.3.14
       graceful-fs: 4.2.11
       make-fetch-happen: 13.0.1
       nopt: 7.2.1
@@ -6760,7 +6760,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@37.367.0(@aws-sdk/client-sso-oidc@3.574.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.574.0))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@37.368.0(@aws-sdk/client-sso-oidc@3.574.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.574.0))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.565.0(@aws-sdk/client-sso-oidc@3.574.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.574.0))
       '@aws-sdk/client-ec2': 3.565.0(@aws-sdk/client-sso-oidc@3.574.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.574.0))
@@ -6816,7 +6816,7 @@ snapshots:
       fs-extra: 11.2.0
       git-url-parse: 14.0.0
       github-url-from-git: 1.5.0
-      glob: 10.3.12
+      glob: 10.3.14
       global-agent: 3.0.0
       good-enough-parser: 1.1.23
       google-auth-library: 9.9.0(encoding@0.1.13)

@@ -15,8 +15,8 @@ importers:
         specifier: ~3.2.5
         version: 3.2.5
       renovate:
-        specifier: ^37.363.9
-        version: 37.363.9(@aws-sdk/client-sso-oidc@3.574.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.574.0))(encoding@0.1.13)(typanion@3.14.0)
+        specifier: ^37.367.0
+        version: 37.367.0(@aws-sdk/client-sso-oidc@3.574.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.574.0))(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -1921,8 +1921,8 @@ packages:
     engines: {node: '>=6'}
     hasBin: true
 
-  jsonata@2.0.4:
-    resolution: {integrity: sha512-vfavX4/G/yrYxE+UrmT/oUJ3ph7KqUrb0R7b0LVRcntQwxw+Z5kA1pNUIQzX5hF04Oe1eKxyoIPsmXtc2LgJTQ==}
+  jsonata@2.0.5:
+    resolution: {integrity: sha512-wEse9+QLIIU5IaCgtJCPsFi/H4F3qcikWzF4bAELZiRz08ohfx3Q6CjDRf4ZPF5P/92RI3KIHtb7u3jqPaHXdQ==}
     engines: {node: '>= 8'}
 
   jsonc-parser@3.2.1:
@@ -2464,8 +2464,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@37.363.9:
-    resolution: {integrity: sha512-nqxg83HiPSvks5aEgq4IdigHRYVnbfMxEr9dEuRccW7pDtoM1wvOvXdd1gwSWohCru4PgxWYJ4OMLPVkwHtb1g==}
+  renovate@37.367.0:
+    resolution: {integrity: sha512-bHtQJOsuEztJp7UMltfDJbHYHbJRwL7nf43uxz13/2dUo1WtG7RzjoluAp7kYlvBZGjHzRtF2gjDRNAro8n5xw==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^9.0.0}
     hasBin: true
 
@@ -6117,7 +6117,7 @@ snapshots:
 
   json5@2.2.3: {}
 
-  jsonata@2.0.4: {}
+  jsonata@2.0.5: {}
 
   jsonc-parser@3.2.1: {}
 
@@ -6760,7 +6760,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@37.363.9(@aws-sdk/client-sso-oidc@3.574.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.574.0))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@37.367.0(@aws-sdk/client-sso-oidc@3.574.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.574.0))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.565.0(@aws-sdk/client-sso-oidc@3.574.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.574.0))
       '@aws-sdk/client-ec2': 3.565.0(@aws-sdk/client-sso-oidc@3.574.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.574.0))
@@ -6829,7 +6829,7 @@ snapshots:
       json-dup-key-validator: 1.0.3
       json-stringify-pretty-compact: 3.0.0
       json5: 2.2.3
-      jsonata: 2.0.4
+      jsonata: 2.0.5
       jsonc-parser: 3.2.1
       klona: 2.0.6
       lru-cache: 10.2.2

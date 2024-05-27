@@ -15,8 +15,8 @@ importers:
         specifier: ~3.2.5
         version: 3.2.5
       renovate:
-        specifier: ^37.377.8
-        version: 37.377.8(@aws-sdk/client-sso-oidc@3.583.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.583.0))(encoding@0.1.13)(typanion@3.14.0)
+        specifier: ^37.378.0
+        version: 37.379.0(@aws-sdk/client-sso-oidc@3.583.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.583.0))(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -2618,8 +2618,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@37.377.8:
-    resolution: {integrity: sha512-djDtLxM+0dnxmTkq043yFxvh6gNUdsr1Ax3lyo1w7anPTLtcAHli22IiftGDbPbA125XMpCb1iO2+tKZE1hfqA==}
+  renovate@37.379.0:
+    resolution: {integrity: sha512-HMAkn+s2RLF7G/qmzOJ+qrK4UR43bU6vqBIqZw1hU0z9jhHp1Jodlf3KVgHgHvXePdsED397foUpatmh7NSIRQ==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^9.0.0}
     hasBin: true
 
@@ -7061,7 +7061,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@37.377.8(@aws-sdk/client-sso-oidc@3.583.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.583.0))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@37.379.0(@aws-sdk/client-sso-oidc@3.583.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.583.0))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.565.0(@aws-sdk/client-sso-oidc@3.583.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.583.0))
       '@aws-sdk/client-ec2': 3.565.0(@aws-sdk/client-sso-oidc@3.583.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.583.0))
@@ -7106,6 +7106,7 @@ snapshots:
       deepmerge: 4.3.1
       dequal: 2.0.3
       detect-indent: 6.1.0
+      diff: 5.2.0
       editorconfig: 2.0.0
       email-addresses: 5.0.0
       emoji-regex: 10.3.0

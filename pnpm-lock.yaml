@@ -15,8 +15,8 @@ importers:
         specifier: ~3.2.5
         version: 3.2.5
       renovate:
-        specifier: ^37.379.0
-        version: 37.379.0(@aws-sdk/client-sso-oidc@3.583.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.583.0))(encoding@0.1.13)(typanion@3.14.0)
+        specifier: ^37.381.0
+        version: 37.381.0(@aws-sdk/client-sso-oidc@3.583.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.583.0))(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -1161,8 +1161,8 @@ packages:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
 
-  aws4@1.12.0:
-    resolution: {integrity: sha512-NmWvPnx0F1SfrQbYwOi7OeaNGokp9XhzNioJ/CSBs8Qa4vxug81mhJEAVZwxXuBmYB5KDRfMq/F3RR0BIU7sWg==}
+  aws4@1.13.0:
+    resolution: {integrity: sha512-3AungXC4I8kKsS9PuS4JH2nc+0bVY/mjgrephHTIi8fpEeGsTHBUJeosp0Wc1myYMElmD0B3Oc4XL/HVJ4PV2g==}
 
   azure-devops-node-api@13.0.0:
     resolution: {integrity: sha512-T/i3pt2Dxb2//1+TJT05Ff5heUmQEWKwa8sdguIhdRYT3Zge9FYw98zpfFvCD7CZsz6AN74SKGgqF3ISVN2TGg==}
@@ -2618,8 +2618,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@37.379.0:
-    resolution: {integrity: sha512-HMAkn+s2RLF7G/qmzOJ+qrK4UR43bU6vqBIqZw1hU0z9jhHp1Jodlf3KVgHgHvXePdsED397foUpatmh7NSIRQ==}
+  renovate@37.381.0:
+    resolution: {integrity: sha512-gnoGEPMLIQcAoXcvhIFIZonbTUMkvA48lX2K8Q3ZSoPlzG+aoX8egnVLZwWc5ufdz2GT+NP5Ml4izEUErBcIXQ==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^9.0.0}
     hasBin: true
 
@@ -5392,7 +5392,7 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.0.0
 
-  aws4@1.12.0: {}
+  aws4@1.13.0: {}
 
   azure-devops-node-api@13.0.0:
     dependencies:
@@ -7061,7 +7061,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@37.379.0(@aws-sdk/client-sso-oidc@3.583.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.583.0))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@37.381.0(@aws-sdk/client-sso-oidc@3.583.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.583.0))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.565.0(@aws-sdk/client-sso-oidc@3.583.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.583.0))
       '@aws-sdk/client-ec2': 3.565.0(@aws-sdk/client-sso-oidc@3.583.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.583.0))
@@ -7092,7 +7092,7 @@ snapshots:
       agentkeepalive: 4.5.0
       aggregate-error: 3.1.0
       auth-header: 1.0.0
-      aws4: 1.12.0
+      aws4: 1.13.0
       azure-devops-node-api: 13.0.0
       bunyan: 1.8.15
       cacache: 18.0.3

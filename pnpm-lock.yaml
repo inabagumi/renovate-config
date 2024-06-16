@@ -15,8 +15,8 @@ importers:
         specifier: ~3.3.2
         version: 3.3.2
       renovate:
-        specifier: ^37.408.2
-        version: 37.408.2(@aws-sdk/client-sso-oidc@3.588.0(@aws-sdk/client-sts@3.588.0))(encoding@0.1.13)(typanion@3.14.0)
+        specifier: ^37.408.3
+        version: 37.408.3(@aws-sdk/client-sso-oidc@3.588.0(@aws-sdk/client-sts@3.588.0))(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -2417,8 +2417,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@37.408.2:
-    resolution: {integrity: sha512-Eb+27CL64k0WlaGyKlJqp/X2J737+mD/DR5SD7ikfFomSchIYiKuPY2+Q966R1x4S4HiS/3eexPGksEeAgtd0Q==}
+  renovate@37.408.3:
+    resolution: {integrity: sha512-GIXIBnSiV1ituYMxQQJ4zbnt28oOyZtJkRtWsdKdwIuxAVJSVErZDjG3qWgqJOzCQKA338JQEd81W49UFbsJ1A==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^9.0.0}
     hasBin: true
 
@@ -6400,7 +6400,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@37.408.2(@aws-sdk/client-sso-oidc@3.588.0(@aws-sdk/client-sts@3.588.0))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@37.408.3(@aws-sdk/client-sso-oidc@3.588.0(@aws-sdk/client-sts@3.588.0))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.588.0
       '@aws-sdk/client-ec2': 3.588.0

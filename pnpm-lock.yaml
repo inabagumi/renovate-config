@@ -15,8 +15,8 @@ importers:
         specifier: ~3.3.3
         version: 3.3.3
       renovate:
-        specifier: ^38.24.1
-        version: 38.24.1(@aws-sdk/client-sso-oidc@3.621.0(@aws-sdk/client-sts@3.621.0))(encoding@0.1.13)(typanion@3.14.0)
+        specifier: ^38.25.0
+        version: 38.25.0(@aws-sdk/client-sso-oidc@3.621.0(@aws-sdk/client-sts@3.621.0))(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -1920,10 +1920,6 @@ packages:
     resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
     engines: {node: '>=10'}
 
-  luxon@3.4.4:
-    resolution: {integrity: sha512-zobTr7akeGHnv7eBOXcRgMeCP6+uyYsczwmeRCauvpvaAltgNyTbLH/+VaEAPUeWBT+1GuNmz4wC/6jtQzbbVA==}
-    engines: {node: '>=12'}
-
   luxon@3.5.0:
     resolution: {integrity: sha512-rh+Zjr6DNfUYR3bPwJEnuwDdqMbxZW7LOQfUN4B54+Cl+0o5zaU9RJ6bcidfDtC1cWCZXQ+nvX8bf6bAji37QQ==}
     engines: {node: '>=12'}
@@ -2409,8 +2405,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@38.24.1:
-    resolution: {integrity: sha512-WDIpxPt7GZ4+uqouMsmaXzwF6iOH04+3d2edDXwK8fSDT2bSX8R//+s2w2DoKpKVwcrIhwfsUKvlZuCPgWvscQ==}
+  renovate@38.25.0:
+    resolution: {integrity: sha512-BFabSL6PIEPxDHEltBlJEfB+NdHGxFFPul3qJp1l2q7G246Qbcp/a1edalIfJD4NTxFz3GIsmvhzaceLdPPRVw==}
     engines: {node: ^20.15.1, pnpm: ^9.0.0}
     hasBin: true
 
@@ -5681,8 +5677,6 @@ snapshots:
     dependencies:
       yallist: 4.0.0
 
-  luxon@3.4.4: {}
-
   luxon@3.5.0: {}
 
   make-fetch-happen@13.0.1:
@@ -6275,7 +6269,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@38.24.1(@aws-sdk/client-sso-oidc@3.621.0(@aws-sdk/client-sts@3.621.0))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@38.25.0(@aws-sdk/client-sso-oidc@3.621.0(@aws-sdk/client-sts@3.621.0))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.621.0
       '@aws-sdk/client-ec2': 3.621.0
@@ -6348,7 +6342,7 @@ snapshots:
       jsonata: 2.0.5
       jsonc-parser: 3.3.1
       klona: 2.0.6
-      luxon: 3.4.4
+      luxon: 3.5.0
       markdown-it: 14.1.0
       markdown-table: 2.0.0
       minimatch: 10.0.1

@@ -15,8 +15,8 @@ importers:
         specifier: ~3.3.3
         version: 3.3.3
       renovate:
-        specifier: ^39.14.1
-        version: 39.14.1(@aws-sdk/client-sso-oidc@3.687.0(@aws-sdk/client-sts@3.687.0))(encoding@0.1.13)(typanion@3.14.0)
+        specifier: ^39.15.1
+        version: 39.15.1(@aws-sdk/client-sso-oidc@3.687.0(@aws-sdk/client-sts@3.687.0))(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -938,9 +938,6 @@ packages:
     resolution: {integrity: sha512-3CYzex9M9FGQjCGMGyi6/31c8GJbgb0qGyrx5HWxPd0aCwh4cB2YjMb2Xf9UuoogrMrlO9cTqnB5rI5GHZTcUA==}
     engines: {node: '>=0.10.0'}
 
-  asn1.js@5.4.1:
-    resolution: {integrity: sha512-+I//4cYPccV8LdmBLiX8CYvf9Sp3vQsrqu2QNXRcrbiWvcx/UdlFiqUJJzxRQxgsZmvhXhn4cSKeSmoFjVdupA==}
-
   async-mutex@0.5.0:
     resolution: {integrity: sha512-1A94B18jkJ3DYq284ohPxoXbfTA5HsQ7/Mf4DEhcyLx3Bz27Rh59iScbB6EPiP+B+joue6YCxcMXSbFC1tZKwA==}
 
@@ -984,9 +981,6 @@ packages:
 
   bl@4.1.0:
     resolution: {integrity: sha512-1W07cM9gS6DcLperZfFSj+bWLtaPGSOHWhPiGzXmvVJbRLdG82sH/Kn8EtW1VqWVA54AKf2h5k5BbnIbwF3h6w==}
-
-  bn.js@4.12.0:
-    resolution: {integrity: sha512-c98Bf3tPniI+scsdk237ku1Dc3ujXQTSgyiPUDEOe7tRkhrqridvh8klBv0HCEso1OLOYcHuCv/cS6DNxKH+ZA==}
 
   bn@1.0.5:
     resolution: {integrity: sha512-7TvGbqbZb6lDzsBtNz1VkdXXV0BVmZKPPViPmo2IpvwaryF7P+QKYKACyVkwo2mZPr2CpFiz7EtgPEcc3o/JFQ==}
@@ -2078,9 +2072,9 @@ packages:
   once@1.4.0:
     resolution: {integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==}
 
-  openpgp@5.11.2:
-    resolution: {integrity: sha512-f8dJFVLwdkvPvW3VPFs6q9Vs2+HNhdvwls7a/MIFcQUB+XiQzRe7alfa3RtwfGJU7oUDDMAWPZ0nYsHa23Az+A==}
-    engines: {node: '>= 8.0.0'}
+  openpgp@6.0.0:
+    resolution: {integrity: sha512-8YMuhOV6bP8+J4bCHltvRwol1sBJhxAcJXvwEKpcK65lKpQ0VUbymQR/EuGrzxYnatNSyMyrMgip4j/F0vhZvg==}
+    engines: {node: '>= 18.0.0'}
 
   p-all@3.0.0:
     resolution: {integrity: sha512-qUZbvbBFVXm6uJ7U/WDiO0fv6waBMbjlCm4E66oZdRR+egswICarIdHyVSZZHudH8T5SF8x/JG0q0duFzPnlBw==}
@@ -2307,8 +2301,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.14.1:
-    resolution: {integrity: sha512-kxzMEDrOrb1dNWbqLcj8ty1yFzk3Go8fGq6gP8wKY3ttJkGuSLKjDgCKpcbkZMU1SFDjJByWqDnEpFrPHUGS4Q==}
+  renovate@39.15.1:
+    resolution: {integrity: sha512-8X3JDwt7ZcBzK7XEJDgM0JKM+efQmBBTj5nXicLMQeXJn5h2TBMZxgGvNUG+O65Z3lJO2juNA80o1c7atIxTOw==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^9.0.0}
     hasBin: true
 
@@ -4533,14 +4527,6 @@ snapshots:
 
   arrify@1.0.1: {}
 
-  asn1.js@5.4.1:
-    dependencies:
-      bn.js: 4.12.0
-      inherits: 2.0.4
-      minimalistic-assert: 1.0.1
-      safer-buffer: 2.1.2
-    optional: true
-
   async-mutex@0.5.0:
     dependencies:
       tslib: 2.8.1
@@ -4586,9 +4572,6 @@ snapshots:
       buffer: 5.7.1
       inherits: 2.0.4
       readable-stream: 3.6.2
-    optional: true
-
-  bn.js@4.12.0:
     optional: true
 
   bn@1.0.5: {}
@@ -5767,9 +5750,7 @@ snapshots:
     dependencies:
       wrappy: 1.0.2
 
-  openpgp@5.11.2:
-    dependencies:
-      asn1.js: 5.4.1
+  openpgp@6.0.0:
     optional: true
 
   p-all@3.0.0:
@@ -6041,7 +6022,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.14.1(@aws-sdk/client-sso-oidc@3.687.0(@aws-sdk/client-sts@3.687.0))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@39.15.1(@aws-sdk/client-sso-oidc@3.687.0(@aws-sdk/client-sts@3.687.0))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.687.0
       '@aws-sdk/client-ec2': 3.687.0
@@ -6154,7 +6135,7 @@ snapshots:
       zod: 3.23.8
     optionalDependencies:
       better-sqlite3: 11.5.0
-      openpgp: 5.11.2
+      openpgp: 6.0.0
       re2: 1.21.4
     transitivePeerDependencies:
       - '@aws-sdk/client-sso-oidc'

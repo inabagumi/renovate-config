@@ -15,8 +15,8 @@ importers:
         specifier: ~3.3.3
         version: 3.3.3
       renovate:
-        specifier: ^39.20.1
-        version: 39.20.1(@aws-sdk/client-sso-oidc@3.687.0(@aws-sdk/client-sts@3.687.0))(encoding@0.1.13)(typanion@3.14.0)
+        specifier: ^39.20.3
+        version: 39.20.3(@aws-sdk/client-sso-oidc@3.687.0(@aws-sdk/client-sts@3.687.0))(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -242,8 +242,8 @@ packages:
     resolution: {integrity: sha512-EVMD0SgJtOuFeg0lAVbCwa+qeTKILb87jqvLyUtQswGD9+ce2nB52Y5zbTF1Hc0MDFfbydcMcxb47jSdhikVHA==}
     engines: {node: '>= 10'}
 
-  '@cdktf/hcl2json@0.20.9':
-    resolution: {integrity: sha512-HlYqFsvEANyQJiQx8L2j05xot+bKa6T6PInc11dUCyQh8SbpVehdbGVN39TVnv1lIjdG7E2WNuxOf1L/Y3oF5w==}
+  '@cdktf/hcl2json@0.20.10':
+    resolution: {integrity: sha512-oh8g9727sSEnwRjIjPYnhTn4mvvxclRcovf5GIkFED+4HpiBLioVUUsX33rFk6wZZh175uJBOAvQ/qVG+Uaqyw==}
 
   '@gwhitney/detect-indent@7.0.1':
     resolution: {integrity: sha512-7bQW+gkKa2kKZPeJf6+c6gFK9ARxQfn+FKy9ScTBppyKRWH2KzsmweXUoklqeEiHiNVWaeP5csIdsNq6w7QhzA==}
@@ -2297,8 +2297,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.20.1:
-    resolution: {integrity: sha512-FzhridTQRhbmK5REFMLb/ARVRQUmRDN70vD4oT8i4KM27EwjzsmrD8Xx63O/Uje0XVObIHWMyi2rwJJdyxdoow==}
+  renovate@39.20.3:
+    resolution: {integrity: sha512-wC5xLSYp3pnf8SWCR79YK8hdla2GF5ch/FoNpe3ih3pKMJdoRMDackuI8jxdNJuRm3jAVMuzIF4rnSMugzxXSg==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^9.0.0}
     hasBin: true
 
@@ -3603,7 +3603,7 @@ snapshots:
 
   '@breejs/later@4.2.0': {}
 
-  '@cdktf/hcl2json@0.20.9':
+  '@cdktf/hcl2json@0.20.10':
     dependencies:
       fs-extra: 11.2.0
 
@@ -6014,7 +6014,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.20.1(@aws-sdk/client-sso-oidc@3.687.0(@aws-sdk/client-sts@3.687.0))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@39.20.3(@aws-sdk/client-sso-oidc@3.687.0(@aws-sdk/client-sts@3.687.0))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.687.0
       '@aws-sdk/client-ec2': 3.687.0
@@ -6023,7 +6023,7 @@ snapshots:
       '@aws-sdk/client-s3': 3.689.0
       '@aws-sdk/credential-providers': 3.687.0(@aws-sdk/client-sso-oidc@3.687.0(@aws-sdk/client-sts@3.687.0))
       '@breejs/later': 4.2.0
-      '@cdktf/hcl2json': 0.20.9
+      '@cdktf/hcl2json': 0.20.10
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/context-async-hooks': 1.27.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/exporter-trace-otlp-http': 0.54.2(@opentelemetry/api@1.9.0)

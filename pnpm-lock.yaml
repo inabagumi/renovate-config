@@ -10,10 +10,10 @@ importers:
     devDependencies:
       '@inabagumi/prettier-config':
         specifier: ^3.0.0
-        version: 3.0.0(prettier@3.4.0)
+        version: 3.0.0(prettier@3.4.1)
       prettier:
-        specifier: ~3.4.0
-        version: 3.4.0
+        specifier: ~3.4.1
+        version: 3.4.1
       renovate:
         specifier: ^39.30.0
         version: 39.30.0(@aws-sdk/client-sso-oidc@3.687.0(@aws-sdk/client-sts@3.687.0))(encoding@0.1.13)(typanion@3.14.0)
@@ -2207,8 +2207,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  prettier@3.4.0:
-    resolution: {integrity: sha512-/OXNZcLyWkfo13ofOW5M7SLh+k5pnIs07owXK2teFpnfaOEcycnSy7HQxldaVX1ZP/7Q8oO1eDuQJNwbomQq5Q==}
+  prettier@3.4.1:
+    resolution: {integrity: sha512-G+YdqtITVZmOJje6QkXQWzl3fSfMxFwm1tjTyo9exhkmWSqC4Yhd1+lug++IlR2mvRVAxEDDWYkQdeSztajqgg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -3624,9 +3624,9 @@ snapshots:
 
   '@gwhitney/detect-indent@7.0.1': {}
 
-  '@inabagumi/prettier-config@3.0.0(prettier@3.4.0)':
+  '@inabagumi/prettier-config@3.0.0(prettier@3.4.1)':
     dependencies:
-      prettier: 3.4.0
+      prettier: 3.4.1
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -5902,7 +5902,7 @@ snapshots:
 
   prettier@3.3.3: {}
 
-  prettier@3.4.0: {}
+  prettier@3.4.1: {}
 
   proc-log@4.2.0:
     optional: true

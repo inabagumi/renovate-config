@@ -9,21 +9,5 @@
   ],
   "lockFileMaintenance": {
     "extends": [":semanticCommitType(build)"]
-  },
-  "packageRules": [
-    {
-      "description": "Group packages from nextra",
-      "groupName": "nextra monorepo",
-      "matchPackagePatterns": [
-        "nextra-theme-blog",
-        "nextra-theme-docs",
-        "nextra"
-      ]
-    },
-    {
-      "followTag": "latest",
-      "ignoreUnstable": false,
-      "matchPackagePatterns": ["^@docusaurus/"]
-    }
-  ]
+  }
 }

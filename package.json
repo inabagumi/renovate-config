@@ -23,5 +23,5 @@
     "format-check": "prettier --check .",
     "test": "renovate-config-validator"
   },
-  "version": "5.2.1"
+  "version": "5.2.2"
 }

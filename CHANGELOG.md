@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.2.2](https://github.com/inabagumi/renovate-config/compare/renovate-config-v5.2.1...renovate-config-v5.2.2) (2024-12-09)
+
+
+### Bug Fixes
+
+* **default:** remove unused package rules ([#4636](https://github.com/inabagumi/renovate-config/issues/4636)) ([fb2008e](https://github.com/inabagumi/renovate-config/commit/fb2008e03bf5f0d3ffca198315cfc0292d4eea11))
+
 ## [5.2.1](https://github.com/inabagumi/renovate-config/compare/renovate-config-v5.2.0...renovate-config-v5.2.1) (2024-04-01)
 
 

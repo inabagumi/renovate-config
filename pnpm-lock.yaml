@@ -15,8 +15,8 @@ importers:
         specifier: ~3.5.3
         version: 3.5.3
       renovate:
-        specifier: ^39.219.0
-        version: 39.219.1(encoding@0.1.13)(typanion@3.14.0)
+        specifier: ^39.219.2
+        version: 39.219.2(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -291,8 +291,8 @@ packages:
     resolution: {integrity: sha512-55gRV8vGrCIYZnaQHQrD92Lo/hYE3Sj5tmbuf0hhHR7sj2CWhEhHU89hbq+UVDXvFG1zUVXJhUkEq1eAfqXtFw==}
     engines: {node: '>=6.9.0'}
 
-  '@baszalmstra/rattler@0.2.0':
-    resolution: {integrity: sha512-Dkcy5TXmlNvU8LAvagfBHYOFnBHlKYeBiMljG8Iln6ZmQSkeHgO3yo69A4Rs3Lv6DSH3pSrun7LHdaxv99l4tg==}
+  '@baszalmstra/rattler@0.2.1':
+    resolution: {integrity: sha512-HZ2xu6Nk+XzAeateyzDKYM47ySkjkuKtTNpKRAy+Y+YcRH1qHM2le4iLlG32wDddaHCLUsBsyBxirClOj1TLjw==}
 
   '@breejs/later@4.2.0':
     resolution: {integrity: sha512-EVMD0SgJtOuFeg0lAVbCwa+qeTKILb87jqvLyUtQswGD9+ce2nB52Y5zbTF1Hc0MDFfbydcMcxb47jSdhikVHA==}
@@ -2381,8 +2381,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.219.1:
-    resolution: {integrity: sha512-XYD6k2YAmxG4iArPRn2bWC+oRFVOjkuD3Nq+IHJX/xe7Dl/x55Q1zKwobpi3kqLX7o1P7xLWYB3cv/Aw55qCFQ==}
+  renovate@39.219.2:
+    resolution: {integrity: sha512-rq652g7cGfm3admuY6a+yEKcqwT4arZfMsk2E/6XNwX7+xa+xvFjCLna2sBPesi8EB1S/8XsS/bLf1M32YZ+5A==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -3939,7 +3939,7 @@ snapshots:
       core-js-pure: 3.40.0
       regenerator-runtime: 0.14.1
 
-  '@baszalmstra/rattler@0.2.0': {}
+  '@baszalmstra/rattler@0.2.1': {}
 
   '@breejs/later@4.2.0': {}
 
@@ -6363,7 +6363,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.219.1(encoding@0.1.13)(typanion@3.14.0):
+  renovate@39.219.2(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.738.0
       '@aws-sdk/client-ec2': 3.738.0
@@ -6372,7 +6372,7 @@ snapshots:
       '@aws-sdk/client-rds': 3.740.0
       '@aws-sdk/client-s3': 3.740.0
       '@aws-sdk/credential-providers': 3.738.0
-      '@baszalmstra/rattler': 0.2.0
+      '@baszalmstra/rattler': 0.2.1
       '@breejs/later': 4.2.0
       '@cdktf/hcl2json': 0.20.11
       '@opentelemetry/api': 1.9.0

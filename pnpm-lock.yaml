@@ -15,8 +15,8 @@ importers:
         specifier: ~3.5.3
         version: 3.5.3
       renovate:
-        specifier: ^39.220.0
-        version: 39.220.0(encoding@0.1.13)(typanion@3.14.0)
+        specifier: ^39.220.2
+        version: 39.220.2(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -574,12 +574,12 @@ packages:
     resolution: {integrity: sha512-Uj52QvCuIr9qwvbPR3fymQFMwn0MIKItZrEKywNoSF7K4UVfrtBW3DGVQ9KZ2D5tFR3LgrlPdhNSYEkEVAQ4OA==}
     engines: {node: ^20.9.0 || ^22.11.0, pnpm: ^9.0.0}
 
-  '@renovatebot/osv-offline-db@1.7.2':
-    resolution: {integrity: sha512-wYD/0K/cNX1iyYBfp4EXBA5yjMA0Bjp2Np71iIUnUZyinMTm5io57ZbCl6ZEIXOB/PYmlN7to6xGGlg3JrtrqQ==}
+  '@renovatebot/osv-offline-db@1.7.3':
+    resolution: {integrity: sha512-xhFTlmZhP60n44d3voXM0WF09cJM59Ua1WhcfSYh1AiafKbTqiXQcfbDLoneLAGjYn5ZsSaN1/uIDJbGULTDfw==}
     engines: {node: '>=18.12.0'}
 
-  '@renovatebot/osv-offline@1.6.2':
-    resolution: {integrity: sha512-N7jEqJkYTykCe6DdBLnUN/v0rR1QWHMHW2jiAgiaVV9OEVLHE1OWNIhC5habKXDJZ2DHwyl8UvBi+yj6Ki6MMg==}
+  '@renovatebot/osv-offline@1.6.3':
+    resolution: {integrity: sha512-2BlfQCmui/ptqRWKOeQsfnrp1svwu/Yu0Jvjvlof97gTY9Ooxe1JCToFn7K7z+21dUqT4aTh75nJBpxqc7TVKg==}
     engines: {node: '>=18.12.0'}
 
   '@renovatebot/pep440@4.1.0':
@@ -593,8 +593,8 @@ packages:
   '@seald-io/binary-search-tree@1.0.3':
     resolution: {integrity: sha512-qv3jnwoakeax2razYaMsGI/luWdliBLHTdC6jU55hQt1hcFqzauH/HsBollQ7IR4ySTtYhT+xyHoijpA16C+tA==}
 
-  '@seald-io/nedb@4.0.4':
-    resolution: {integrity: sha512-CUNcMio7QUHTA+sIJ/DC5JzVNNsHe743TPmC4H5Gij9zDLMbmrCT2li3eVB72/gF63BPS8pWEZrjlAMRKA8FDw==}
+  '@seald-io/nedb@4.1.1':
+    resolution: {integrity: sha512-u7fVfzKQ/3ZaIOnYQONf2lPZtGUeQtMPjfcaQkCw/GZv5dzn20qKW6sfN0NkVbr0ksJMlWcFXNGcXYsQSb1a1g==}
 
   '@sindresorhus/is@4.6.0':
     resolution: {integrity: sha512-t09vSN3MdfsyCHoFcTRCH/iUtG7OJ0CsjzB8cjAmKc/va/kIgeDI/TxsigdncE/4be734m0cvIYwNaV4i2XqAw==}
@@ -2381,8 +2381,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.220.0:
-    resolution: {integrity: sha512-PLPPcD0NxTtFCJE55U1aifT0WN1xZYAS9bWSOnkuRx3YziNn8qGcYQLpm1zfeFyaGO+GID1Pmhot3YM12DDELA==}
+  renovate@39.220.2:
+    resolution: {integrity: sha512-746bEohyIz8aYfYLqCoZRDbXcCd3d6uTrt+Y0lkMybtk4AMNI/xoisjY+ttC8YAEWddpcFreBgdymoEGOXrN3w==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -4260,13 +4260,13 @@ snapshots:
       triplesec: 4.0.3
       tweetnacl: 1.0.3
 
-  '@renovatebot/osv-offline-db@1.7.2':
+  '@renovatebot/osv-offline-db@1.7.3':
     dependencies:
-      '@seald-io/nedb': 4.0.4
+      '@seald-io/nedb': 4.1.1
 
-  '@renovatebot/osv-offline@1.6.2':
+  '@renovatebot/osv-offline@1.6.3':
     dependencies:
-      '@renovatebot/osv-offline-db': 1.7.2
+      '@renovatebot/osv-offline-db': 1.7.3
       adm-zip: 0.5.16
       fs-extra: 11.3.0
       got: 11.8.6
@@ -4278,7 +4278,7 @@ snapshots:
 
   '@seald-io/binary-search-tree@1.0.3': {}
 
-  '@seald-io/nedb@4.0.4':
+  '@seald-io/nedb@4.1.1':
     dependencies:
       '@seald-io/binary-search-tree': 1.0.3
       localforage: 1.10.0
@@ -6363,7 +6363,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.220.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@39.220.2(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.738.0
       '@aws-sdk/client-ec2': 3.738.0
@@ -6389,7 +6389,7 @@ snapshots:
       '@qnighy/marshal': 0.1.3
       '@renovatebot/detect-tools': 1.1.0
       '@renovatebot/kbpgp': 4.0.1
-      '@renovatebot/osv-offline': 1.6.2
+      '@renovatebot/osv-offline': 1.6.3
       '@renovatebot/pep440': 4.1.0
       '@renovatebot/ruby-semver': 4.0.0
       '@sindresorhus/is': 4.6.0

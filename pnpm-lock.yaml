@@ -15,8 +15,8 @@ importers:
         specifier: ~3.5.3
         version: 3.5.3
       renovate:
-        specifier: ^40.12.1
-        version: 40.12.1(encoding@0.1.13)(typanion@3.14.0)
+        specifier: ^40.12.3
+        version: 40.12.3(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -1152,8 +1152,8 @@ packages:
     resolution: {integrity: sha512-onMB0OkDjkXunhdW9htFjEhqrD54+M94i6ackoUkjHKbRnXdyEyKRelp4nJ1kAz32+s27jP1FsebpJCVl0BsvA==}
     engines: {node: '>=18.0'}
 
-  cronstrue@2.60.0:
-    resolution: {integrity: sha512-wyjlMlSaKyRjpDh1WP1Oqcy98zMT0OPJlBgffIr8Edx1/ZDpwkTb9IOzHL7CipyW5va7eJ9hC4D1X7gtq8Cuww==}
+  cronstrue@2.61.0:
+    resolution: {integrity: sha512-ootN5bvXbIQI9rW94+QsXN5eROtXWwew6NkdGxIRpS/UFWRggL0G5Al7a9GTBFEsuvVhJ2K3CntIIVt7L2ILhA==}
     hasBin: true
 
   cross-spawn@7.0.6:
@@ -2352,8 +2352,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@40.12.1:
-    resolution: {integrity: sha512-J0Q/F0zWRdE2jbkT5zP29TlwYVHeyjeATWQQvmDiYa1FXFnVmBqjyjjvLJnvRuRWL12rPop2I7BOwmC+7VxhOw==}
+  renovate@40.12.3:
+    resolution: {integrity: sha512-xswzvkQulvUtx0BH7bnc9t/SXJTTUojFCP1EQkG8iNDkv5ybAvTrNYxKDvx4UE2mVeYhgwvdX5qks/hai4RUJQ==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -4823,7 +4823,7 @@ snapshots:
 
   croner@9.0.0: {}
 
-  cronstrue@2.60.0: {}
+  cronstrue@2.61.0: {}
 
   cross-spawn@7.0.6:
     dependencies:
@@ -6146,7 +6146,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@40.12.1(encoding@0.1.13)(typanion@3.14.0):
+  renovate@40.12.3(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.799.0
       '@aws-sdk/client-ec2': 3.800.0
@@ -6196,7 +6196,7 @@ snapshots:
       commander: 13.1.0
       conventional-commits-detector: 1.0.3
       croner: 9.0.0
-      cronstrue: 2.60.0
+      cronstrue: 2.61.0
       deepmerge: 4.3.1
       dequal: 2.0.3
       detect-indent: 7.0.1

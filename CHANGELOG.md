@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.3.0](https://github.com/inabagumi/renovate-config/compare/renovate-config-v5.2.2...renovate-config-v5.3.0) (2025-11-09)
+
+
+### Features
+
+* update labels in base.json for Renovate bot ([#5057](https://github.com/inabagumi/renovate-config/issues/5057)) ([934960c](https://github.com/inabagumi/renovate-config/commit/934960cdf492bc6f8d9ef39198e424a180773667))
+
 ## [5.2.2](https://github.com/inabagumi/renovate-config/compare/renovate-config-v5.2.1...renovate-config-v5.2.2) (2024-12-09)
 
 

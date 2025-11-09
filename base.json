@@ -6,7 +6,7 @@
     ":enableRenovate",
     ":enableVulnerabilityAlertsWithLabel(security)",
     ":ignoreModulesAndTests",
-    ":label(dependencies)",
+    ":label(bot: renovate)",
     ":prImmediately",
     ":renovatePrefix",
     ":semanticCommitTypeAll(build)",
@@ -17,7 +17,7 @@
     "group:recommended",
     "workarounds:all"
   ],
-  "dependencyDashboardLabels": ["dependencies"],
+  "dependencyDashboardLabels": ["bot: renovate"],
   "postUpdateOptions": [
     "gomodTidy",
     "gomodUpdateImportPaths",

@@ -15,8 +15,8 @@ importers:
         specifier: ~3.6.2
         version: 3.6.2
       renovate:
-        specifier: ^42.11.0
-        version: 42.11.0(encoding@0.1.13)(typanion@3.14.0)
+        specifier: ^42.12.1
+        version: 42.12.1(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -876,8 +876,8 @@ packages:
   '@types/yauzl@2.10.3':
     resolution: {integrity: sha512-oJoftv0LSuaDZE3Le4DbKX+KS9G36NzOeSap90UIK0yMA/NhKJhqlSGtNDORNRaIbQfzjXDrQa0ytJ6mNRGz/Q==}
 
-  '@yarnpkg/core@4.4.4':
-    resolution: {integrity: sha512-0bcUFx4wzq0szvInY0PkzqjsAlM69lgzOsEbltbiyE6q/h0hRb1oOHWSBvq7rUGA+Ob5vuyhoDYWyyXY/1W4VQ==}
+  '@yarnpkg/core@4.5.0':
+    resolution: {integrity: sha512-jZnEYfP05k3KpBIWlNkPEuJ3E0QLnYTNALQOH+7x8LAQyzhnN9yuLZx8Ze80Y7mlU1Hnv5wUGtzzUFn1wyBAlQ==}
     engines: {node: '>=18.12.0'}
 
   '@yarnpkg/fslib@3.1.4':
@@ -2280,8 +2280,8 @@ packages:
     resolution: {integrity: sha512-KO1RyxstL9g1mK76530TExamZC/S2Glm080Nx8PE5sTd7nlduDQsAfEl4uXX+qZjLiwvDauvzXavufy3+rJ9zQ==}
     engines: {node: '>=20'}
 
-  p-throttle@8.0.0:
-    resolution: {integrity: sha512-kvpi14SZClZqNTLevyhCNQano1LH4clozDZoOdxnxyvEl17kjEKxkgD6to7mQMcWE4fMKAwbH0rLqm6Gjj7b2Q==}
+  p-throttle@8.1.0:
+    resolution: {integrity: sha512-c1wmXavsHZIC4g1OLhOsafK6jZSAeMo0Ap3yivj59PUcCkpacy5YgWdgIp/dB4vp1JZrfBSsPCR0YuADB+ENLQ==}
     engines: {node: '>=20'}
 
   p-timeout@7.0.1:
@@ -2412,8 +2412,8 @@ packages:
     resolution: {integrity: sha512-y3bGgqKj3QBdxLbLkomlohkvsA8gdAiUQlSBJnBhfn+BPxg4bc62d8TcBW15wavDfgexCgccckhcZvywyQYPOw==}
     hasBin: true
 
-  re2@1.22.1:
-    resolution: {integrity: sha512-E4J0EtgyNLdIr0wTg0dQPefuiqNY29KaLacytiUAYYRzxCG+zOkWoUygt1rI+TA1LrhN49/njrfSO1DHtVC5Vw==}
+  re2@1.22.3:
+    resolution: {integrity: sha512-002aE82U91DiaUA16U6vbiJusvPXn1OWiQukOxJkVUTXbzrSuQbFNHYKcGw8QK/uifRCfjl2Hd/vXYDanKkmaQ==}
 
   read-pkg-up@7.0.1:
     resolution: {integrity: sha512-zK0TB7Xd6JpCLmlLmufqykGE+/TlOePD6qKClNW7hHDKFh/J7/7gCWGR7joEQEW1bKq3a3yUZSObOoWLFQ4ohg==}
@@ -2457,8 +2457,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@42.11.0:
-    resolution: {integrity: sha512-xD21sSS8tG6V+vlq9QkecthyFCSB1aAKNM4qXhN5zOTnNrNw9PVnfkw36tyqvOtvkerx7ENPvSb5lZeFlUmbxw==}
+  renovate@42.12.1:
+    resolution: {integrity: sha512-h4G/1rMiJ32KPuZDmC2ais2ebGl+ANHygpf2F2og7lrPYVs4RxDK0WMLeGk4czicOSE4BiEKWqGmS8AkFNEb9g==}
     engines: {node: ^22.13.0 || ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -4580,7 +4580,7 @@ snapshots:
       '@types/node': 24.10.1
     optional: true
 
-  '@yarnpkg/core@4.4.4(typanion@3.14.0)':
+  '@yarnpkg/core@4.5.0(typanion@3.14.0)':
     dependencies:
       '@arcanis/slice-ansi': 1.1.1
       '@types/semver': 7.7.1
@@ -6251,7 +6251,7 @@ snapshots:
       eventemitter3: 5.0.1
       p-timeout: 7.0.1
 
-  p-throttle@8.0.0: {}
+  p-throttle@8.1.0: {}
 
   p-timeout@7.0.1: {}
 
@@ -6384,7 +6384,7 @@ snapshots:
       strip-json-comments: 2.0.1
     optional: true
 
-  re2@1.22.1:
+  re2@1.22.3:
     dependencies:
       install-artifact-from-github: 1.4.0
       nan: 2.23.1
@@ -6484,7 +6484,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@42.11.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@42.12.1(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.922.0
       '@aws-sdk/client-ec2': 3.922.0
@@ -6518,7 +6518,7 @@ snapshots:
       '@renovatebot/pgp': 1.1.1
       '@renovatebot/ruby-semver': 4.1.2
       '@sindresorhus/is': 7.1.1
-      '@yarnpkg/core': 4.4.4(typanion@3.14.0)
+      '@yarnpkg/core': 4.5.0(typanion@3.14.0)
       '@yarnpkg/parsers': 3.0.3
       ae-cvss-calculator: 1.0.9
       agentkeepalive: 4.6.0
@@ -6577,7 +6577,7 @@ snapshots:
       p-all: 5.0.1
       p-map: 7.0.3
       p-queue: 9.0.0
-      p-throttle: 8.0.0
+      p-throttle: 8.1.0
       parse-link-header: 2.0.0
       prettier: 3.6.2
       protobufjs: 7.5.4
@@ -6607,7 +6607,7 @@ snapshots:
     optionalDependencies:
       better-sqlite3: 12.4.1
       openpgp: 6.2.2
-      re2: 1.22.1
+      re2: 1.22.3
     transitivePeerDependencies:
       - aws-crt
       - encoding

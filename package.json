@@ -7,7 +7,7 @@
   "devDependencies": {
     "@inabagumi/prettier-config": "^3.0.0",
     "prettier": "~3.7.1",
-    "renovate": "^42.26.5"
+    "renovate": "^42.26.9"
   },
   "homepage": "https://github.com/inabagumi/renovate-config",
   "license": "MIT",

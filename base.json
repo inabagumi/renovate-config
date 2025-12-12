@@ -13,6 +13,8 @@
     ":separateMultipleMajorReleases",
     ":timezone(Asia/Tokyo)",
     ":widenPeerDependencies",
+    "customManagers:githubActionsVersions",
+    "customManagers:dockerfileVersions",
     "group:monorepos",
     "group:recommended",
     "workarounds:all"

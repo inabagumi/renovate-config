@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.4.0](https://github.com/inabagumi/renovate-config/compare/renovate-config-v5.3.0...renovate-config-v5.4.0) (2025-12-21)
+
+
+### Features
+
+* Add custom managers for GitHub Actions and Dockerfile ([#5156](https://github.com/inabagumi/renovate-config/issues/5156)) ([cdb3dba](https://github.com/inabagumi/renovate-config/commit/cdb3dba95dbf7085b732a3625371eab6a9b3a295))
+
 ## [5.3.0](https://github.com/inabagumi/renovate-config/compare/renovate-config-v5.2.2...renovate-config-v5.3.0) (2025-11-09)
 
 

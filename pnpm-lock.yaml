@@ -15,8 +15,8 @@ importers:
         specifier: ~3.8.0
         version: 3.8.0
       renovate:
-        specifier: ^42.85.4
-        version: 42.85.4(encoding@0.1.13)(typanion@3.14.0)
+        specifier: ^42.85.6
+        version: 42.85.6(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -2531,8 +2531,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@42.85.4:
-    resolution: {integrity: sha512-KK11QIqgZGi5X/5PaJ+wJoCnDjcpPTtfpd6QcNn37yWCCT6eicCATfG4hoNHlsBI9lalUOCRpJuWE/nWcAixvA==}
+  renovate@42.85.6:
+    resolution: {integrity: sha512-I/fyNvHW+2KJN3M+mdToVZanitUq+6Jw8U3ZHv9/ZfOFX0uGB7YGJKh6OfXMNPxLtVRqcKdq8KQrUsobHAmcOA==}
     engines: {node: ^22.13.0 || ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -2796,6 +2796,7 @@ packages:
   tar@7.5.3:
     resolution: {integrity: sha512-ENg5JUHUm2rDD7IvKNFGzyElLXNjachNLp6RaGf4+JOgxXHkqA+gq81ZAMCUmtMtqBsoU62lcp6S27g1LCYGGQ==}
     engines: {node: '>=18'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exhorbitant rates) by contacting i@izs.me
 
   through2-concurrent@2.0.0:
     resolution: {integrity: sha512-R5/jLkfMvdmDD+seLwN7vB+mhbqzWop5fAjx5IX8/yQq7VhBhzDmhXgaHAOnhnWkCpRMM7gToYHycB0CS/pd+A==}
@@ -6649,7 +6650,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@42.85.4(encoding@0.1.13)(typanion@3.14.0):
+  renovate@42.85.6(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.958.0
       '@aws-sdk/client-ec2': 3.958.0

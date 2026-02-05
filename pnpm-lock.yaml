@@ -15,8 +15,8 @@ importers:
         specifier: ~3.8.1
         version: 3.8.1
       renovate:
-        specifier: ^42.95.10
-        version: 42.95.10(encoding@0.1.13)(typanion@3.14.0)
+        specifier: ^42.95.11
+        version: 42.96.0(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -1165,8 +1165,8 @@ packages:
     resolution: {integrity: sha512-p9nwwR4qyT5W996vBZhdvBCnMhicY5ytZkR4D1Xj0wuTDEiMnjwR57Q3RXYY/s0EpX6Ay3vgIcfaR+ewGHsi+g==}
     engines: {node: '>=18.0'}
 
-  cronstrue@3.9.0:
-    resolution: {integrity: sha512-T3S35zmD0Ai2B4ko6+mEM+k9C6tipe2nB9RLiGT6QL2Wn0Vsn2cCZAC8Oeuf4CaE00GZWVdpYitbpWCNlIWqdA==}
+  cronstrue@3.11.0:
+    resolution: {integrity: sha512-nXST7NEkjPF6loOTJtCwbLHB6cOVR5Ofuq/VZ4UGsZw/0HTvxy6mRCrDHOJ4xoLPcuS3ooruBLyUk3INaidKwg==}
     hasBin: true
 
   cross-spawn@7.0.6:
@@ -2502,8 +2502,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@42.95.10:
-    resolution: {integrity: sha512-MNjfhvnuc/63GqccfSkT8sJEO7ES1mK2VcS1d/aLkaoLTaWWwpg4DqmDsSVunFlhP1N7/eRgzxH056YNcc4Z2w==}
+  renovate@42.96.0:
+    resolution: {integrity: sha512-lM57hKFGpz4wg/Mz/L1aqbwN5NxkLzgoMYWX5OqUX5fT6QZqo3y/Vu9SwhO408i2ZL4zWwRH2plra9rONNPoFw==}
     engines: {node: ^22.13.0 || ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -4962,7 +4962,7 @@ snapshots:
 
   croner@9.1.0: {}
 
-  cronstrue@3.9.0: {}
+  cronstrue@3.11.0: {}
 
   cross-spawn@7.0.6:
     dependencies:
@@ -6587,7 +6587,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@42.95.10(encoding@0.1.13)(typanion@3.14.0):
+  renovate@42.96.0(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.958.0
       '@aws-sdk/client-ec2': 3.958.0
@@ -6638,7 +6638,7 @@ snapshots:
       commander: 14.0.2
       conventional-commits-detector: 1.0.3
       croner: 9.1.0
-      cronstrue: 3.9.0
+      cronstrue: 3.11.0
       deepmerge: 4.3.1
       dequal: 2.0.3
       detect-indent: 7.0.2

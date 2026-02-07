@@ -15,8 +15,8 @@ importers:
         specifier: ~3.8.1
         version: 3.8.1
       renovate:
-        specifier: ^42.96.1
-        version: 42.96.1(encoding@0.1.13)(typanion@3.14.0)
+        specifier: ^42.96.2
+        version: 42.96.2(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -1143,8 +1143,8 @@ packages:
   color-name@1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
 
-  commander@14.0.2:
-    resolution: {integrity: sha512-TywoWNNRbhoD0BXs1P3ZEScW8W5iKrnbithIl0YH+uCmBd0QpPOA8yc82DS3BIE5Ma6FnBVUsJ7wVUDz4dvOWQ==}
+  commander@14.0.3:
+    resolution: {integrity: sha512-H+y0Jo/T1RZ9qPP4Eh1pkcQcLRglraJaSLoyOtHxu6AapkjWVCy2Sit1QQ4x3Dng8qDlSsZEet7g5Pq06MvTgw==}
     engines: {node: '>=20'}
 
   concat-map@0.0.1:
@@ -2502,8 +2502,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@42.96.1:
-    resolution: {integrity: sha512-By0yROdKkf/0OGaHL6TCrpeqctYHoaTzFceHx3d/F34h8pIh0arwKdXd6GyyaWq6gWn2nbyaBk8WR9/E5pOLcQ==}
+  renovate@42.96.2:
+    resolution: {integrity: sha512-7psW4ohGay2tTRFNrhauss7IfWV/QjkyIQj2tSSH+Y1d5vOnGY6WShdW4aEgiachfHhuVaHN7XA9i9XIU2370Q==}
     engines: {node: ^22.13.0 || ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -4944,7 +4944,7 @@ snapshots:
 
   color-name@1.1.4: {}
 
-  commander@14.0.2: {}
+  commander@14.0.3: {}
 
   concat-map@0.0.1:
     optional: true
@@ -5084,7 +5084,7 @@ snapshots:
   editorconfig@3.0.1:
     dependencies:
       '@one-ini/wasm': 0.2.0
-      commander: 14.0.2
+      commander: 14.0.3
       minimatch: 10.0.1
       semver: 7.7.2
 
@@ -6587,7 +6587,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@42.96.1(encoding@0.1.13)(typanion@3.14.0):
+  renovate@42.96.2(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.958.0
       '@aws-sdk/client-ec2': 3.958.0
@@ -6635,7 +6635,7 @@ snapshots:
       cacache: 20.0.3
       changelog-filename-regex: 2.0.1
       clean-git-ref: 2.0.1
-      commander: 14.0.2
+      commander: 14.0.3
       conventional-commits-detector: 1.0.3
       croner: 9.1.0
       cronstrue: 3.11.0

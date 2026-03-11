@@ -15,8 +15,8 @@ importers:
         specifier: ~3.8.1
         version: 3.8.1
       renovate:
-        specifier: ^43.63.0
-        version: 43.63.0(typanion@3.14.0)
+        specifier: ^43.64.1
+        version: 43.64.1(typanion@3.14.0)
 
 packages:
 
@@ -961,9 +961,6 @@ packages:
 
   async-mutex@0.5.0:
     resolution: {integrity: sha512-1A94B18jkJ3DYq284ohPxoXbfTA5HsQ7/Mf4DEhcyLx3Bz27Rh59iScbB6EPiP+B+joue6YCxcMXSbFC1tZKwA==}
-
-  auth-header@1.0.0:
-    resolution: {integrity: sha512-CPPazq09YVDUNNVWo4oSPTQmtwIzHusZhQmahCKvIsk0/xH6U3QsMAv3sM+7+Q0B1K2KJ/Q38OND317uXs4NHA==}
 
   aws4@1.13.2:
     resolution: {integrity: sha512-lHe62zvbTB5eEABUVi/AwVh0ZKY9rMMDhmm+eeyuuUQbQ3+J+fONVQOZyj+DdrvD4BY33uYniyRJ4UJIaSKAfw==}
@@ -2459,8 +2456,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.63.0:
-    resolution: {integrity: sha512-yYCToE1EX7rr8T7I4wR8CA5NtV8ajJK+ZpoymErfp2H5YS6ZktSrgQjCBWTqhu5SRs8rdHZJg4Xp9se39yyWmg==}
+  renovate@43.64.1:
+    resolution: {integrity: sha512-4rfCLjzIfjoCOxIPNNkmRhT4+f+QpK4QV/tDxNqYqaUuwCKNtuEeYavKFSwYfAnqT5gmN+1w3uXK3R2kbZ/OnQ==}
     engines: {node: ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -4664,8 +4661,6 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  auth-header@1.0.0: {}
-
   aws4@1.13.2: {}
 
   azure-devops-node-api@15.1.2:
@@ -6442,7 +6437,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.63.0(typanion@3.14.0):
+  renovate@43.64.1(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1000.0
       '@aws-sdk/client-ec2': 3.1000.0
@@ -6484,7 +6479,6 @@ snapshots:
       ae-cvss-calculator: 1.0.11
       agentkeepalive: 4.6.0
       async-mutex: 0.5.0
-      auth-header: 1.0.0
       aws4: 1.13.2
       azure-devops-node-api: 15.1.2
       bunyan: 1.8.15

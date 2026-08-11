@@ -10,10 +10,10 @@ importers:
     devDependencies:
       '@inabagumi/prettier-config':
         specifier: ^3.0.0
-        version: 3.0.0(prettier@3.8.1)
+        version: 3.0.0(prettier@3.9.6)
       prettier:
-        specifier: ~3.8.1
-        version: 3.8.1
+        specifier: ~3.9.6
+        version: 3.9.6
       renovate:
         specifier: ^43.64.2
         version: 43.64.2(typanion@3.14.0)
@@ -1501,7 +1501,7 @@ packages:
   git-raw-commits@2.0.11:
     resolution: {integrity: sha512-VnctFhw+xfj8Va1xtfEqCUD2XDrbAPSJx+hSrE5K7fGdjZruW7XV+QOrN7LF/RJyvspRiD2I0asWsxFp0ya26A==}
     engines: {node: '>=10'}
-    deprecated: This package is no longer maintained. For the JavaScript API, please use @conventional-changelog/git-client instead.
+    deprecated: Deprecated and no longer maintained. Use @conventional-changelog/git-client instead.
     hasBin: true
 
   git-up@8.1.1:
@@ -2351,6 +2351,11 @@ packages:
 
   prettier@3.8.1:
     resolution: {integrity: sha512-UOnG6LftzbdaHZcKoPFtOcCKztrQ57WkHDeRD9t/PTQtmT0NHSeWWepj6pS0z/N7+08BHFDQVUrfmfMRcZwbMg==}
+    engines: {node: '>=14'}
+    hasBin: true
+
+  prettier@3.9.6:
+    resolution: {integrity: sha512-OpN0zzVdiaiAhxpuuj5efpIS4sY9j7bY6uR5mnj5yPzGkdkjNKSJeUThPb60Jw29QuAZgA4o+/iB49kFiaBX6g==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -3752,9 +3757,9 @@ snapshots:
 
   '@gwhitney/detect-indent@7.0.1': {}
 
-  '@inabagumi/prettier-config@3.0.0(prettier@3.8.1)':
+  '@inabagumi/prettier-config@3.0.0(prettier@3.9.6)':
     dependencies:
-      prettier: 3.8.1
+      prettier: 3.9.6
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -6247,6 +6252,8 @@ snapshots:
     optional: true
 
   prettier@3.8.1: {}
+
+  prettier@3.9.6: {}
 
   proc-log@6.1.0:
     optional: true

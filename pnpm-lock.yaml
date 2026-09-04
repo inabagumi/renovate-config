@@ -15,8 +15,8 @@ importers:
         specifier: ~3.9.6
         version: 3.9.6
       renovate:
-        specifier: ^44.61.6
-        version: 44.61.6(typanion@3.14.0)
+        specifier: ^44.64.0
+        version: 44.64.1(typanion@3.14.0)
 
 packages:
 
@@ -1929,8 +1929,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@44.61.6:
-    resolution: {integrity: sha512-4g4L6rp2scv44i1KMKrDdvducrQVlG9tnzeOCDOoskkEIN+orlFM3AUjgQMfqVWe/awrNwJZVkI6ESU0wic4vA==}
+  renovate@44.64.1:
+    resolution: {integrity: sha512-9pfWJqwKkJRv1mUXbmxrsPFvgomxuSGEuu6VXfLZl0eqMLqlnubYbgNFyE1Lyw5x0v0751F6qR12LXgJNeIODg==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -4652,7 +4652,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@44.61.6(typanion@3.14.0):
+  renovate@44.64.1(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1117.0
       '@aws-sdk/client-ec2': 3.1117.0
@@ -4766,6 +4766,7 @@ snapshots:
       slugify: 1.6.9
       source-map-support: 0.5.21
       strip-json-comments: 5.0.3
+      tar: 7.5.22
       toml-eslint-parser: 1.0.3
       tslib: 2.8.1
       upath: 3.0.8

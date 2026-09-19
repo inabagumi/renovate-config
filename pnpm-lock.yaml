@@ -15,8 +15,8 @@ importers:
         specifier: ~3.9.8
         version: 3.9.8
       renovate:
-        specifier: ^44.103.2
-        version: 44.103.2(typanion@3.14.0)
+        specifier: ^44.103.3
+        version: 44.103.3(typanion@3.14.0)
 
 packages:
 
@@ -1796,8 +1796,8 @@ packages:
     resolution: {integrity: sha512-NXAOdnEe5FsZJfT4oK84lE1Y5cFFdWlRuOo5tww8DyNMxyRXwn39fIkUtNLKppcPC+UYU/bXujNCUGDv01y7CA==}
     engines: {node: '>=20'}
 
-  p-throttle@8.1.0:
-    resolution: {integrity: sha512-c1wmXavsHZIC4g1OLhOsafK6jZSAeMo0Ap3yivj59PUcCkpacy5YgWdgIp/dB4vp1JZrfBSsPCR0YuADB+ENLQ==}
+  p-throttle@8.1.1:
+    resolution: {integrity: sha512-xxWFBUyvbrQ10XC3VAr0SoXoOCKXqCX/yvbFIkBE98upphHFwjIKR6AId13ZH3jngFfF6yK43QTOtrngYAmFMA==}
     engines: {node: '>=20'}
 
   p-timeout@7.0.2:
@@ -1929,8 +1929,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@44.103.2:
-    resolution: {integrity: sha512-TkZoIxEKl6gTfubDAq6czX5BC4fIx0ts1Ct8Lf+Y2x4zPDRYTenZsIssXZJCYs8tZsEx6OF2MOjP15L8ZvDHNg==}
+  renovate@44.103.3:
+    resolution: {integrity: sha512-PqauesudLvJWCcgZk58wuT9nwXrh5UZiszkdNQe8av9szEXt67obH3aWQYx3ICK+kmm98Ha3EQQWyukD/eeNzA==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -4488,7 +4488,7 @@ snapshots:
       eventemitter3: 5.0.4
       p-timeout: 7.0.2
 
-  p-throttle@8.1.0: {}
+  p-throttle@8.1.1: {}
 
   p-timeout@7.0.2: {}
 
@@ -4643,7 +4643,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@44.103.2(typanion@3.14.0):
+  renovate@44.103.3(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1117.0
       '@aws-sdk/client-ec2': 3.1117.0
@@ -4740,7 +4740,7 @@ snapshots:
       p-all: 5.0.1
       p-map: 7.0.7
       p-queue: 9.3.3
-      p-throttle: 8.1.0
+      p-throttle: 8.1.1
       parse-link-header: 2.0.0
       prettier: 3.9.6
       protobufjs: 8.8.0

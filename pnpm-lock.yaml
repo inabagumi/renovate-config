@@ -15,8 +15,8 @@ importers:
         specifier: ~3.9.9
         version: 3.9.9
       renovate:
-        specifier: ^44.108.2
-        version: 44.108.2(typanion@3.14.0)
+        specifier: ^44.111.4
+        version: 44.111.4(typanion@3.14.0)
 
 packages:
 
@@ -1188,8 +1188,8 @@ packages:
     resolution: {integrity: sha512-DpLKbNU4WylpxJykQujfCcwYWiV/Jhm50Goo0wrVILAv5jOr9d+H+UR3PhSCD2rCCEIg0uc+G+muBTwD54JhDQ==}
     engines: {node: '>= 0.4'}
 
-  google-auth-library@11.0.2:
-    resolution: {integrity: sha512-vzpgPutxrghPsnjrjpzLX2bdv8IOL719Rh0oEjGnQu8YCIbnbMuTTQ5zU9LcKvLdOPgCxBwppbvnhgW90Qna5Q==}
+  google-auth-library@11.1.0:
+    resolution: {integrity: sha512-YIBq5KNoHQrZ9PM4PeodDBqqBGlSTIxh1zibN8u3zNIO9UJg8gvKuCpdKV7fWXhsZ2zRkU6FhGrgKNgLJ2IRgw==}
     engines: {node: '>=22'}
 
   google-logging-utils@1.1.3:
@@ -1859,8 +1859,8 @@ packages:
     resolution: {integrity: sha512-qcJu88Q2IWqJsDD529JKMdwGm/dvInW4HvQnRwiH9JtihJvzGOscDtHE3x1pBKeUOTysQ8kVmLnJ2kJu7yhcGA==}
     engines: {node: '>=12'}
 
-  prettier@3.9.6:
-    resolution: {integrity: sha512-OpN0zzVdiaiAhxpuuj5efpIS4sY9j7bY6uR5mnj5yPzGkdkjNKSJeUThPb60Jw29QuAZgA4o+/iB49kFiaBX6g==}
+  prettier@3.9.7:
+    resolution: {integrity: sha512-T3mF5P7HFzZVLDQuCUNtJj6WK1pcpLMweMNUVwGb01bLNkH9AkKxtZvmInw8K6bnn2O3d6/5RHl6zSHiBAD0Og==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1929,8 +1929,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@44.108.2:
-    resolution: {integrity: sha512-aVCBz+3AEeQodebQO7/xZyFpM7Td8fe4xCURrqyoHFAOtQKA+2wE1xJJ/wKjYnf7yQPwacnjCqC72mQkkC62uw==}
+  renovate@44.111.4:
+    resolution: {integrity: sha512-nSwI47pNwB2etOreMkYnHgIU+05DdvkZHQM4GAI4varnmuBKImxfYIGwZzNjtasOYfxnd+pI7tksyLuHNOGatA==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -3733,7 +3733,7 @@ snapshots:
       define-properties: 1.2.1
       gopd: 1.2.0
 
-  google-auth-library@11.0.2:
+  google-auth-library@11.1.0:
     dependencies:
       base64-js: 1.5.1
       ecdsa-sig-formatter: 1.0.11
@@ -4542,7 +4542,7 @@ snapshots:
   picomatch@4.0.7:
     optional: true
 
-  prettier@3.9.6: {}
+  prettier@3.9.7: {}
 
   prettier@3.9.9: {}
 
@@ -4643,7 +4643,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@44.108.2(typanion@3.14.0):
+  renovate@44.111.4(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1117.0
       '@aws-sdk/client-ec2': 3.1117.0
@@ -4716,7 +4716,7 @@ snapshots:
       github-url-from-git: 1.5.0
       glob: 13.0.6
       global-agent: 3.0.0
-      google-auth-library: 11.0.2
+      google-auth-library: 11.1.0
       got: 16.0.0
       graph-data-structure: 4.5.0
       handlebars: 4.7.9
@@ -4742,7 +4742,7 @@ snapshots:
       p-queue: 9.3.3
       p-throttle: 8.1.1
       parse-link-header: 2.0.0
-      prettier: 3.9.6
+      prettier: 3.9.7
       protobufjs: 8.8.0
       punycode: 2.3.1
       remark: 15.0.1

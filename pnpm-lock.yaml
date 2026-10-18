@@ -15,8 +15,8 @@ importers:
         specifier: ~3.9.10
         version: 3.9.10
       renovate:
-        specifier: ^44.167.1
-        version: 44.167.1(typanion@3.14.0)
+        specifier: ^44.167.2
+        version: 44.167.2(typanion@3.14.0)
 
 packages:
 
@@ -1798,8 +1798,8 @@ packages:
     resolution: {integrity: sha512-T8BatKGY+k5rU+Q/GTYgrEf2r4xRMevAN5mtXc2aPc4rS1j3s+vWTaO2Wag94neXuCAUAs8cxBL9EeB5EA6diw==}
     engines: {node: '>=16'}
 
-  p-map@7.1.0:
-    resolution: {integrity: sha512-HaSJ9hNZOxTUSATfB48Qi7U2+GF1eECjI39nkeLmCWQrSOYr1z4NepR0rpWiZO77pYwUWU2cJ5NIgsmoFCsYDQ==}
+  p-map@7.1.1:
+    resolution: {integrity: sha512-6Lh3jQPLthYujSrlw6ccWXBGZTkoTCz27Hd92g79LH/kjAbgoEu0t442cCCNbegPSJsA0lwDX8z0bcKtkpA32g==}
     engines: {node: '>=18'}
 
   p-queue@9.3.4:
@@ -1942,8 +1942,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@44.167.1:
-    resolution: {integrity: sha512-67NVyBn7vm7EhS+p1Pof3jXYdvsSTq9sVlblJjfEq5E88KorYoi1eHlX+ownRQUNt8AZGb+NvvCy9K1kC2J/lA==}
+  renovate@44.167.2:
+    resolution: {integrity: sha512-h6AZGISBijPkg2/lhF8tsyJ82WY31isiVuL7qk3qfmZw+thUP/yNxPy9ZJc2DRHNbg8bhlrdiJ5esoC7rGIbrA==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -3300,7 +3300,7 @@ snapshots:
       minipass-collect: 2.0.1
       minipass-flush: 1.0.7
       minipass-pipeline: 1.2.4
-      p-map: 7.1.0
+      p-map: 7.1.1
       ssri: 13.0.1
 
   cacheable-lookup@5.0.4: {}
@@ -4517,7 +4517,7 @@ snapshots:
 
   p-map@6.0.0: {}
 
-  p-map@7.1.0: {}
+  p-map@7.1.1: {}
 
   p-queue@9.3.4:
     dependencies:
@@ -4683,7 +4683,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@44.167.1(typanion@3.14.0):
+  renovate@44.167.2(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1139.0
       '@aws-sdk/client-ec2': 3.1139.0
@@ -4778,7 +4778,7 @@ snapshots:
       neotraverse: 1.0.1
       node-html-parser: 9.0.4
       p-all: 5.0.1
-      p-map: 7.1.0
+      p-map: 7.1.1
       p-queue: 9.3.4
       p-throttle: 8.1.1
       parse-link-header: 2.0.0

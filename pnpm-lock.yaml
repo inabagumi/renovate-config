@@ -15,8 +15,8 @@ importers:
         specifier: ~3.9.10
         version: 3.9.10
       renovate:
-        specifier: ^44.167.5
-        version: 44.167.5(typanion@3.14.0)
+        specifier: ^44.167.7
+        version: 44.167.7(typanion@3.14.0)
 
 packages:
 
@@ -473,8 +473,8 @@ packages:
       '@opentelemetry/api':
         optional: true
 
-  '@renovatebot/base-image@13.133.1':
-    resolution: {integrity: sha512-LWwR+lXO5QzQUY6cnDT693Nbm7i6cVcP4rNIhJjFioDhx/+0LyPFOIqcxLYQfhTkHK7j4Uwc8sTssSBT4JKMLw==}
+  '@renovatebot/base-image@13.133.5':
+    resolution: {integrity: sha512-EJWg80d8zvUnOdZEFz4z3Fr13Bj9BhtNU7h60c3WTy5deNyjoqv2ABthQePQixAieGXQ9VQWtLL1KMoYLCNlHA==}
     engines: {node: '>=24.10.0'}
     peerDependencies:
       zod: ^4.0.0
@@ -1946,8 +1946,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@44.167.5:
-    resolution: {integrity: sha512-wo5aqWZxcFebnVqKjyfymHkpTf+SIMpYEgop9uiUKPFSk5K5Hf+ukPSU6M9GhL2RulH2j34cdCNPhf6s5oLKmg==}
+  renovate@44.167.7:
+    resolution: {integrity: sha512-uXX2TgmCENt4boCTwcB+8kDhIOHamLqK80fxvANZWAcTzzhNZebwlqHE5Zbub81uhUU7O9K5A545QC6w0Fcrtg==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -2968,7 +2968,7 @@ snapshots:
     optionalDependencies:
       '@opentelemetry/api': 1.9.1
 
-  '@renovatebot/base-image@13.133.1(zod@4.6.6)':
+  '@renovatebot/base-image@13.133.5(zod@4.6.6)':
     dependencies:
       '@containerbase/base': 14.42.0(zod@4.6.6)
     optionalDependencies:
@@ -4695,7 +4695,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@44.167.5(typanion@3.14.0):
+  renovate@44.167.7(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1139.0
       '@aws-sdk/client-ec2': 3.1139.0
@@ -4728,7 +4728,7 @@ snapshots:
       '@pnpm/parse-overrides': 1001.0.4
       '@qnighy/marshal': 0.1.3
       '@redis/client': 6.3.0(@opentelemetry/api@1.9.1)
-      '@renovatebot/base-image': 13.133.1(zod@4.6.6)
+      '@renovatebot/base-image': 13.133.5(zod@4.6.6)
       '@renovatebot/detect-tools': 4.0.22
       '@renovatebot/good-enough-parser': 2.0.1
       '@renovatebot/osv-offline': 3.0.12
